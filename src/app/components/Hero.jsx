@@ -57,8 +57,10 @@ const Hero = () => {
             alt="Astronaut in the air"
             width={600}
             height={600}
-            // loading="eager"
             className="transform rotate-[5deg]"
+            placeholder="blur"
+            blurDataURL="data:/images/hero.png"
+            loading="eager"
           />
         </div>
       </div>
