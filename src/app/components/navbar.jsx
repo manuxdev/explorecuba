@@ -8,15 +8,15 @@ import Image from "next/image";
 const navLinks = [
   {
     title: "About",
-    path: "#about",
+    path: "/about",
   },
   {
-    title: "Projects",
-    path: "#projects",
+    title: "Cars",
+    path: "/cars",
   },
   {
     title: "Contacts",
-    path: "#contacts",
+    path: "/contacts",
   },
 ];
 
@@ -68,6 +68,32 @@ const Navbar = () => {
                 <NavLink href={item.path} title={item.title} />
               </li>
             ))}
+            <div className="pl-6 flex-row gap-6 md:flex hidden">
+              <Link href="#">
+                <Image
+                  src="/icons/face-sky.svg"
+                  alt="face"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+              <Link href="#">
+                <Image
+                  src="/icons/insta-sky.svg"
+                  alt="face"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+              <Link href="#">
+                <Image
+                  src="/icons/wht-sky.svg"
+                  alt="face"
+                  width={30}
+                  height={30}
+                />
+              </Link>
+            </div>
           </ul>
         </div>
       </div>
