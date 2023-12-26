@@ -9,7 +9,7 @@ const CarSection = () => {
         <div className="flex md:flex-row flex-col-reverse items-center justify-evenly w-full  mt-16 ">
           <Image
             alt="cars"
-            src="/images/elvis.jpg"
+            src="/images/elvis.webp"
             width={750}
             height={550}
             className="max-w-[100%] w-auto h-auto min-w-[250px]  rounded-xl "
