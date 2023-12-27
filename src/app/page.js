@@ -2,7 +2,6 @@ import CarSection from "./components/CarSection.jsx";
 import Comments from "./components/Comments.jsx";
 import Hero from "./components/Hero.jsx";
 import Places from "./components/Places.jsx";
-import Work from "./components/Work.jsx";
 
 export default function Home() {
   return (

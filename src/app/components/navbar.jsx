@@ -30,7 +30,7 @@ const Navbar = () => {
 
   return (
     <nav className="absolute w-full top-0 lef-0 right-0 z-30 bg-transparent ">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto py-2 px-6">
+      <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto py-2 px-6">
         <Link
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
@@ -62,35 +62,44 @@ const Navbar = () => {
           )}
         </div>
         <div className="menu hidden md:block md:w-auto" id="navbar">
-          <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+          <ul className="flex p-4 md:p-0 md:flex-row items-center md:space-x-8 mt-0">
             {navLinks.map((item, index) => (
               <li key={index}>
                 <NavLink href={item.path} title={item.title} />
               </li>
             ))}
             <div className="pl-6 flex-row gap-6 md:flex hidden">
-              <Link href="#">
+              <Link
+                href="https://www.facebook.com/profile.php?id=61552355900498"
+                target="_blank"
+              >
                 <Image
                   src="/icons/face-sky.svg"
                   alt="face"
                   width={30}
                   height={30}
+                  className="hover:scale-110 transition-all duration-200"
                 />
               </Link>
-              <Link href="#">
+              <Link href="#" target="_blank">
                 <Image
                   src="/icons/insta-sky.svg"
                   alt="face"
                   width={30}
                   height={30}
+                  className="hover:scale-110 transition-all duration-200"
                 />
               </Link>
-              <Link href="#">
+              <Link
+                href="https://api.whatsapp.com/send?phone=5353762922"
+                target="_blank"
+              >
                 <Image
                   src="/icons/wht-sky.svg"
                   alt="face"
                   width={30}
                   height={30}
+                  className="hover:scale-110 transition-all duration-200"
                 />
               </Link>
             </div>

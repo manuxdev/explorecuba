@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -6,40 +5,48 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer border-t border-t-[#012e4756]  ">
-      <div className=" sm:px-8 px-4 py-4 flex justify-between ">
+      <div className=" sm:px-8 px-4 py-4 flex justify-between w-full items-center ">
         <div>
           <Link href="/">
-            <strong className="text-paleta-blue-900 sm:text-xl text-lg">
+            <strong className="text-paleta-blue-900 sm:text-xl text-base">
               Explore Cuba in Classic Cars
             </strong>
           </Link>
-          <p className="">All rights reserved</p>
+          <p className="text-sm">All rights reserved</p>
         </div>
         <div>
-          {" "}
-          <div className="flex-row gap-6 flex items-center h-full">
-            <Link href="#">
+          <div className="flex-row sm:gap-6 gap-2 flex  ">
+            <Link
+              target="_blank"
+              href="https://www.facebook.com/profile.php?id=61552355900498"
+            >
               <Image
-                src="/icons/face-sky.svg"
+                src="/icons/face-blue.svg"
                 alt="Facebook"
                 width={40}
                 height={40}
+                className="sm:w-[40px] w-12 hover:scale-110 transition-all duration-200"
               />
             </Link>
-            <Link href="#">
+            <Link target="_blank" href="#">
               <Image
-                src="/icons/insta-sky.svg"
+                src="/icons/insta-blue.svg"
                 alt="Instagram"
                 width={40}
                 height={40}
+                className="hover:scale-110 sm:w-[40px] w-12 transition-all duration-200"
               />
             </Link>
-            <Link href="#">
+            <Link
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=5353762922"
+            >
               <Image
-                src="/icons/wht-sky.svg"
+                src="/icons/wht-blue.svg"
                 alt="Whatsapp"
                 width={40}
                 height={40}
+                className="hover:scale-110 sm:w-[40px] w-12 transition-all duration-200"
               />
             </Link>
           </div>

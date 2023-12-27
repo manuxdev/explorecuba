@@ -19,20 +19,16 @@ const Hero = () => {
         </p>
         <div className="mt-6 flex flex-col md:flex-row gap-3">
           <Link
-            href="#"
+            href="https://api.whatsapp.com/send?phone=5353762922"
             target="_blank"
             className="font-medium flex md:py-3 py-2 px-10 gap-1 items-center justify-center bg-paleta-blue-900 text-paleta-blue-500 hover:bg-paleta-blue-500 hover:text-paleta-blue-900 rounded-lg transition-colors"
-            rel="noopener"
           >
-            {/* <Icon className="text-white w-5 h-5" name="bx:bxs-cloud-download" />  */}
-            Contacts
+            Book Now
           </Link>
           <Link
-            href="#"
+            href="/about"
             className="font-medium flex gap-1 md:py-3 py-2 px-10 items-center justify-center bg-paleta-bond-200 hover:bg-paleta-blue-500 border border-paleta-blue-900 text-paleta-blue-900 rounded-lg transition-colors"
-            target="_blank"
           >
-            {/* <Icon className="text-black w-4 h-4" name="bx:bxl-github" /> */}
             About us
           </Link>
         </div>

@@ -61,7 +61,7 @@ const CarSection = () => {
               </div>
               <div className="w-full md:text-end text-start pr-8 pt-3">
                 <Link
-                  href="#"
+                  href="/cars"
                   className="font-medium  border-paleta-blue-900 hover:bg-paleta-blue-500  border px-4 py-2 rounded-lg text-paleta-blue-900 transition-colors"
                 >
                   <strong>+</strong> See More
