@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer border-t border-t-[#012e4756]  ">
+    <footer className="footer border-t border-t-[#012e4756] ">
       <div className=" sm:px-8 px-4 py-4 flex justify-between w-full items-center ">
         <div>
           <Link href="/">
@@ -23,18 +23,18 @@ const Footer = () => {
               <Image
                 src="/icons/face-blue.svg"
                 alt="Facebook"
-                width={40}
-                height={40}
-                className="sm:w-[40px] w-12 hover:scale-110 transition-all duration-200"
+                width={30}
+                height={30}
+                className=" hover:scale-110 transition-all duration-200"
               />
             </Link>
             <Link target="_blank" href="#">
               <Image
                 src="/icons/insta-blue.svg"
                 alt="Instagram"
-                width={40}
-                height={40}
-                className="hover:scale-110 sm:w-[40px] w-12 transition-all duration-200"
+                width={30}
+                height={30}
+                className="hover:scale-110 transition-all duration-200"
               />
             </Link>
             <Link
@@ -44,9 +44,9 @@ const Footer = () => {
               <Image
                 src="/icons/wht-blue.svg"
                 alt="Whatsapp"
-                width={40}
-                height={40}
-                className="hover:scale-110 sm:w-[40px] w-12 transition-all duration-200"
+                width={30}
+                height={30}
+                className="hover:scale-110  transition-all duration-200"
               />
             </Link>
           </div>

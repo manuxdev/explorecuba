@@ -7,7 +7,7 @@ export default function Home() {
     <main className=" xl:px-0 px-4 sm:mt-32 mt-24">
       <section className="w-full h-auto">
         <div className="w-full text-center ">
-          <h2 className="sm:text-5xl text-3xl font-bold text-paleta-blue-900">
+          <h2 className="sm:text-5xl text-3xl font-bold text-paleta-blue-900 ">
             Classic Cars
           </h2>
           <p className="mt-2 sm:text-lg text-base font-medium">
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       <div className="w-full text-center">
-        <h2 className="text-3xl font-bold text-paleta-blue-900">
+        <h2 className="md:text-5xl text-2xl font-bold text-paleta-blue-500 mb-5">
           Algunos de nuestros vehiculos
         </h2>
 

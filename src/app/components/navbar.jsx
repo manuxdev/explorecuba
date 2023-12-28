@@ -5,6 +5,7 @@ import NavLink from "./navLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./menuOverlay";
 import Image from "next/image";
+
 const navLinks = [
   {
     title: "About",
@@ -15,8 +16,8 @@ const navLinks = [
     path: "/cars",
   },
   {
-    title: "Contacts",
-    path: "/contacts",
+    title: "Places",
+    path: "/places",
   },
 ];
 
@@ -68,6 +69,7 @@ const Navbar = () => {
                 <NavLink href={item.path} title={item.title} />
               </li>
             ))}
+
             <div className="pl-6 flex-row gap-6 md:flex hidden">
               <Link
                 href="https://www.facebook.com/profile.php?id=61552355900498"
