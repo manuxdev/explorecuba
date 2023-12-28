@@ -5,7 +5,7 @@ import { cars } from "../data/cars";
 import Image from "next/image";
 
 const SwiperE = () => {
-  const [loading, setLoading] = useStateeState(true);
+  const [loading, setLoading] = useState(true);
   return (
     <div className=" carousel carousel-vertical w-full sm:h-[500px] h-72">
       {cars.map((car, index) => (
