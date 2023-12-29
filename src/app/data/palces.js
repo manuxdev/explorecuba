@@ -102,7 +102,7 @@ export const placesData = [
     title: "Cueva de Bellamar",
     description: " ",
     image: "/images/places/Bellamar_Cave.webp",
-    tag: ["Havana", "All"],
+    tag: ["Matanzas", "All"],
   },
   {
     id: 16,
