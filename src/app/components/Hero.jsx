@@ -12,8 +12,8 @@ const Hero = () => {
           NEW PLACES!
         </h1>
         <p className="md:text-lg text-base mt-4 text-slate-600 md:max-w-[80%] max-w-lg">
-          ut ut amet amet adipisicing proident velit pariatur dolor nostrud
-          ipsum ipsum deserunt.
+          Discover the vibrant culture and natural beauty of Cuba with our taxi
+          service.
           {/* <wbr /> Built with Astro.build and TailwindCSS. You can quickly create
           any website with this starter. */}
         </p>

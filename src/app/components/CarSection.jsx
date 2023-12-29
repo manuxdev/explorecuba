@@ -32,7 +32,8 @@ const CarSection = () => {
                   className="max-w-[50px] min-w-[20px]"
                 />
                 <h3 className="md:pl-5 pl-3 font-bold text-sm md:text-xl text-paleta-blue-900">
-                  Maxima comodidad Maxima comodidad Maxima comodidad
+                  Travel in style in our comfortable taxis, designed for your
+                  maximum comfort.
                 </h3>
               </div>
               <div className="flex-row  flex items-center  py-4  text-start ">
@@ -44,19 +45,20 @@ const CarSection = () => {
                   className=" max-w-[50px] min-w-[30px]"
                 />
                 <h3 className="md:pl-5 pl-3 font-bold text-sm md:text-xl text-paleta-blue-900">
-                  Maxima comodidad Maxima comodidad Maxima comodidad
+                  Always ready for you, our services are available at all times.
                 </h3>
               </div>
               <div className="flex-row  flex items-center  py-4  text-start">
                 <Image
                   alt="icon"
                   src="/icons/sec-blue.svg"
-                  width={80}
+                  width={120}
                   height={80}
                   className="max-w-[50px] min-w-[30px]"
                 />
                 <h3 className="md:pl-5 pl-3 font-bold text-sm md:text-xl text-paleta-blue-900">
-                  Maxima comodidad Maxima comodidad Maxima comodidad
+                  We prioritize your safety, with experienced drivers and
+                  well-maintained vehicles for a safe trip.
                 </h3>
               </div>
               <div className="w-full md:text-end text-start pr-8 pt-3">

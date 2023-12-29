@@ -33,8 +33,13 @@ export default function Home() {
             </div>
             <div className="w-full flex sm:flex-row flex-col sm:gap-0 gap-10 sm:justify-evenly justify-center items-center mt-20">
               <div className=" flex flex-col gap-10  text-center">
-                <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4">
-                  <h3 className="text-5xl">📚</h3>
+                <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
+                  <Image
+                    alt="history"
+                    width={60}
+                    height={60}
+                    src="/icons/history.svg"
+                  />
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
                     History and Experience
                   </h4>
@@ -43,8 +48,13 @@ export default function Home() {
                     our service to offer a well-documented trip.
                   </p>
                 </div>
-                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4">
-                  <h3 className="text-5xl">🌍</h3>
+                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
+                  <Image
+                    alt="translate"
+                    width={60}
+                    height={60}
+                    src="/icons/translate.svg"
+                  />
                   <h4 className="text-xl font-semibold text-paleta-blue-900 ">
                     Translators
                   </h4>
@@ -56,8 +66,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col gap-10 text-center">
-                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4">
-                  <h3 className="text-5xl">⏰</h3>
+                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
+                  <Image
+                    alt="clock"
+                    width={60}
+                    height={60}
+                    src="/icons/clock.svg"
+                  />
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
                     24/7 service
                   </h4>
@@ -66,8 +81,13 @@ export default function Home() {
                     matter when you need a taxi, we are here to serve you.
                   </p>
                 </div>
-                <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4">
-                  <h3 className="text-5xl">💡</h3>
+                <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
+                  <Image
+                    alt="light"
+                    width={60}
+                    height={60}
+                    src="/icons/light.svg"
+                  />
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
                     Committed
                   </h4>
@@ -84,7 +104,7 @@ export default function Home() {
 
       <div className="w-full text-center">
         <h2 className="md:text-5xl text-2xl font-bold text-paleta-blue-500 mb-5">
-          Algunos de nuestros vehiculos
+          Some of our vehicles:
         </h2>
 
         <SwiperE />

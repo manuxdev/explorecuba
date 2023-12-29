@@ -1,5 +1,6 @@
 import React from "react";
 import { images } from "../data/images";
+import Link from "next/link";
 
 const Places = () => {
   return (
@@ -20,8 +21,13 @@ const Places = () => {
                 backgroundSize: "cover",
                 backgroundPosition: `${img.position}`,
               }}
-              className={`${img.class}`}
-            ></div>
+              className={`${img.class} relative`}
+            >
+              <Link
+                href="/places"
+                className="h-full w-full absolute rounded-xl bg-transparent hover:bg-paleta-blue-900 opacity-50 duration-400 z-10 transition-all"
+              ></Link>
+            </div>
           ))}
         </div>
       </div>

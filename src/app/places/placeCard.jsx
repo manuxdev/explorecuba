@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 
-const PlaceCard = ({ imgUrl, title, description }) => {
+const PlaceCard = ({ imgUrl, title }) => {
   const [isHover, setIsHover] = useState(false);
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -34,10 +34,9 @@ const PlaceCard = ({ imgUrl, title, description }) => {
             animate={isHover ? "animate" : "initial"}
             whileTap={isHover ? "animate" : "initial"}
             transition={{ duration: 0.4 }}
-            className="text-xl px-2 absolute bottom-10"
+            className="text-xl px-4 absolute bottom-10"
           >
             <h4 className="text-paleta-bond-200 font-medium">{title}</h4>
-            <p className="text-paleta-bond-200 text-base">{description}</p>
           </motion.div>
         </motion.div>
       </div>

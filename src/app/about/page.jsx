@@ -6,17 +6,17 @@ const work = [
   {
     icon: "/icons/gps.svg",
     title: "Search Location",
-    desc: "labore duis aliquip in fugiatlabore duis aliquip in fugiatlabore duis aliquip in fugiat",
+    desc: "Make your reservation quickly and easily by choosing our specialized service.",
   },
   {
     icon: "/icons/pay.svg",
     title: "Easy Payment",
-    desc: "labore duis aliquip in fugiatlabore duis aliquip in fugiatlabore duis aliquip in fugiat",
+    desc: "Simple and secure payment for a hassle-free experience.",
   },
   {
     icon: "/icons/trip.svg",
     title: "Make Trip",
-    desc: "labore duis aliquip in fugiatlabore duis aliquip in fugiatlabore duis aliquip in fugiat",
+    desc: " Create your personalized trip with ease and comfort.",
   },
 ];
 export default function Home() {
@@ -30,24 +30,28 @@ export default function Home() {
       <section className="w-full h-auto  flex xl:flex-row flex-col items-start justify-center">
         <div className="xl:w-[550px] xl:h-[400px] w-auto h-auto bg-paleta-blue-500 rounded-xl  py-10 pl-8 xl:pr-20 pr-8">
           <h2 className="text-paleta-blue-900 text-5xl  font-bold">About us</h2>
-          <p className="text-paleta-bond-200 mt-5 font-medium text-lg">
-            Culpa do sunt est qui magna cupidatat amet ad aliquip amet eu.
-            Cupidatat voluptate mollit non. Excepteur excepteur nulla magna.
-            Tempor commodo consectetur nostrud reprehenderit amet proident
-            voluptate pariatur est in nulla veniam est. Consequat culpa dolor ad
-            duis dolor excepteur laboris consectetur eiusmod.
+          <p className="text-paleta-blue-900 mt-5 font-medium text-sm leading-6">
+            We stand out for providing unparalleled tourist experiences,
+            offering personalized tours in convertible cars that capture the
+            vintage essence of the island. From tours through the enchanting
+            landscapes of Varadero to exploring the rich history of Havana, our
+            team of professional drivers will guide you on an authentic and
+            comfortable journey. With competitive rates, we are committed to
+            providing quality service that reflects Cuban authenticity and
+            hospitality. Discover the island with us and make your visit to Cuba
+            a memorable experience.
           </p>
         </div>
         <div className="xl:w-[600px] xl:h-[400px] w-auto h-auto bg-paleta-blue-900 rounded-xl xl:-translate-x-16 xl:translate-y-10 -translate-y-5 py-8 px-10">
           <div className="flex flex-col items-center justify-center gap-5 h-full w-full">
             <div>
               <h3 className="text-paleta-blue-500 text-2xl font-bold">
-                Mision
+                Mission
               </h3>
               <p className="text-paleta-bond-200 font-medium mt-3">
-                Magna ullamco tempor irure velit eiusmod est officia cupidatat.
-                quis. iru labore laborre mollit. Sunt reprehenderit consequat
-                lab
+                Provide exceptional trips in classic cars, revealing the
+                authenticity of Cuba with comfort and style, creating
+                unforgettable memories for our clients.
               </p>
             </div>
             <div>
@@ -55,9 +59,9 @@ export default function Home() {
                 Our Vision
               </h3>
               <p className="text-paleta-bond-200 font-medium mt-3">
-                Magna ullamco tempor irure velit eiusmod est officia cupidatat.
-                quis. iru labore laborre mollit. Sunt reprehenderit consequat
-                lab
+                To be the preferred option for tourist transportation in Cuba,
+                standing out for our distinctive service and contributing to the
+                charm of each trip.
               </p>
             </div>
             <div>
@@ -65,9 +69,8 @@ export default function Home() {
                 Our Values
               </h3>
               <p className="text-paleta-bond-200 font-medium mt-3">
-                Magna ullamco tempor irure velit eiusmod est officia cupidatat.
-                quis. iru labore laborre mollit. Sunt reprehenderit consequat
-                lab
+                Commitment to authenticity, excellence in service, respect for
+                Cuban culture and customer satisfaction as a constant priority.
               </p>
             </div>
           </div>
@@ -81,10 +84,10 @@ export default function Home() {
               HOW WE WORK
             </h2>
             <p className="mt-3">
-              labore duis aliquip in fugiatlabore duis aliquip in fugiatlabore
-              duis aliquip in fugiat
+              We operate with efficiency and passion, offering personalized
+              tours and comfortable transfers for unforgettable experiences.
             </p>
-            <div className="flex sm:flex-row flex-col items-center sm:gap-24 gap-10 sm:w-[90%] w-[70%] mt-10">
+            <div className="flex sm:flex-row flex-col items-center sm:gap-24 gap-10 sm:w-[75%] w-[70%] mt-10">
               {work.map((box, index) => (
                 <div
                   key={index}
@@ -96,7 +99,9 @@ export default function Home() {
                     width={60}
                     height={60}
                   />
-                  <h3 className="text-xl font-bold">{box.title}</h3>
+                  <h3 className="text-xl font-bold text-paleta-blue-900">
+                    {box.title}
+                  </h3>
                   <p>{box.desc}</p>
                 </div>
               ))}
@@ -118,60 +123,82 @@ export default function Home() {
           </div>
 
           <div className="container-address-steps flex sm:flex-row flex-col-reverse">
-            <div className="container-address flex flex-col gap-6 w-full md:pl-16 pl-4 items-start  sm:mt-10 mt-20">
-              <div className="flex gap-3 items-center">
+            <div className="container-address flex flex-col gap-6 w-full px-1 md:pl-16 pl-4  justify-center sm:items-start items-center  sm:mt-10 mt-20">
+              <div className="flex sm:flex-row flex-col gap-3 items-center">
                 <div className="flex gap-2 justify-center ">
-                  <HomeIcon /> <h3 className="text-xl font-bold">Address:</h3>
+                  <HomeIcon />{" "}
+                  <h3 className="sm:text-xl text-base font-bold text-paleta-blue-900">
+                    Address:
+                  </h3>
                 </div>
                 <p className="text-base ">Varadero, Cuba</p>
               </div>
-              <div className="flex gap-3 items-center">
+              <div className="flex sm:flex-row flex-col gap-3 items-center">
                 <div className="flex gap-2 justify-center">
-                  <PhoneIcon /> <h3 className="text-xl font-bold">Phone:</h3>
+                  <PhoneIcon />{" "}
+                  <h3 className="sm:text-xl text-base font-bold text-paleta-blue-900">
+                    Phone:
+                  </h3>
                 </div>
-                <p className="text-base ">+53 *******</p>
+                <Link
+                  href="https://api.whatsapp.com/send?phone=5353762922"
+                  target="_blank"
+                >
+                  <p className="text-base text-paleta-red-500 hover:text-paleta-red-900">
+                    +53 53762922
+                  </p>
+                </Link>
               </div>
-              <div className="flex gap-3 items-center">
+              <div className="flex sm:flex-row flex-col gap-3 items-center">
                 <div className="flex gap-2 justify-center">
-                  <MailIcon /> <h3 className="text-xl font-bold">Email:</h3>
+                  <MailIcon className="stroke-paleta-blue-900" />{" "}
+                  <h3 className="sm:text-xl text-base font-bold text-paleta-blue-900">
+                    Email:
+                  </h3>
                 </div>
-
-                <p className="text-base ">info@ourcompany.com</p>
+                <Link href="mailto:explorecubainclassiccars@gmail.com">
+                  <p className="text-base text-wrap text-paleta-red-500 hover:text-paleta-red-900">
+                    explorecubainclassiccars@gmail.com
+                  </p>
+                </Link>
               </div>
             </div>
 
             <div className="container-steps flex items-start  w-full gap-4 px-4 text-start md:px-6 lg:gap-10 mt-10">
-              <div className="flex flex-col gap-4 items-center">
-                <div className="flex items-center w-full gap-4">
+              <div className="flex flex-col gap-10 items-center">
+                <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
                   <div className="flex items-center justify-center  rounded-full text-paleta-bond-200  bg-paleta-blue-900 text-lg font-bold sm:px-5 sm:py-3 px-4 py-2">
                     1
                   </div>
-                  <p className="border-b-2 border-paleta-blue-900 p-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900">
+                    Start the reservation by sending a message via WhatsApp with
+                    your details and preferences.
                   </p>
                 </div>
-                <div className="flex items-center w-full gap-4">
+                <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
                   <div className="flex items-center justify-center  rounded-full text-paleta-bond-200  bg-paleta-blue-900 text-lg font-bold sm:px-5 sm:py-3 px-4 py-2">
                     2
                   </div>
-                  <p className="border-b-2 border-paleta-blue-900 p-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900">
+                    Receive quick confirmation and itinerary details directly in
+                    your WhatsApp application.
                   </p>
                 </div>
-                <div className="flex items-center w-full gap-4">
+                <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
                   <div className="flex items-center justify-center  rounded-full text-paleta-bond-200  bg-paleta-blue-900 text-lg font-bold sm:px-5 sm:py-3 px-4 py-2">
                     3
                   </div>
-                  <p className="border-b-2 border-paleta-blue-900 p-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900">
+                    Collaborate with our team to customize your trip according
+                    to your needs and preferences.
                   </p>
                 </div>
-                <div className="flex items-center w-full gap-4">
+                <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
                   <div className="flex items-center justify-center  rounded-full text-paleta-bond-200  bg-paleta-blue-900 text-lg font-bold sm:px-5 sm:py-3 px-4 py-2">
                     4
                   </div>
-                  <p className="border-b-2 border-paleta-blue-900 p-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                  <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900 w-full">
+                    Enjoy the trip.
                   </p>
                 </div>
               </div>
@@ -190,7 +217,7 @@ function HomeIcon() {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="#012F47"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -209,7 +236,7 @@ function MailIcon() {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="#012F47"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -229,7 +256,7 @@ function PhoneIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="#012F47"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
