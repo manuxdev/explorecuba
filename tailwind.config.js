@@ -23,9 +23,6 @@ module.exports = {
       "paleta-blue-900": "#012F47",
       "paleta-blue-500": "#659CBB",
     },
-    backdropBlur: {
-      xs: "1px",
-    },
   },
   plugins: [require("daisyui")],
 };

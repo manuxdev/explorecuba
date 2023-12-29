@@ -127,7 +127,7 @@ const PlaceSection = () => {
               {selectedId && (
                 <motion.div
                   id="close"
-                  className=" fixed transition-all duration-75 delay-75  inset-0  backdrop-blur-xs cursor-pointer flex items-center justify-center"
+                  className=" fixed transition-all duration-75 delay-75  inset-0   cursor-pointer flex items-center justify-center"
                   onClick={closeModal}
                 >
                   <motion.div
