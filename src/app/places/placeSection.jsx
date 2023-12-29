@@ -42,7 +42,11 @@ const PlaceSection = () => {
     }
   };
   return (
-    <section className=" xl:px-0 px-4 sm:mt-32 mt-24 pb-10">
+    <section
+      className={` xl:px-0 px-4 sm:mt-32 mt-24 sm:pb-10 pb-32 ${
+        isInView ? "h-auto" : "h-screen"
+      } `}
+    >
       <h2 className="text-center text-4xl font-bold text-white  mb-4 text-paleta-blue-900">
         Choose a City
       </h2>
@@ -128,58 +132,73 @@ const PlaceSection = () => {
                 >
                   <motion.div
                     transition={{ duration: 0.1 }}
-                    className="  h-[500px] w-[800px] bg-paleta-blue-500  cursor-default rounded-xl overflow-y-scroll"
+                    className="  h-[500px] w-[800px] bg-paleta-blue-900  cursor-default rounded-xl overflow-y-scroll"
                     layoutId={selectedId.id}
                   >
-                    <div className="w-full text-end">
+                    <div
+                      style={{
+                        backgroundImage: `url(${selectedId.image})`,
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                        backgroundPosition: "top",
+                      }}
+                      className="w-full h-[300px] rounded-b-xl "
+                    >
                       {" "}
-                      <motion.button
-                        className=" py-2 px-4 bg-paleta-blue-900 mt-4 mr-4 rounded-full text-paleta-bond-200"
-                        id="close"
-                        onClick={closeModal}
-                      >
-                        x
-                      </motion.button>
+                      <div className="w-full text-end">
+                        {" "}
+                        <motion.button
+                          className=" py-2 px-4 bg-paleta-bond-200 mt-4 mr-4 rounded-full text-paleta-blue-900 text-xl font-bold"
+                          id="close"
+                          onClick={closeModal}
+                        >
+                          x
+                        </motion.button>
+                      </div>
                     </div>
-
-                    <motion.h2>{selectedId.title}</motion.h2>
-                    <motion.h5>{selectedId.description}</motion.h5>
-                    <p>
-                      Dolore aliqua enim dolor laborum anim magna mollit aliqua
-                      fugiat. Enim qui excepteur exercitation ea occaecat
-                      exercitation officia culpa consectetur et. Ad aliquip ut
-                      officia reprehenderit ullamco occaecat. Est esse ea
-                      ullamco velit officia Lorem veniam quis culpa et sint do
-                      fugiat. Culpa culpa qui pariatur nisi tempor ut. Ea
-                      eiusmod amet do anim exercitation fugiat do cillum laborum
-                      ipsum. Ut pariatur adipisicing officia elit proident elit
-                      sunt velit nostrud amet cupidatat aliquip culpa enim.
-                      Aliquip ex eiusmod pariatur eiusmod fugiat. Consectetur
-                      proident consectetur in. Sunt Lorem adipisicing enim.
-                      Dolor fugiat ullamco officia do irure fugiat excepteur
-                      voluptate fugiat pariatur aute aliquip. Tempor tempor
-                      veniam laborum esse esse. Eu adipisicing cupidatat ea enim
-                      esse ullamco ad incididunt qui id aliquip magna Lorem nisi
-                      tempor. Aliquip excepteur mollit Lorem eu. Exercitation
-                      magna pariatur aute nulla culpa sint occaecat.
-                      Reprehenderit magna irure ex est in sint anim incididunt
-                      laborum nisi eu. Velit excepteur nulla aliqua minim in.
-                      Minim nostrud fugiat duis eu do occaecat laborum ut esse.
-                      Proident mollit aliqua ipsum excepteur commodo et ad
-                      laboris laboris culpa. Sit tempor enim reprehenderit elit
-                      mollit mollit ut. Quis voluptate dolore cillum consequat
-                      duis fugiat ex do labore. In duis ex ad amet aliqua do ut
-                      consequat nulla cupidatat duis reprehenderit veniam magna
-                      voluptate. Eiusmod sunt dolore ullamco magna elit.
-                      Consectetur tempor eiusmod proident nisi officia ad
-                      occaecat voluptate. Cillum mollit reprehenderit labore
-                      eiusmod irure qui ad laborum id est deserunt. Laborum
-                      irure velit id occaecat deserunt qui velit nostrud
-                      adipisicing. Elit exercitation deserunt reprehenderit
-                      labore officia culpa laborum sit adipisicing occaecat.
-                      Aute pariatur incididunt proident non et ad sint aute
-                      voluptate ut.
-                    </p>
+                    <div className="text-paleta-bond-200 sm:px-10 py-4 space-y-5">
+                      <motion.h2 className="font-bold text-2xl">
+                        {selectedId.title}
+                      </motion.h2>
+                      <motion.h5>{selectedId.description}</motion.h5>
+                      <p>
+                        Dolore aliqua enim dolor laborum anim magna mollit
+                        aliqua fugiat. Enim qui excepteur exercitation ea
+                        occaecat exercitation officia culpa consectetur et. Ad
+                        aliquip ut officia reprehenderit ullamco occaecat. Est
+                        esse ea ullamco velit officia Lorem veniam quis culpa et
+                        sint do fugiat. Culpa culpa qui pariatur nisi tempor ut.
+                        Ea eiusmod amet do anim exercitation fugiat do cillum
+                        laborum ipsum. Ut pariatur adipisicing officia elit
+                        proident elit sunt velit nostrud amet cupidatat aliquip
+                        culpa enim. Aliquip ex eiusmod pariatur eiusmod fugiat.
+                        Consectetur proident consectetur in. Sunt Lorem
+                        adipisicing enim. Dolor fugiat ullamco officia do irure
+                        fugiat excepteur voluptate fugiat pariatur aute aliquip.
+                        Tempor tempor veniam laborum esse esse. Eu adipisicing
+                        cupidatat ea enim esse ullamco ad incididunt qui id
+                        aliquip magna Lorem nisi tempor. Aliquip excepteur
+                        mollit Lorem eu. Exercitation magna pariatur aute nulla
+                        culpa sint occaecat. Reprehenderit magna irure ex est in
+                        sint anim incididunt laborum nisi eu. Velit excepteur
+                        nulla aliqua minim in. Minim nostrud fugiat duis eu do
+                        occaecat laborum ut esse. Proident mollit aliqua ipsum
+                        excepteur commodo et ad laboris laboris culpa. Sit
+                        tempor enim reprehenderit elit mollit mollit ut. Quis
+                        voluptate dolore cillum consequat duis fugiat ex do
+                        labore. In duis ex ad amet aliqua do ut consequat nulla
+                        cupidatat duis reprehenderit veniam magna voluptate.
+                        Eiusmod sunt dolore ullamco magna elit. Consectetur
+                        tempor eiusmod proident nisi officia ad occaecat
+                        voluptate. Cillum mollit reprehenderit labore eiusmod
+                        irure qui ad laborum id est deserunt. Laborum irure
+                        velit id occaecat deserunt qui velit nostrud
+                        adipisicing. Elit exercitation deserunt reprehenderit
+                        labore officia culpa laborum sit adipisicing occaecat.
+                        Aute pariatur incididunt proident non et ad sint aute
+                        voluptate ut.
+                      </p>
+                    </div>
                   </motion.div>
                 </motion.div>
               )}

@@ -29,6 +29,12 @@ const Navbar = () => {
     setNavbarOpen(!valor);
   };
 
+  const closeModal = (e) => {
+    if (e.target.id === "close") {
+      setNavbarOpen(false);
+    }
+  };
+
   return (
     <nav className="absolute w-full top-0 lef-0 right-0 z-30 bg-transparent ">
       <div className="flex container lg:py-2 flex-wrap items-center justify-between mx-auto py-2 px-6">
@@ -108,7 +114,15 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+      {navbarOpen ? (
+        <div
+          id="close"
+          className=" fixed transition-all duration-75 delay-75  inset-0   cursor-pointer flex items-start mt-[18%] mr-[4%] justify-center"
+          onClick={closeModal}
+        >
+          <MenuOverlay links={navLinks} />
+        </div>
+      ) : null}
     </nav>
   );
 };

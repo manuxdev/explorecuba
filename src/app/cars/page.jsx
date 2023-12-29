@@ -33,7 +33,7 @@ export default function Home() {
             </div>
             <div className="w-full flex sm:flex-row flex-col sm:gap-0 gap-10 sm:justify-evenly justify-center items-center mt-20">
               <div className=" flex flex-col gap-10  text-center">
-                <div className="h-64 w-64 bg-paleta-blue-500 rounded-xl flex flex-col gap-4 py-2 px-4">
+                <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4">
                   <h3 className="text-5xl">📚</h3>
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
                     History and Experience
@@ -43,7 +43,7 @@ export default function Home() {
                     our service to offer a well-documented trip.
                   </p>
                 </div>
-                <div className="h-64 w-64 bg-paleta-bond-200 rounded-xl flex flex-col gap-4 py-2 px-4">
+                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4">
                   <h3 className="text-5xl">🌍</h3>
                   <h4 className="text-xl font-semibold text-paleta-blue-900 ">
                     Translators
@@ -56,7 +56,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex flex-col gap-10 text-center">
-                <div className="h-64 w-64 bg-paleta-bond-200 rounded-xl flex flex-col gap-4 py-2 px-4">
+                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4">
                   <h3 className="text-5xl">⏰</h3>
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
                     24/7 service
@@ -66,7 +66,7 @@ export default function Home() {
                     matter when you need a taxi, we are here to serve you.
                   </p>
                 </div>
-                <div className="h-64 w-64 bg-paleta-blue-500 rounded-xl flex flex-col gap-4 py-2 px-4">
+                <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4">
                   <h3 className="text-5xl">💡</h3>
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
                     Committed
