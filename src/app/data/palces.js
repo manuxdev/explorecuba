@@ -109,7 +109,7 @@ export const placesData = [
     title: "Bodeguita del Medio",
     description:
       "Bodeguita del Medio, established in the 20th century, is a historic bar and restaurant. Renowned for its authentic mojitos, Afro-Cuban music, and vibrant atmosphere, it's a must-visit for those seeking Cuban culture.",
-    image: "/images/places/Bodeguita_del_Medio.webp",
+    image: "/images/places/Bodeguita.webp",
     tag: ["Havana", "All"],
     tourism: [
       "Authentic mojitos",
