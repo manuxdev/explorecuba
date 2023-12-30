@@ -1,0 +1,25 @@
+{
+    "h1": "Un ejemplo simple",
+    "change-locale": "Cambiar el idioma a \"{{changeTo}}\"",
+    "to-second-page": "A la segunda página",
+    "error-with-status": "Ocurrió un error {{statusCode}} en el servidor",
+    "error-without-status": "Ocurrió un error en el servidor",
+    "title": "Inicio | next-i18next",
+    "blog": {
+      "appDir": {
+        "question": "¿Estás utilizando el nuevo directorio de aplicaciones Next.js 13/14?",
+        "answer": "Entonces echa un vistazo a <1>esta entrada de blog</1>.",
+        "link": "https://locize.com/blog/next-app-dir-i18n/"
+      },
+      "optimized": {
+        "question": "¿Te gustaría desatar algunos superpoderes para tener todas las traducciones optimizadas?",
+        "answer": "Entonces puedes echar un vistazo a <1>esta entrada de blog</1>.",
+        "link": "https://locize.com/blog/next-i18next/"
+      },
+      "ssg": {
+        "question": "¿Quieres usar SSG (next export)?",
+        "answer": "Entonces puedes echar un vistazo a <1>esta entrada de blog</1>.",
+        "link": "https://locize.com/blog/next-i18n-static/"
+      }
+    }
+}
