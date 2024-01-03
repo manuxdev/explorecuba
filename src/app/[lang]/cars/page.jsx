@@ -2,10 +2,8 @@ import Image from "next/image";
 
 import SwiperE from "./swiper";
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function Home({ locale }) {
-  unstable_setRequestLocale(locale);
+export default function Home() {
   const t = useTranslations("Cars");
   return (
     <main className=" xl:px-0 px-4 sm:mt-32 mt-24">

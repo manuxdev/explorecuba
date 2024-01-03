@@ -1,11 +1,10 @@
 import { useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Home({ locale }) {
-  unstable_setRequestLocale(locale);
+export default function Home() {
   const t = useTranslations("About");
   const work_list = useTranslations("work_list");
   const keys = ["el1", "el2", "el3"];
