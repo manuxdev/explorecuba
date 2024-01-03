@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Home({ params: { locale } }) {
+export default function Home({ locale }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("About");
   const work_list = useTranslations("work_list");

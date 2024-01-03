@@ -21,7 +21,7 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default function RootLayout({ children, params: { locale } }) {
+export default function RootLayout({ children, locale }) {
   unstable_setRequestLocale(locale);
   return (
     <html lang={locale}>

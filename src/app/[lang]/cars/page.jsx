@@ -4,7 +4,7 @@ import SwiperE from "./swiper";
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function Home({ params: { locale } }) {
+export default function Home({ locale }) {
   unstable_setRequestLocale(locale);
   const t = useTranslations("Cars");
   return (
