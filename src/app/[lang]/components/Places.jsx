@@ -1,6 +1,6 @@
 import React from "react";
 import { images } from "../data/images";
-import Link from "next/link";
+import { Link } from "../../../navigation";
 import { useTranslations } from "next-intl";
 
 const Places = () => {
