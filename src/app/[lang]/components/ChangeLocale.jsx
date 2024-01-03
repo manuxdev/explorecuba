@@ -1,7 +1,7 @@
 import { Link } from "../../../navigation";
 const ChangeLocale = () => {
   return (
-    <div className="flex-row flex px-6 space-x-4 text-paleta-blue-500 ">
+    <div className="flex-row flex px-2 space-x-3 text-paleta-blue-500 ">
       <Link
         href={"/"}
         locale="en"
