@@ -32,8 +32,8 @@ export default function RootLayout({ children, params: { locale } }) {
 
           <Footer />
         </NextIntlClientProvider>
-        {/* <Analytics />
-        <SpeedInsights /> */}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
