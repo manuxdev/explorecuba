@@ -1,0 +1,107 @@
+{
+  "NavBar": {
+    "link1": {
+        "title": "Nosotros",
+        "path": "/about"
+      },
+      "link2": {
+        "title": "Autos",
+        "path": "/cars"
+      },
+      "link3": {
+        "title": "Lugares",
+        "path": "/places"
+      }
+  },
+  "Home":{
+      "Hero":{
+          "h1_strong":"DESCUBRE",
+          "h1":"NUEVOS LUGARES",
+          "p":"Descubre la vibrante cultura y belleza natural de Cuba con nuestro servicio de taxi.",
+          "link_book":"Reserva ahora",
+          "about":"Acerca de nosotros"
+      },
+      "Places":{
+          "h2":"LUGARES QUE NO DEBES PERDER",
+          "p":"Descubre increíbles lugares en el corazón del país"
+      },
+      "CarSection":{
+          "span":"COMFORT",
+          "h2":"Siente la mejor experiencia con nuestros autos clásicos",
+          "l1":"Viaja con estilo en nuestros cómodos taxis, diseñados para su máximo confort.",
+          "l2":"Siempre listos para ti, nuestros servicios están disponibles las 24 horas del día.",
+          "l3":"Priorizamos tu seguridad, con conductores experimentados y vehículos bien mantenidos para un viaje seguro.",
+          "button":"Ver más"
+      },
+      "Comments":{
+          "h2":"Opiniones de nuestros clientes",
+          "p":"Aquí hay algunas opiniones de nuestros clientes"
+      }
+  },
+  "About":{
+      "Sec1":{
+          "h2":"Acerca de nosotros",
+          "p":"Nos destacamos por proporcionar experiencias turísticas sin precedentes, ofreciendo tours personalizados en autos convertibles que capturan la esencia vintage de la isla. Desde tours por encantadores paisajes de Varadero hasta explorar la rica historia de La Habana, nuestro equipo de conductores profesionales te guiará en un viaje auténtico y cómodo. Con tarifas competitivas, estamos comprometidos con la prestación de un servicio de calidad que refleja la autenticidad cubana y la hospitalidad. Descubre la isla con nosotros y haz que tu visita a Cuba sea una experiencia inolvidable.",
+          "h3_mission":"Misión",
+          "p_mission":"Brindar viajes excepcionales en autos clásicos, revelando la autenticidad de Cuba con comodidad y estilo, creando recuerdos inolvidables para nuestros clientes.",
+          "h3_vision":"Nuestra Visión",
+          "p_vision":"Ser la opción preferida para el transporte turístico en Cuba, destacándonos por nuestro servicio distintivo y contribuyendo al encanto de cada viaje.",
+          "h3_values":"Nuestros Valores",
+          "p_values":"Compromiso con la autenticidad, excelencia en el servicio, respeto por la cultura cubana y satisfacción del cliente como una constante prioridad."
+      },
+      "Work":{
+          "h2":"¿CÓMO TRABAJAMOS?",
+          "p":"Operamos con eficiencia y pasión, ofreciendo tours personalizados y transferencias cómodas para experiencias inolvidables."
+      },
+      "Contact":{
+          "h2":"Contáctanos",
+          "p":"Estamos aquí para ayudar y responder cualquier pregunta que puedas tener. Esperamos escuchar de ti.",
+          "phone":"Teléfono:",
+          "email":"Correo electrónico:",
+          "address":" Dirección:",
+          "paso1":"Inicia la reserva enviando un mensaje a través de WhatsApp con tus detalles y preferencias.",
+          "paso2":"Recibe una confirmación rápida y detalles del itinerario directamente en tu aplicación de WhatsApp.",
+          "paso3":"Colabora con nuestro equipo para personalizar tu viaje según tus necesidades y preferencias.",
+          "paso4":"Disfruta el viaje."
+      }
+  },
+  "Cars":{
+      "sec1":{
+          "h2":"Autos Clásicos",
+          "p":"Trabajamos con los mejores autos clásicos del país"
+      },
+      "sec2":{
+          "h3":"Tenemos lo que estás buscando",
+          "p":"Calidad, Eficiencia y Viajes Seguros",
+          "h4_history":"Historia y Experiencia",
+          "p_history":"Con años de experiencia en la industria, hemos perfeccionado nuestro servicio para ofrecer un viaje bien documentado.",
+          "h4_translators":"Traductores",
+          "p_translators":"Para garantizar una comunicación fluida, ofrecemos servicios de traducción a bordo. Viaja en comodidad sabiendo que siempre serás comprendido.",
+          "h4_service":"Servicio 24/7",
+          "p_service":"Estamos disponibles las 24 horas del día, 7 días a la semana. No importa cuándo necesites un taxi, estamos aquí para servirte.",
+          "h4_committed":"Comprometidos",
+          "p_committed":"Nos esforzamos por superar las expectativas de nuestros clientes en cada viaje. Tu satisfacción es nuestra mayor recompensa.",
+          "vehicles":"Algunos de nuestros vehículos:"
+    }
+  },
+  "Footer":{
+    "p":"Todos los derechos reservados"
+   },
+   "work_list" : {
+    "el1": {
+      "icon": "/icons/gps.svg",
+      "title": "Buscar ubicación",
+      "desc": "Realiza tu reserva rápidamente y fácilmente eligiendo nuestro servicio especializado."
+    },
+    "el2": {
+      "icon": "/icons/pay.svg",
+      "title": "Pago fácil",
+      "desc": "Pago simple y seguro para una experiencia sin complicaciones."
+    },
+    "el3": {
+      "icon": "/icons/trip.svg",
+      "title": "Hacer viaje",
+      "desc": "Crea tu viaje personalizado con facilidad y comodidad."
+    }
+   }
+}

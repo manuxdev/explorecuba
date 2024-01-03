@@ -1,0 +1,107 @@
+{
+    "NavBar": {
+     "link1": {
+        "title": "About",
+        "path": "/about"
+      },
+      "link2": {
+        "title": "Cars",
+        "path": "/cars"
+      },
+      "link3": {
+        "title": "Places",
+        "path": "/places"
+      }
+    },
+    "Home":{
+      "Hero":{
+        "h1_strong":"DISCOVER",
+        "h1":"NEW PLACES",
+        "p":"Discover the vibrant culture and natural beauty of Cuba with our taxi service.",
+        "link_book":"Book Now",
+        "about":"About us"
+     },
+      "Places":{
+        "h2":"PLACES NOT TO BE MISSED",
+        "p":"Discover incredibles places in the heart of the country"
+     },
+      "CarSection":{
+        "span":"CONFORT",
+        "h2":"Feel the best experience with our Classic Cars",
+        "l1":"Travel in style in our comfortable taxis, designed for your maximum comfort.",
+        "l2":"Always ready for you, our services are available at all times.",
+        "l3":"We prioritize your safety, with experienced drivers and well-maintained vehicles for a safe trip.",
+        "button":"See More"
+     },
+      "Comments":{
+        "h2":"Our customers reviews",
+        "p":"Here are some reviews from our customers"
+      }
+    },
+    "About":{
+      "Sec1":{
+        "h2":"About us",
+        "p":"We stand out for providing unparalleled tourist experiences, offering personalized tours in convertible cars that capture the vintage essence of the island. From tours through the enchanting landscapes of Varadero to exploring the rich history of Havana, our team of professional drivers will guide you on an authentic and comfortable journey. With competitive rates, we are committed to providing quality service that reflects Cuban authenticity and hospitality. Discover the island with us and make your visit to Cuba a memorable experience.",
+        "h3_mission":"Mission",
+        "p_mission":"Provide exceptional trips in classic cars, revealing the authenticity of Cuba with comfort and style, creating unforgettable memories for our clients.",
+        "h3_vision":"Our Vision",
+        "p_vision":"To be the preferred option for tourist transportation in Cuba, standing out for our distinctive service and contributing to the charm of each trip.",
+        "h3_values":"Our Values",
+        "p_values":"Commitment to authenticity, excellence in service, respect for Cuban culture and customer satisfaction as a constant priority."
+      },
+      "Work":{
+        "h2":"HOW WE WORK",
+        "p":"We operate with efficiency and passion, offering personalized tours and comfortable transfers for unforgettable experiences."
+      },
+      "Contact":{
+        "h2":"Contact Us",
+        "p":"Were here to help and answer any question you might have. We look forward to hearing from you.",
+        "phone":"Phone:",
+        "email":"Email:",
+        "address":" Address:",
+        "paso1":"Start the reservation by sending a message via WhatsApp with your details and preferences.",
+        "paso2":"Receive quick confirmation and itinerary details directly in your WhatsApp application.",
+        "paso3":"Collaborate with our team to customize your trip according to your needs and preferences.",
+        "paso4":"Enjoy the trip."
+      }
+     },
+     "Cars":{
+      "sec1":{
+        "h2":"Classic Cars",
+        "p":"We Work with the bests Classic Cars in the Country"
+      },
+      "sec2":{
+        "h3":"We have what you are looking for",
+        "p":"Quality, Efficiency and Safety Tours",
+        "h4_history":"History and Experience",
+        "p_history":"With years of experience in the industry, we have perfected our service to offer a well-documented trip.",
+        "h4_translators":"Translators",
+        "p_translators":"To ensure fluid communication, we offer services translation on board. Travel in comfort knowing that you will always be understood.",
+        "h4_service":"24/7 service",
+        "p_service":"We are available 24 hours a day, 7 days a week week. No matter when you need a taxi, we are here to serve you.",
+        "h4_committed":"Committed",
+        "p_committed":"We strive to exceed the expectations of our customers on every trip. Your satisfaction is our greatest reward.",
+        "vehicles":"Some of our vehicles:"
+      }
+     },
+     "Footer":{
+      "p":"All rights reserved"
+     },
+     "work_list" : {
+     "el1": {
+        "icon": "/icons/gps.svg",
+        "title": "Search Location",
+        "desc": "Make your reservation quickly and easily by choosing our specialized service."
+      },
+      "el2": {
+        "icon": "/icons/pay.svg",
+        "title": "Easy Payment",
+        "desc": "Simple and secure payment for a hassle-free experience."
+      },
+      "el3": {
+        "icon": "/icons/trip.svg",
+        "title": "Make Trip",
+        "desc": " Create your personalized trip with ease and comfort."
+      }
+     }
+  }

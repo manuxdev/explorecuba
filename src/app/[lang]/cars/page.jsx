@@ -1,18 +1,20 @@
 import Image from "next/image";
 
 import SwiperE from "./swiper";
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function Home() {
+export default function Home({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
+  const t = useTranslations("Cars");
   return (
     <main className=" xl:px-0 px-4 sm:mt-32 mt-24">
       <section className="w-full h-auto">
         <div className="w-full text-center ">
           <h2 className="sm:text-5xl text-3xl font-bold text-paleta-blue-900 ">
-            Classic Cars
+            {t("sec1.h2")}
           </h2>
-          <p className="mt-2 sm:text-lg text-base font-medium">
-            We Work with the bests Classic Cars in the Country
-          </p>
+          <p className="mt-2 sm:text-lg text-base font-medium">{t("sec1.p")}</p>
         </div>
         <div className="w-full flex flex-col items-center justify-center mt-10">
           <Image
@@ -25,10 +27,10 @@ export default function Home() {
           <div className="xl:w-full w-[110%] h-auto bg-paleta-blue-900 sm:-translate-y-16 -translate-y-10 py-20">
             <div className="flex flex-col w-full justify-center items-center text-center text-paleta-bond-200">
               <h3 className="sm:text-3xl text-xl font-semibold ">
-                We have what you are looking for
+                {t("sec2.h3")}
               </h3>
               <p className="text-paleta-bond-200 mt-2 font-medium sm:text-lg text-base">
-                Quality, Efficiency and Safety Tours
+                {t("sec2.p")}
               </p>
             </div>
             <div className="w-full flex sm:flex-row flex-col sm:gap-0 gap-10 sm:justify-evenly justify-center items-center mt-20">
@@ -41,14 +43,13 @@ export default function Home() {
                     src="/icons/history.svg"
                   />
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
-                    History and Experience
+                    {t("sec2.h4_history")}
                   </h4>
                   <p className="text-medium text-paleta-blue-900">
-                    With years of experience in the industry, we have perfected
-                    our service to offer a well-documented trip.
+                    {t("sec2.p_history")}
                   </p>
                 </div>
-                <div className="h-64 w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
+                <div className="h-auto w-[264px] bg-paleta-bond-200 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
                   <Image
                     alt="translate"
                     width={60}
@@ -56,12 +57,10 @@ export default function Home() {
                     src="/icons/translate.svg"
                   />
                   <h4 className="text-xl font-semibold text-paleta-blue-900 ">
-                    Translators
+                    {t("sec2.h4_translators")}
                   </h4>
                   <p className="text-medium text-paleta-blue-900">
-                    To ensure fluid communication, we offer services translation
-                    on board. Travel in comfort knowing that you will always be
-                    understood.
+                    {t("sec2.p_translators")}
                   </p>
                 </div>
               </div>
@@ -74,11 +73,10 @@ export default function Home() {
                     src="/icons/clock.svg"
                   />
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
-                    24/7 service
+                    {t("sec2.h4_service")}
                   </h4>
                   <p className="text-medium text-paleta-blue-900">
-                    We are available 24 hours a day, 7 days a week week. No
-                    matter when you need a taxi, we are here to serve you.
+                    {t("sec2.p_service")}
                   </p>
                 </div>
                 <div className="h-64 w-[264px] bg-paleta-blue-500 rounded-xl flex flex-col gap-2 py-4 px-4 items-center">
@@ -89,11 +87,10 @@ export default function Home() {
                     src="/icons/light.svg"
                   />
                   <h4 className="text-xl font-semibold text-paleta-blue-900">
-                    Committed
+                    {t("sec2.h4_committed")}
                   </h4>
                   <p className="text-medium text-paleta-blue-900">
-                    We strive to exceed the expectations of our customers on
-                    every trip. Your satisfaction is our greatest reward.
+                    {t("sec2.p_committed")}
                   </p>
                 </div>
               </div>
@@ -104,7 +101,7 @@ export default function Home() {
 
       <div className="w-full text-center">
         <h2 className="md:text-5xl text-2xl font-bold text-paleta-blue-500 mb-5">
-          Some of our vehicles:
+          {t("sec2.vehicles")}
         </h2>
 
         <SwiperE />

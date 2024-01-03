@@ -1,76 +1,53 @@
+import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const work = [
-  {
-    icon: "/icons/gps.svg",
-    title: "Search Location",
-    desc: "Make your reservation quickly and easily by choosing our specialized service.",
-  },
-  {
-    icon: "/icons/pay.svg",
-    title: "Easy Payment",
-    desc: "Simple and secure payment for a hassle-free experience.",
-  },
-  {
-    icon: "/icons/trip.svg",
-    title: "Make Trip",
-    desc: " Create your personalized trip with ease and comfort.",
-  },
-];
-export default function Home() {
+export default function Home({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
+  const t = useTranslations("About");
+  const work_list = useTranslations("work_list");
+  const keys = ["el1", "el2", "el3"];
   return (
     <main className="xl:pl-16 xl:px-0 px-4 sm:mt-32 mt-24">
       {/*//todo ABOUT US  */}
       {/* <h1 className="w-full text-center text-5xl font-bold text-paleta-blue-900 pr-16">
         About US
       </h1> */}
-
       <section className="w-full h-auto  flex xl:flex-row flex-col items-start justify-center">
         <div className="xl:w-[550px] xl:h-[400px] w-auto h-auto bg-paleta-blue-500 rounded-xl  py-10 pl-8 xl:pr-20 pr-8">
-          <h2 className="text-paleta-blue-900 text-5xl  font-bold">About us</h2>
+          <h2 className="text-paleta-blue-900 text-4xl  font-bold">
+            {t("Sec1.h2")}
+          </h2>
           <p className="text-paleta-blue-900 mt-5 font-medium text-sm leading-6">
-            We stand out for providing unparalleled tourist experiences,
-            offering personalized tours in convertible cars that capture the
-            vintage essence of the island. From tours through the enchanting
-            landscapes of Varadero to exploring the rich history of Havana, our
-            team of professional drivers will guide you on an authentic and
-            comfortable journey. With competitive rates, we are committed to
-            providing quality service that reflects Cuban authenticity and
-            hospitality. Discover the island with us and make your visit to Cuba
-            a memorable experience.
+            {t("Sec1.p")}
           </p>
         </div>
-        <div className="xl:w-[600px] xl:h-[400px] w-auto h-auto bg-paleta-blue-900 rounded-xl xl:-translate-x-16 xl:translate-y-10 -translate-y-5 py-8 px-10">
+        <div className="xl:w-[600px]  w-auto h-auto bg-paleta-blue-900 rounded-xl xl:-translate-x-16 xl:translate-y-10 -translate-y-5 py-8 px-10">
           <div className="flex flex-col items-center justify-center gap-5 h-full w-full">
             <div>
               <h3 className="text-paleta-blue-500 text-2xl font-bold">
-                Mission
+                {t("Sec1.h3_mission")}
               </h3>
               <p className="text-paleta-bond-200 font-medium mt-3">
-                Provide exceptional trips in classic cars, revealing the
-                authenticity of Cuba with comfort and style, creating
-                unforgettable memories for our clients.
+                {t("Sec1.p_mission")}
               </p>
             </div>
             <div>
               <h3 className="text-paleta-blue-500 text-2xl font-bold">
-                Our Vision
+                {t("Sec1.h3_vision")}
               </h3>
               <p className="text-paleta-bond-200 font-medium mt-3">
-                To be the preferred option for tourist transportation in Cuba,
-                standing out for our distinctive service and contributing to the
-                charm of each trip.
+                {t("Sec1.p_vision")}
               </p>
             </div>
             <div>
               <h3 className="text-paleta-blue-500 text-2xl font-bold">
-                Our Values
+                {t("Sec1.h3_values")}
               </h3>
               <p className="text-paleta-bond-200 font-medium mt-3">
-                Commitment to authenticity, excellence in service, respect for
-                Cuban culture and customer satisfaction as a constant priority.
+                {t("Sec1.p_values")}
               </p>
             </div>
           </div>
@@ -81,28 +58,25 @@ export default function Home() {
         <div className="md:mt-0 mt-20">
           <div className="flex justify-center items-center flex-col text-center">
             <h2 className="font-bold sm:text-3xl text-xl text-paleta-blue-900">
-              HOW WE WORK
+              {t("Work.h2")}
             </h2>
-            <p className="mt-3">
-              We operate with efficiency and passion, offering personalized
-              tours and comfortable transfers for unforgettable experiences.
-            </p>
+            <p className="mt-3">{t("Work.p")}</p>
             <div className="flex sm:flex-row flex-col items-center sm:gap-24 gap-10 sm:w-[75%] w-[70%] mt-10">
-              {work.map((box, index) => (
+              {keys.map((box, index) => (
                 <div
                   key={index}
                   className=" flex flex-col items-center justify-center  gap-3"
                 >
                   <Image
-                    alt={box.title}
-                    src={box.icon}
+                    alt={work_list(`${box}.title`)}
+                    src={work_list(`${box}.icon`)}
                     width={60}
                     height={60}
                   />
                   <h3 className="text-xl font-bold text-paleta-blue-900">
-                    {box.title}
+                    {work_list(`${box}.title`)}
                   </h3>
-                  <p>{box.desc}</p>
+                  <p>{work_list(`${box}.desc`)}</p>
                 </div>
               ))}
             </div>
@@ -114,12 +88,9 @@ export default function Home() {
         <div className="md:mt-0 mt-20">
           <div className="flex justify-center items-center flex-col text-center">
             <h2 className="text-3xl font-bold  sm:text-4xl text-paleta-blue-900">
-              Contact Us
+              {t("Contact.h2")}
             </h2>
-            <p className="max-w-[900px] mt-5">
-              Were here to help and answer any question you might have. We look
-              forward to hearing from you.
-            </p>
+            <p className="max-w-[900px] mt-5">{t("Contact.p")}</p>
           </div>
 
           <div className="container-address-steps flex sm:flex-row flex-col-reverse">
@@ -128,7 +99,7 @@ export default function Home() {
                 <div className="flex gap-2 justify-center ">
                   <HomeIcon />{" "}
                   <h3 className="sm:text-xl text-base font-bold text-paleta-blue-900">
-                    Address:
+                    {t("Contact.address")}
                   </h3>
                 </div>
                 <p className="text-base ">Varadero, Cuba</p>
@@ -137,7 +108,7 @@ export default function Home() {
                 <div className="flex gap-2 justify-center">
                   <PhoneIcon />{" "}
                   <h3 className="sm:text-xl text-base font-bold text-paleta-blue-900">
-                    Phone:
+                    {t("Contact.phone")}
                   </h3>
                 </div>
                 <Link
@@ -153,7 +124,7 @@ export default function Home() {
                 <div className="flex gap-2 justify-center">
                   <MailIcon className="stroke-paleta-blue-900" />{" "}
                   <h3 className="sm:text-xl text-base font-bold text-paleta-blue-900">
-                    Email:
+                    {t("Contact.email")}
                   </h3>
                 </div>
                 <Link href="mailto:explorecubainclassiccars@gmail.com">
@@ -171,8 +142,7 @@ export default function Home() {
                     1
                   </div>
                   <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900">
-                    Start the reservation by sending a message via WhatsApp with
-                    your details and preferences.
+                    {t("Contact.paso1")}
                   </p>
                 </div>
                 <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
@@ -180,8 +150,7 @@ export default function Home() {
                     2
                   </div>
                   <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900">
-                    Receive quick confirmation and itinerary details directly in
-                    your WhatsApp application.
+                    {t("Contact.paso2")}
                   </p>
                 </div>
                 <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
@@ -189,8 +158,7 @@ export default function Home() {
                     3
                   </div>
                   <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900">
-                    Collaborate with our team to customize your trip according
-                    to your needs and preferences.
+                    {t("Contact.paso3")}
                   </p>
                 </div>
                 <div className="flex sm:flex-row flex-col sm:text-start text-center items-center w-full gap-4">
@@ -198,7 +166,7 @@ export default function Home() {
                     4
                   </div>
                   <p className="border-b-2 border-paleta-blue-900 p-3 font-medium text-paleta-blue-900 w-full">
-                    Enjoy the trip.
+                    {t("Contact.paso4")}
                   </p>
                 </div>
               </div>

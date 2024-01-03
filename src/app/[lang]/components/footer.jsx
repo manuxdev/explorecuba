@@ -1,8 +1,10 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
+  const t = useTranslations("Footer");
   return (
     <footer className="footer border-t border-t-[#012e4756] ">
       <div className=" sm:px-8 px-4 py-4 flex justify-between w-full items-center ">
@@ -12,7 +14,7 @@ const Footer = () => {
               Explore Cuba in Classic Cars
             </strong>
           </Link>
-          <p className="text-sm">All rights reserved</p>
+          <p className="text-sm">{t("p")}</p>
         </div>
         <div>
           <div className="flex-row sm:gap-6 gap-2 flex  ">
