@@ -1,15 +1,16 @@
+"use client";
 import React from "react";
-const PlaceTag = ({ name, onClick, isSelected, d, id }) => {
+// import { HandleScroll } from "../utils/handleScroll";
+const PlaceTag = ({ name, onClick, isSelected, d }) => {
   const buttonStyle = isSelected
-    ? "fill-paleta-blue-500 "
-    : "  fill-paleta-blue-900 ";
+    ? "fill-paleta-blue-500"
+    : "fill-paleta-blue-900";
   return (
     <path
       d={d}
-      id={id}
       name={name}
       onClick={() => onClick(name)}
-      className={`${buttonStyle} cursor-pointer hover:fill-paleta-blue-500 transition-all`}
+      className={`${buttonStyle} cursor-pointer hover:fill-paleta-blue-500 transition-all `}
     ></path>
   );
 };

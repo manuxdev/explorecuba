@@ -103,5 +103,286 @@
         "title": "Make Trip",
         "desc": " Create your personalized trip with ease and comfort."
       }
+     },
+     "Places":{
+      "h2":"Choose a City to visit",
+      "h4":"Itinerary",
+      "Places_list":{
+
+        "el1": {
+           "title": "One day tour in Havana",
+           "descripcion":
+             "Departure time from the hotel ~8:00 Arrival time at the hotel ~17:00-18:00",
+           "lugar": "Havana",
+           "detalles": {
+            "p1": "Departure time from the hotel ~8:00 Arrival time at the hotel ~17:00-18:00",
+            "p2": "It takes 1.5 to 2 hours to reach Havana. On the way, we will make a stop at the highest bridge in Cuba (Bacunayagua), with views of the Valley of Yumurí and the ocean. They can try the most delicious pineapple cocktail in Cuba (for an additional cost).",
+            "p3": "Stop near the Morro Castle, which offers impressive panoramic views of Havana. (Entry is paid and optional).",
+            "p4": "Then, we will take a walk along the Malecón from where a two-hour walk through Old Havana will begin. Among the attractions are the Plaza de San Francisco de Asís, a bell tower from the old Franciscan monastery (with a fee), a rum museum with tasting (paid entry), the Cathedral of Our Lady of Kazán, the Plaza of the Cathedral, the Little Wine Cellar, the Palace of Spanish Governors, the Plaza of Arms, the Castle of the Royal Force (paid entry), the Bishop Street, the Hotel Ambos Mundos, the Plaza Vieja, among others.",
+            "p5": "Visit to the Plaza of the Revolution, a stroll through the center of Havana, where you will find the Capitol, the Havana Grand Theater, the café Floridita (mentioned by Hemingway) and other points of interest.",
+            "p6": "We leave Havana at 3:00 pm.",
+            "p7": "The lunch is not included in the price of the excursion (estimated lunch cost is 15-20 $€)."
+           }
+         },
+       "el2":  {
+         "title": "Sunset Tour in Havana",
+         "descripcion":
+            "Pickup at your accommodation or hotel at 10:00 AM in Varadero.",
+         "lugar": "Havana",
+         "detalles": {
+          "p1": "Pickup at your accommodation or hotel at 10:00 AM in Varadero.",
+          "p2": "About two hours of travel to La Habana by the north coast.",
+          "p3": "Stop at the highest bridge in Cuba (Bacunayagua), 112 meters high where you can enjoy the best Pineapple Cocktail in Cuba.",
+          "p4": "Drive to La Habana.",
+          "p5": "Stroll through Old Havana, declared a World Heritage Site by UNESCO in 1982.",
+          "p6": "Visit the Plaza de la Catedral.",
+          "p7": "Visit the Plaza del Brazo.",
+          "p8": "Visit the Plaza Vieja.",
+          "p9": "Visit the Plaza San Francisco de Asís.",
+          "p10":"Stop at the oldest fort in Cuba, the Morro Castle.",
+          "p11":"Visit the statue of Christ of Havana.",
+          "p12":"Hotel Nacional.",
+          "p13":"Visit the famous Hemingway bar La Bodeguita del Medio and El Floridita.",
+          "p14":"Lunchtime (prices vary depending on customer choice, not included).",
+          "p15":"Route by the Malecón and New Havana.",
+          "p16":"Stop at the Plaza de la Revolución.",
+          "p17":"Time walking in the city center where you can see the Capitol building, the Havana Grand Theater, and Central Park.",
+          "p18":"Optional stop at the Rum Museum.",
+          "p19":"Visit the tobacco shop.",
+          "p20":"In the evening, we will visit the best places to enjoy sunset, which can be from the Havana Malecón or the Morro Castle.",
+          "p21":"The route ends at sunset.",
+          "p22":"Return to Varadero after sunset.",
+          "p23": "Optional things you can add to this tour: 25USD/EURO for an hour in a classic convertible once in Havana."
+         }
+        },
+       "el3": {
+         "title": "Havana Tour + Cannon Shot",
+         "descripcion":
+            "We offer a unique excursion by La Habana in a classic car with a private guide who will be delighted to take you to an unforgettable experience.",
+         "lugar": "Havana",
+         "detalles": {
+           "p1": "Pickup at your accommodation or hotel at 10:00 am.",
+           "p2": "Walk through Old Havana, declared a World Heritage Site by UNESCO in 1982. Enjoy free time, and we recommend a visit to the representative arts and crafts market representing the cultural identity of the people.",
+           "p3": "Visit the Plaza de San Francisco de Asís, full of cobblestones located at the gates of La Habana.",
+           "p4": "Stop at the Plaza de la Catedral, one of the most beautiful places in Old Havana.",
+           "p5": "Scale at the recently restored Plaza Vieja, a mandatory stop for history lovers.",
+           "p6": "Visit the Plaza de Armas, the oldest square in La Habana.",
+           "p7": "Stop at the Palace of the Captains General, one of the most important architectural works in Cuba.",
+           "p8": "Short stay at the Hotel Ambos Mundos, an eclectic style building located in Old Havana.",
+           "p9": "Visit two of the most popular bars in La Habana, La Bodeguita del Medio and El Floridita, to enjoy the most delicious cocktails.",
+           "p10": "Lunch suggested by the guide in the most spectacular restaurants of La Habana where you can enjoy our typical Cuban food.",
+           "p11": "Travel in a classic car along the Avenue Malecón enjoying a beautiful view of the Bay of La Habana.",
+           "p12": "Walk through Modern Havana exclusive visit.",
+           "p13": "Panoramic journey through the Vedado and Miramar neighborhoods.",
+           "p14": "Stop at the Plaza de la Revolución, one of the largest in the world and home to one of the most interesting museums in all of Cuba.",
+           "p15": "Panoramic scale at the corresponding building of the Capitol, one of the most emblematic places in Havana.",
+           "p16": "Stop at José Martí Central Park, a great attraction for travelers from all over the world, where the history of magnificent buildings and nature combine.",
+           "p17": "Visit the Great Theatre of La Habana Alicia Alonso, a magnificent building headquarters of the Ballet and the National Opera of Cuba.",
+           "p18": "Panoramic visit to the Fortress of the Morro, an important fortification built in Cuba in the 16th century.",
+           "p19": "Panoramic visit to the Christ of La Habana, a monumental sculptural work of about 20 meters in height.",
+           "p20": "Dinner at the recommended restaurants of La Habana according to your choice. Choose between shrimp or chicken, to savor authentic Cuban cuisine.",
+           "p21": "At 21:00 hours you can enjoy one of the Cuban traditions: the 'cannon shot of nine' in the guided visit to the Fortress of San Carlos de la Cabaña.",
+           "p22": "Journey back to your accommodation in a classic car with maximum comfort and safety."
+         }
+        },
+       "el4": {
+         "title": "Havana Tour + Tropicana",
+         "descripcion":
+            "Tropicana Cabaret opened its doors in 1939 as the brightest nightclub in the world. It functioned as a casino in the 50s with a new exhibition hall, the Crystal Arch Hall. International celebrities such as Nat King Cole, Josephine Baker, and Carmen Miranda performed there. Currently, it remains the best cabaret on the island. More than 200 artists are strictly selected among the best dancers and singers in Cuba. Don't miss the opportunity to discover paradise under the stars with most of the rhythms and dances of Cuba such as the danzón, danzonete, chachachá, rumba, merengue, and salsa, among others.",
+         "lugar": "Havana",
+         "detalles": {
+           "p1":  "Pickup at your accommodation or hotel at 10:30 am.",
+           "p2":  "About two hours of travel to La Habana by the Atlantic coast.",
+           "p3":  "Stop at the highest bridge in Cuba «Bacunayagua» where you can also enjoy the best Pineapple Cocktail in Cuba.",
+           "p4":  "Drive to La Habana.",
+           "p5":  "Stroll through Old Havana, declared a World Heritage Site by UNESCO in 1982.",
+           "p6":  "Visit the Plaza de la Catedral.",
+           "p7":  "Visit the Plaza de Arma.",
+           "p8":  "Visit the Plaza Vieja.",
+           "p9":  "Visit the Plaza San Francisco de Asís.",
+           "p10": "Stop at the oldest fort in Cuba, the Morro Castle.",
+           "p11": "Visit the statue of Christ of La Habana.",
+           "p12": "Visit the famous Hemingway bar La Bodeguita del Medio and El Floridita.",
+           "p13": "Lunchtime (prices vary depending on customer choice, not included).",
+           "p14": "The route by the Malecón and New Havana.",
+           "p15": "Stop at the Plaza de la Revolución.",
+           "p16": "Time walking towards the center where you can see the Capitol building, the Havana Grand Theater, and Central Park.",
+           "p17": "Optional stop at the Rum Museum.",
+           "p18": "Visit the tobacco shop.",
+           "p19": "Visit to the Tropicana (the guest pays the cover there itself in the cabaret).",
+           "p20": "After the show, return trip to Varadero."
+         }
+        },
+      "el5":  {
+         "title": "Jeep Safari",
+         "descripcion":
+            "Adventure of a jeep safari in the countryside of the province of Matanzas.",
+         "lugar": "Matanzas",
+         "detalles": {
+           "p1": "Pickup at 8:30 am.",
+           "p2": "We drive to Coral Beach to practice snorkeling (included equipment).",
+           "p3": "Enjoy horseback rides close to the ocean or, if you prefer, participate in fishing on the coast.",
+           "p4": "Then we will visit the Saturn Cave (cenote) to refresh and explore this fascinating underground environment.",
+           "p5": "Take a walk through the Varadero field, where you will have the opportunity to see how the locals live and learn about everyday Cuban life.",
+           "p6": "Included lunch: choose between lobster or chicken, to savor authentic Cuban cuisine.",
+           "p7": "The route ends around 3:00 pm, giving you a complete experience of the countryside and local culture."
+         }
+        },
+        "el6": {
+         "title": "Zapata Swamp Tour",
+         "descripcion":
+            "During this agricultural tour, we will see the Cuban countryside, visit a mini farm where we will familiarize ourselves with Cuban flora and fauna, see a crocodile breeding facility and swim and dive in the Caribbean Sea in the Bay of Pigs. We will also see cenotes where you can swim. The duration of the tour: from 8.00 to 16.00.",
+         "lugar": "Matanzas",
+         "detalles": {
+           "p1": "Departure from the hotel at 8 am.",
+           "p2": "We cross the island from north to south. The trip lasts about 2 hours.",
+           "p3": "On the way, we will pass through the cities of Santa Marta and Cardenas, the town of Jovellanos, where many descendants of African slaves live, a cooperative called Vladimir Ilich Lenin, the village of Australia, sugar cane, banana, citrus, mango and other tropical crops plantations.",
+           "p4": "First stop at a mini farm with typical Cuban plants and animals. For an additional cost, you can drink sugarcane juice and ride a bull cebú.",
+           "p5": "Crocodile breeding facility (5 € per person).",
+           "p6": "Visit to 'Indians': We board motorboats and they take us to an island with some huts and Indian sculptures. This Indian village has a cost of 12 € per person and lasts about 2 hours or more.",
+           "p7": "Lunch included with 4 types of meat, such as crocodile, crab, lobster, prawns, fish, deer, snails or squids, for 15-20 € per person. Also includes rice with vegetables, salad and drinks.",
+           "p8":  "Caribbean Sea: We will enjoy the Caribbean Sea in the Bay of Pigs, with clear waters especially near the corals.",
+           "p9":  "Snorkeling: Rental of snorkeling equipment by 5 € per hour. You can bring your own equipment. It is recommended to bring breadcrumbs from the hotel to feed the fish and other marine creatures.",
+           "p10": "Diving: It will cost 25 € for 40 minutes for experienced divers. Beginners pay an additional 10 € for an introductory lesson. The diving area is easy and has sunken ships at 25-30 meters deep.",
+           "p11": "Cenotes: We will see cenotes or sinkholes in the jungles around the Bay of Pigs, where you can swim. If desired, we can go to the House of the Hummingbird to observe birds ($1).",
+           "p12": "Optional stop to swim in the sand beach in the village of Playa Larga.",
+           "p13": "History: We will visit important historical sites related to the Cold War in the Bay of Pigs, where in 1961 a pro-Castro invasion was carried out.",
+           "p14": "Return to Varadero at 16.00."
+         }
+        },
+      "el7":  {
+         "title": "Matanzas Tour",
+         "descripcion": "9:00 am-2:00 pm approximately. Includes driver and guide.",
+         "lugar": "Matanzas",
+         "detalles": {
+           "p1": "Departure from the hotel at 9:00 am.",
+           "p2": "Visit to the Bellamar Caves (entry $5): We will explore the impressive Bellamar Caves, a cave system offering unique and spectacular rock formations. We will discover the rich geology and the history of this fascinating place.",
+           "p3": "Tour of the colonial city center: We will immerse ourselves in the history of Matanzas by exploring its colonial center. We will visit the famous French Pharmacy, an iconic architectural landmark reflecting French influence in the region.",
+           "p4": "Monserrat Lookout: We will enjoy a panoramic view from the Monserrat Lookout, offering an impressive perspective of the city and its surroundings. A perfect place to capture unforgettable memories.",
+           "p5": "The Hermitage: We will visit The Hermitage, a sacred place that has been a witness to significant historical events. We will learn more about the cultural and religious significance of this site.",
+           "p6": "San Severino Castle: We will explore San Severino Castle, a historic fortress that played a crucial role in defending the city. We will discover military architecture and the history surrounding this imposing castle.",
+           "p7": "Saturn Cave (entry $5): We will conclude our tour by exploring the Saturn Cave, a subterranean cenote with crystal clear waters. Visitors will have the opportunity to swim and enjoy the unique natural beauty of this geological formation.",
+           "p8": "Return to the hotel around 2:00 pm."
+         }
+        },
+       "el8": {
+         "title": "One-day excursion to Varadero from Havana",
+         "descripcion": "",
+         "lugar": "Matanzas",
+         "detalles": {
+           "p1": "Pickup at the hotel or B&B in a classic car at 8:00 am.",
+           "p2": "Exit towards Varadero along the coast with beautiful landscapes.",
+           "p3": "Optional stop at Bacunayagua Bridge: We will make a stop at the highest bridge in Cuba with 112 m of height. From this lookout, visitors can enjoy beautiful panoramic views and taste the best Pineapple Cocktail in Cuba.",
+           "p4": "Journey to Coral Beach to do snorkeling (entries not included, 10 USD per person): We will explore the crystal clear waters of Coral Beach, ideal for practicing snorkeling and enjoying marine life.",
+           "p5": "Visit to the open cave of Saturn (entries not included, 5 USD per person): We will discover the beauty of the Saturn Cave, a subterranean cenote with crystal clear waters. Visitors will have the opportunity to swim and enjoy the unique natural beauty of this geological formation.",
+           "p6":  "Continuation of the journey to Varadero.",
+           "p7":  "Visit La casa Alcapone in Varadero: We will explore La Casa Alcapone, which offers a glimpse of the history and luxury of the era.",
+           "p8": "Visit the Varadero market: Immerse yourself in local culture by exploring the Varadero market, where you can find local handicrafts and products.",
+           "p9": "Visit the Josone Park: Enjoy the natural beauty of the Josone Park, an oasis in the middle of Varadero with exuberant gardens and serene lakes.",
+           "p10": "Visit the Dupon Mansion: We will explore the elegant Dupon Mansion, a testament to the historical architecture of Varadero.",
+           "p11": "Free time at the beach: Visitors will have time to relax on the beautiful beaches of Varadero.",
+           "p12": "The tour concludes around 4:30 pm and returns to La Habana."
+         }
+        },
+        "el9": {
+          "title": "Excursion to the City of Cárdenas",
+          "descripcion": "San Juan de Dios de Cárdenas is located 14 km (30 minutes) from Varadero and is known as the City of Firsts due to its rich history of firsts, such as Cuba's first sugar refinery (1851), the first monument to Christopher Columbus in America (1862), the first electric plant for public lighting (September 1889), and the first hoisting of the flag (1850). The duration of the excursion is approximately 3-4 hours.",
+          "lugar": "Matanzas",
+          "detalles": {
+          "p1": "Pickup at the hotel at 9:00 AM.",
+          "p2": "Visit to the colonial city center of Cárdenas.",
+          "p3": "Museum Battle of Ideas: Explore this museum that narrates the history of the Battle of Ideas in Cuba, a significant historical event.",
+          "p4": "Oscar María de Rojas Museum: Visit this museum that pays tribute to Oscar María de Rojas, a prominent Cuban doctor and scientist.",
+          "p5": "Birthplace Museum of José Antonio Echeverría: Learn about the house where José Antonio Echeverría, student leader, and Cuban revolutionary, was born.",
+          "p6": "Hasta de la Bandera: Visit the place where the first flag hoisting took place in 1850.",
+          "p7": "Arrechabala Rum House: Discover the history of Cuban rum at the Arrechabala Rum House, a unique experience for rum enthusiasts.",
+          "p8": "Monument to Mothers: Pay homage to mothers at this symbolic monument.",
+          "p9": "Mast Monument: Explore the mast monument, an important part of Cárdenas' history.",
+          "p10": "Malacoff Square: Enjoy Malacoff Square, a symbolic space that reflects the architecture and culture of the city.",
+          "p11": "The excursion concludes around 1:00 PM, and return to the hotel."
+          }
+          },
+      
+"el10": {
+  "title": "Trinidad - Cienfuegos Tour (Optional Nicho)",
+  "descripcion": "Travel through the Cuban countryside to visit the two most interesting cities in the central region of Cuba. The city of Cienfuegos, also known as the Pearl of the South, founded by the French in 1819, is an ideal city to appreciate neoclassical architecture. Trinidad is a city that allows you to travel back in time thanks to its well-preserved constructions. It was the third town founded by the Spaniards in Cuba and was declared a UNESCO World Heritage site in 1988.",
+  "lugar": "Central",
+  "detalles": {
+  "p1": "Pickup at your accommodation or hotel at 6:30 am.",
+  "p2": "Approximately three-hour journey through the countryside to Cienfuegos.",
+  "p3": "Excursion in the city of Cienfuegos.",
+  "p4": "Visit the Punta Gorda area, the Palacio del Valle, and the Jagua Hotel.",
+  "p5": "Optional stop at El Nicho waterfall (This has an extra cost of 40 euros to cover the transportation to climb the mountain).",
+  "p6": "Note: If we visit El Nicho, we will have less time to dedicate to the other areas.",
+  "p7": "Travel to Trinidad to enjoy the view of the Caribbean Sea.",
+  "p8": "Rest time for lunch in Trinidad (not included).",
+  "p9": "Stroll through the historic center such as Plaza Mayor, La Canchanchara, museums, etc.",
+  "p10": "Free time for more walks or a visit to the craft market if time permits.",
+  "p11": "Return to your hotel around 7 pm.",
+  "p12": "This tour includes a classic car with air conditioning and a tour guide."
+  }
+  },
+  "el11": {
+    "title": "Three Cities Tour Trinidad - Cienfuegos - Santa Clara",
+    "descripcion": "Travel through the Cuban countryside to visit the two most interesting cities in the central region of Cuba. The city of Cienfuegos, also known as the Pearl of the South, was founded by the French in 1819 and is ideal for appreciating neoclassical architecture. Trinidad allows you to travel back in time with its well-preserved constructions, declared a UNESCO World Heritage site in 1988.",
+    "lugar": "Central",
+    "detalles": {
+      "p1": "The trip can also be done in two days.",
+      "p2": "Pickup at your accommodation or hotel at 6:00 am.",
+      "p3": "Approximately three-hour journey through the countryside to Santa Clara.",
+      "p4": "Stop at the mausoleum of Ernesto Che Guevara and the Plaza de la Revolución.",
+      "p5": "Stop at Parque Vidal and a tour of the city.",
+      "p6": "Stop at the train.",
+      "p7": "Optional stop at El Nicho waterfall (This has an extra cost of 40 euros to cover the transportation to climb the mountain).",
+      "p8": "Note: If we visit El Nicho, we will have less time to dedicate to the other areas. Not available on a one-day excursion.",
+      "p9": "Travel to Trinidad to enjoy the view of the Caribbean Sea.",
+      "p10": "Rest time for lunch in Trinidad (not included).",
+      "p11": "Stroll through the historic center such as Plaza Mayor, La Canchanchara, museums, etc.",
+      "p12": "Free time for more walks or a visit to the craft market if time permits.",
+      "p13": "Departure to Cienfuegos.",
+      "p14": "Excursion in the city of Cienfuegos.",
+      "p15": "Visit the Punta Gorda area, the Palacio del Valle, and the Jagua Hotel.",
+      "p16": "Return to your hotel around 9 pm."
+    }
+  },
+  "el12": {
+    "title": "Viñales - Soroa Tour",
+    "descripcion": "Located in the westernmost part of Cuba, we find the province of Pinar del Río. Visit the Viñales Valley and experience the feeling of having traveled back in time to see oxen-drawn plows, incredible limestone rock formations, and caves to explore. The Viñales Valley, along with its most spectacular landscapes, was declared a UNESCO World Heritage site. Stop in Soroa, also known as the 'rainbow of Cuba' for its natural beauty. A small waterfall is excellent for a refreshing swim. The orchid garden is its main attraction, covering three hectares and is presumed to be the second-largest in the world.",
+    "lugar": "Pinar del Rio",
+    "detalles": {
+      "p1": "Pickup at the hotel or place of accommodation at 8:30 am.",
+      "p2": "Cross the province of La Habana to continue to Soroa.",
+      "p3": "Visit Soroa where you can enjoy a swim in the waterfall and visit the orchid garden (you must pay admission at both places, 3-5 USD per person).",
+      "p4": "Note: If you come from Varadero and spend too much time in Soroa, you will not have enough time to enjoy Viñales.",
+      "p5": "Continue the journey to the Viñales Valley.",
+      "p6": "Stop at the 'Las Jazmines' viewpoint (an excellent place for photography).",
+      "p7": "Visit the farmer's house to see and learn about Cuban tobacco.",
+      "p8": "Visit the town of Viñales.",
+      "p9": "Visit the Cueva del Indio (entrance not included, 5 USD per person).",
+      "p10": "Visit the Mural de la Prehistoria.",
+      "p11": "Enjoy a horseback ride (optional, not included, 10-15 USD per person).",
+      "p12": "Return trip to La Habana or Varadero."
+    }
+  },
+      
+  "el13": {
+    "title": "City Tour Havana for Hour",
+    "descripcion": "Explore every corner of Havana in a classic convertible car for a set amount of time. The price is $25 USD per hour.",
+    "lugar": "Havana",
+    "detalles": {
+      "p1": "Explore every corner of Havana in a classic convertible car for a set amount of time. The price is $25 USD per hour.",
+      "p2": "Capitol of Havana: Discover the iconic Capitol building of Havana.",
+      "p3": "Revolution Square: Visit the historical Revolution Square.",
+      "p4": "Colon Cemetery: Explore the impressive Colon Cemetery.",
+      "p5": "Havana Forest: Enjoy the natural beauty of Havana Forest.",
+      "p6": "John Lennon Park: Take a stroll in John Lennon Park.",
+      "p7": "Havana Malecon: Experience the charm of the Havana Malecon.",
+      "p8": "Morro Cabin: Admire the scenic views from Morro Cabin.",
+      "p9": "Fusterlandia: Visit the vibrant and artistic Fusterlandia.",
+      "p10": "Che Guevara Military Museum: Learn about the history at the Che Guevara Military Museum.",
+      "p11": "Christ of Havana: Marvel at the iconic Christ of Havana."
+    }
+  }
+       }
      }
   }

@@ -3,6 +3,7 @@ export const HandleScroll = (e) => {
   e.preventDefault();
   // Obtiene el href y elimina todo antes del hash (#)
   const href = e.currentTarget.href;
+  console.log(href);
   const targetId = href.replace(/.*\#/, "");
   // Obtiene el elemento por id y usa scrollIntoView
   const elem = document.getElementById(targetId);
