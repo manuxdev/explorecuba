@@ -74,7 +74,7 @@ const PlaceSection = ({ itinerario, h2, h4, places }) => {
   };
   return (
     <section className={` xl:px-0 px-4 sm:mt-32 mt-24 sm:pb-10 pb-32 `}>
-      <h2 className="text-center text-4xl font-bold text-white  mb-4 text-paleta-blue-900">
+      <h2 className="text-center sm:text-4xl text-2xl font-bold text-white  mb-4 text-paleta-blue-900">
         {h2}
       </h2>
       <div className="text-center items-center flex justify-center">
@@ -133,7 +133,7 @@ const PlaceSection = ({ itinerario, h2, h4, places }) => {
           className="w-full text-center text-3xl font-bold text-paleta-blue-900"
           id="itinerary"
         >
-          {h4}
+          {h4}:
         </h3>
         <div className="flex sm:flex-row flex-col w-full justify-around pt-10">
           <div className="flex flex-col md:w-[40%] gap-6  mb-5">

@@ -53,6 +53,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -72,6 +74,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -91,6 +95,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -110,6 +116,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -129,6 +137,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -148,6 +158,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -352,6 +364,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -362,7 +376,12 @@ export const placesData = [
     image: "/images/places/nuevos_places/Catedral_Senora_Kazan.webp",
     tag: "Havana",
 
-    itinerary: ["Tour de un día en La Habana", "One day tour in Havana"],
+    itinerary: [
+      "Tour de un día en La Habana",
+      "One day tour in Havana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
+    ],
   },
   {
     id: 29,
@@ -483,6 +502,8 @@ export const placesData = [
 
       "One day tour in Havana",
       "Sunset Tour in Havana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -502,6 +523,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
 
@@ -545,6 +568,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -590,6 +615,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
@@ -631,6 +658,8 @@ export const placesData = [
       "Sunset Tour in Havana",
       "Havana Tour + Cannon Shot",
       "Havana Tour + Tropicana",
+      "City Tour Havana for Hour",
+      "Tour de Ciudad en La Habana por Hora",
     ],
   },
   {
