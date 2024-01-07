@@ -75,32 +75,6 @@ const PlaceSection = ({ itinerario, h2, h4, places }) => {
   };
   return (
     <section className={` xl:px-0 px-4 sm:mt-32 mt-24 sm:pb-10 pb-32 `}>
-      <svg
-        width="800px"
-        height="800px"
-        viewBox="0 0 64 64"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke-width="3"
-        stroke="#012F47"
-        fill="none"
-      >
-        <g id="SVGRepo_bgCarrier" />
-
-        <g
-          id="SVGRepo_tracerCarrier"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-
-        <g id="SVGRepo_iconCarrier">
-          <path d="M32.39,7.32,14,15a1,1,0,0,0-.61.92V32.23h0A22.87,22.87,0,0,0,24.58,51.9l8.17,4.86,8.06-4.84A22.89,22.89,0,0,0,51.9,32.31V15a1,1,0,0,0-.65-.94L33.12,7.3A1,1,0,0,0,32.39,7.32Z" />
-
-          <path
-            d="M32.83,17.92l3.64,7.37a.16.16,0,0,0,.1.08l8.14,1.18a.13.13,0,0,1,.07.23L38.9,32.51a.12.12,0,0,0,0,.12l1.39,8.1a.14.14,0,0,1-.2.15l-7.27-3.83a.15.15,0,0,0-.13,0l-7.27,3.83a.14.14,0,0,1-.2-.15l1.39-8.1a.15.15,0,0,0,0-.12l-5.88-5.73a.13.13,0,0,1,.07-.23l8.13-1.18a.15.15,0,0,0,.11-.08l3.63-7.37A.13.13,0,0,1,32.83,17.92Z"
-            stroke-linecap="round"
-          />
-        </g>
-      </svg>
       <h2 className="text-center sm:text-4xl text-2xl font-bold text-white  mb-4 text-paleta-blue-900">
         {h2}
       </h2>
