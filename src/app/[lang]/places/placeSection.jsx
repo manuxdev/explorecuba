@@ -4,11 +4,12 @@ import PlaceCard from "./placeCard";
 import PlaceTag from "./placeTag";
 import ItineraryTag from "./itineraryTag";
 import { motion, useInView, AnimatePresence } from "framer-motion";
-import { placesData } from "../data/palces";
+// import { placesData } from "../data/palces";
 // import { itineraryData } from "../data/ininerary";
 
-const PlaceSection = ({ itinerario, h2, h4 }) => {
+const PlaceSection = ({ itinerario, h2, h4, places }) => {
   const itineraryData = itinerario;
+  const placesData = places;
   const [tag, setTag] = useState();
   const [itinerary, setItinerary] = useState();
   const [selectedDescription, setSelectedDescription] = useState([]);
@@ -220,16 +221,6 @@ const PlaceSection = ({ itinerario, h2, h4 }) => {
                           {selectedId.title}
                         </motion.h2>
                         <motion.h5>{selectedId.description}</motion.h5>
-                        <h4 className="text-xl font-semibold pt-5">
-                          Tourism Atraction
-                        </h4>
-                        <ul className="flex flex-col gap-2">
-                          {selectedId.tourism.map((el, index) => (
-                            <li key={index}>
-                              {index + 1}- {el}
-                            </li>
-                          ))}
-                        </ul>
                       </div>
                     </motion.div>
                   </motion.div>
