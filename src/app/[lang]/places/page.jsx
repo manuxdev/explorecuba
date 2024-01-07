@@ -10,6 +10,8 @@ export default function Home() {
   const h2 = t("h2");
   const h4 = t("h4");
 
+  const cleanDetails = () => {};
+
   //aqui traduzco los itinerarios
   const itineraryData = [];
   for (let i = 1; i <= 13; i++) {

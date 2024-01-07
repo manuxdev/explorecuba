@@ -1,6 +1,5 @@
-"use client";
 import React from "react";
-// import { HandleScroll } from "../utils/handleScroll";
+
 const PlaceTag = ({ name, onClick, isSelected, d }) => {
   const buttonStyle = isSelected
     ? "fill-paleta-blue-500"

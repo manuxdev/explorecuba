@@ -4,6 +4,7 @@ import PlaceCard from "./placeCard";
 import PlaceTag from "./placeTag";
 import ItineraryTag from "./itineraryTag";
 import { motion, useInView, AnimatePresence } from "framer-motion";
+import ButtonTag from "./ButtonTang";
 // import { placesData } from "../data/palces";
 // import { itineraryData } from "../data/ininerary";
 
@@ -77,13 +78,32 @@ const PlaceSection = ({ itinerario, h2, h4, places }) => {
       <h2 className="text-center sm:text-4xl text-2xl font-bold text-white  mb-4 text-paleta-blue-900">
         {h2}
       </h2>
+
+      <div className="text-center items-center flex justify-center space-x-10 py-10">
+        <ButtonTag
+          onClick={handleChange}
+          name={"Pinar del Rio"}
+          isSelected={tag === "Pinar del Rio"}
+        />
+        <ButtonTag
+          onClick={handleChange}
+          name={"Havana"}
+          isSelected={tag === "Havana"}
+        />
+        <ButtonTag
+          onClick={handleChange}
+          name={"Matanzas"}
+          isSelected={tag === "Matanzas"}
+        />
+        <ButtonTag
+          onClick={handleChange}
+          name={"Central"}
+          isSelected={tag === "Central"}
+        />
+      </div>
+
       <div className="text-center items-center flex justify-center">
-        <svg
-          stroke="#ffffff"
-          strokeWidth="2"
-          version="1.2"
-          viewBox="0 0 560 200"
-        >
+        <svg stroke="#ffffff" strokeWidth="2" viewBox="0 0 560 200">
           <PlaceTag
             onClick={handleChange}
             name={"Pinar del Rio"}

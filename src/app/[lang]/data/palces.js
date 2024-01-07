@@ -8,16 +8,28 @@ export const placesData = [
     tag: "Pinar del Rio",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
-
   {
-    id: 4,
-    title: "Soroa",
+    id: 2,
+    title: "Bacunayagua Overlook",
     description:
-      "Soroa, known as the 'rainbow of Cuba,' is famous for its botanical garden and waterfalls. Founded in the 19th century, the area is a natural paradise that has attracted flora and fauna enthusiasts from around the world for generations.",
-    image: "/images/places/Pinar_Cascada.webp",
-    tag: "Pinar del Rio",
-    itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
+      "Bacunayagua Overlook, built in the 1960s, is a scenic observation point offering breathtaking panoramic views of the Yumurí Valley. This iconic location also has an interesting history related to the tourist development of the region.",
+    image: "/images/places/Mirador_Bacunayagua.webp",
+    tag: "Matanzas",
+
+    itinerary: [
+      "Excursión de un día a Varadero desde La Habana",
+      "One-day excursion to Varadero from Havana",
+      "Tour de un día en La Habana",
+      "Tour al Atardecer en La Habana",
+      "Tour por La Habana + Tropicana",
+      "Tour por La Habana + Cañonazo",
+      "One day tour in Havana",
+      "Sunset Tour in Havana",
+      "Havana Tour + Cannon Shot",
+      "Havana Tour + Tropicana",
+    ],
   },
+
   {
     id: 5,
     title: "Orchid Garden",
@@ -255,25 +267,14 @@ export const placesData = [
   },
   {
     id: 20,
-    title: "Bacunayagua Overlook",
+    title: "Soroa",
     description:
-      "Bacunayagua Overlook, built in the 1960s, is a scenic observation point offering breathtaking panoramic views of the Yumurí Valley. This iconic location also has an interesting history related to the tourist development of the region.",
-    image: "/images/places/Mirador_Bacunayagua.webp",
-    tag: "Matanzas",
-
-    itinerary: [
-      "Excursión de un día a Varadero desde La Habana",
-      "One-day excursion to Varadero from Havana",
-      "Tour de un día en La Habana",
-      "Tour al Atardecer en La Habana",
-      "Tour por La Habana + Tropicana",
-      "Tour por La Habana + Cañonazo",
-      "One day tour in Havana",
-      "Sunset Tour in Havana",
-      "Havana Tour + Cannon Shot",
-      "Havana Tour + Tropicana",
-    ],
+      "Soroa, known as the 'rainbow of Cuba,' is famous for its botanical garden and waterfalls. Founded in the 19th century, the area is a natural paradise that has attracted flora and fauna enthusiasts from around the world for generations.",
+    image: "/images/places/Pinar_Cascada.webp",
+    tag: "Pinar del Rio",
+    itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
+
   {
     id: 21,
     title: "Pharmaceutical Museum",

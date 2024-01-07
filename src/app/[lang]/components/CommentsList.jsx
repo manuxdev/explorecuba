@@ -32,12 +32,22 @@ const CommentsList = () => {
           key={index}
           className="  flex flex-col w-72 px-4 py-3 gap-2 rounded-xl mt-5 border-b-2 border-r-2 sm:border-t-0 sm:border-l-0 border-l-2 border-t-2  border-[#012e4750]"
         >
-          <div className="w-full text-end text-4xl">❕❕</div>
+          <div className="w-full  flex justify-end">
+            <Image
+              alt="comment"
+              src="/icons/comment.svg"
+              width={40}
+              height={25}
+              className="text"
+            />
+          </div>
           <div className="flex">
             <div className="h-14 w-14 bg-gradient-to-br from-paleta-blue-900 via-paleta-blue-900 to-paleta-blue-500 rounded-full"></div>
             <div className="text-start ml-2">
               {" "}
-              <h3 className="font-bold text-lg">{com.name}</h3>
+              <h3 className="font-bold text-lg text-paleta-blue-900">
+                {com.name}
+              </h3>
               <h3 className="">
                 ⭐⭐⭐⭐⭐ <strong>5.0</strong>
               </h3>
