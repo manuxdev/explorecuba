@@ -5,7 +5,7 @@ const ChangeLocale = () => {
       <Link
         href={"/"}
         locale="en"
-        className="hover:text-paleta-red-500 sm:text-base font-bold rounder md:p-0 tooltip tooltip-bottom duration-75"
+        className="hover:text-paleta-red-500 sm:text-base font-bold rounder md:p-0  duration-75"
         data-tip="English"
       >
         En
@@ -14,7 +14,7 @@ const ChangeLocale = () => {
       <Link
         href={"/"}
         locale="es"
-        className="hover:text-paleta-red-500 sm:text-base font-bold rounder md:p-0 tooltip tooltip-bottom duration-75"
+        className="hover:text-paleta-red-500 sm:text-base font-bold rounder md:p-0  duration-75"
         data-tip="Español"
       >
         Es
