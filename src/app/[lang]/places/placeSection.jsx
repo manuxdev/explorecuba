@@ -103,7 +103,7 @@ const PlaceSection = ({ itinerario, h2, h4, places }) => {
       </div>
 
       <div className="text-center items-center flex justify-center">
-        <svg stroke="#ffffff" strokeWidth="2" viewBox="0 0 560 200">
+        <svg stroke="#ffffff" strokeWidth="2" width={300}>
           <PlaceTag
             onClick={handleChange}
             name={"Pinar del Rio"}
