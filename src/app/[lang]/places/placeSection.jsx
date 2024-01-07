@@ -136,7 +136,7 @@ const PlaceSection = ({ itinerario, h2, h4, places }) => {
           {h4}
         </h3>
         <div className="flex sm:flex-row flex-col w-full justify-around pt-10">
-          <div className="flex flex-col gap-6  mb-5">
+          <div className="flex flex-col md:w-[40%] gap-6  mb-5">
             {matchingItineraries.map((item, index) => (
               <div key={index}>
                 <ItineraryTag

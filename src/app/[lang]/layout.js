@@ -12,7 +12,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata = {
   title: "Explore Cuba in Classic Cars",
   description:
-    "provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
+    "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
 };
 
 export default function RootLayout({ children, locale }) {
@@ -23,7 +23,6 @@ export default function RootLayout({ children, locale }) {
         <NextIntlClientProvider locale={locale} messages={{ messages }}>
           <Navbar locale={locale} />
           {children}
-
           <Footer />
         </NextIntlClientProvider>
         <Analytics />
