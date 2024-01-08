@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./menuOverlay";
 const NavButton = ({ links }) => {
@@ -15,6 +15,13 @@ const NavButton = ({ links }) => {
       setNavbarOpen(false);
     }
   };
+  useEffect(() => {
+    if (navbarOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [navbarOpen]);
 
   return (
     <div className="mobile-menu block md:hidden">
