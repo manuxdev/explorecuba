@@ -3,7 +3,7 @@ export const itineraryData = [
     title: "One day tour in Havana",
     descripcion:
       "Departure time from the hotel ~8:00 Arrival time at the hotel ~17:00-18:00",
-    lugar: "Havana",
+    lugar: ["Havana", "La Habana"],
     detalles: [
       "Departure time from the hotel ~8:00 Arrival time at the hotel ~17:00-18:00",
       "It takes 1.5 to 2 hours to reach Havana. On the way, we will make a stop at the highest bridge in Cuba (Bacunayagua), with views of the Valley of Yumurí and the ocean. They can try the most delicious pineapple cocktail in Cuba (for an additional cost).",
@@ -18,7 +18,7 @@ export const itineraryData = [
     title: "Sunset Tour in Havana",
     descripcion:
       "Pickup at your accommodation or hotel at 10:00 AM in Varadero.",
-    lugar: "Havana",
+    lugar: ["Havana", "La Habana"],
     detalles: [
       "Pickup at your accommodation or hotel at 10:00 AM in Varadero.",
       "About two hours of travel to La Habana by the north coast.",
@@ -49,7 +49,7 @@ export const itineraryData = [
     title: "Havana Tour + Cannon Sho",
     descripcion:
       "We offer a unique excursion by La Habana in a classic car with a private guide who will be delighted to take you to an unforgettable experience.",
-    lugar: "Havana",
+    lugar: ["Havana", "La Habana"],
     detalles: [
       "Pickup at your accommodation or hotel at 10:00 am.",
       "Walk through Old Havana, declared a World Heritage Site by UNESCO in 1982. Enjoy free time, and we recommend a visit to the representative arts and crafts market representing the cultural identity of the people.",
@@ -79,7 +79,7 @@ export const itineraryData = [
     title: "Havana Tour + Tropicana",
     descripcion:
       "Tropicana Cabaret opened its doors in 1939 as the brightest nightclub in the world. It functioned as a casino in the 50s with a new exhibition hall, the Crystal Arch Hall. International celebrities such as Nat King Cole, Josephine Baker, and Carmen Miranda performed there. Currently, it remains the best cabaret on the island. More than 200 artists are strictly selected among the best dancers and singers in Cuba. Don't miss the opportunity to discover paradise under the stars with most of the rhythms and dances of Cuba such as the danzón, danzonete, chachachá, rumba, merengue, and salsa, among others.",
-    lugar: "Havana",
+    lugar: ["Havana", "La Habana"],
     detalles: [
       "Pickup at your accommodation or hotel at 10:30 am.",
       "About two hours of travel to La Habana by the Atlantic coast.",
@@ -197,7 +197,7 @@ export const itineraryData = [
     title: "Tour Trinidad - Cienfuegos (Nicho opcional)",
     descripcion:
       "Viaja por el campo cubano para visitar las dos ciudades más interesantes de la región central de Cuba. La ciudad de Cienfuegos, también conocida como la Perla del Sur, fundada por los franceses en 1819, es una ciudad ideal para apreciar la arquitectura neoclásica. Trinidad es una ciudad que te permite viajar en el tiempo gracias a sus construcciones que aún se conservan bien. Fue el tercer pueblo fundado por los españoles en Cuba y fue declarado Patrimonio de la Humanidad por la UNESCO en 1988.",
-    lugar: "Central",
+    lugar: ["Central Region", "Región Central"],
     detalles: [
       "Recogida en su alojamiento u hotel a las 06:30 am.",
       "Viaje de unas tres horas por el campo hasta Cienfuegos.",
@@ -217,7 +217,7 @@ export const itineraryData = [
     title: "Tour Tres ciudades Trinidad - Cienfuegos - Santa Clara",
     descripcion:
       "Viaja por el campo cubano para visitar las dos ciudades más interesantes de la región central de Cuba. La ciudad de Cienfuegos, también conocida como la Perla del Sur, fue fundada por los franceses en 1819 y es ideal para apreciar la arquitectura neoclásica. Trinidad te permite viajar en el tiempo con sus construcciones bien conservadas, declaradas Patrimonio de la Humanidad por la UNESCO en 1988.",
-    lugar: "Central",
+    lugar: ["Central Region", "Región Central"],
     detalles: [
       "El viaje también se puede realizar en dos días.",
       "Recogida en su alojamiento u hotel a las 06:00 am.",
@@ -241,7 +241,7 @@ export const itineraryData = [
     title: "Tour Viñales - Soroa",
     descripcion:
       "Situada en la parte más occidental de Cuba, encontramos la provincia de Pinar del Río. Visita el Valle de Viñales y vive la sensación de haber retrocedido en el tiempo para ver los circones trazados por los bueyes, las increíbles formaciones rocosas de piedra caliza y las cuevas para explorar. El Valle de Viñales junto a sus paisajes más espectaculares fue declarado Patrimonio de la Humanidad por la UNESCO. Parada en Soroa, también conocida como el 'arco iris de Cuba' por su belleza natural. Una pequeña cascada es excelente para un refrescante baño. El orquideario es su mejor atractivo, con una extensión de tres hectáreas, y se presume el segundo más grande del mundo.",
-    lugar: "Pinar del Rio",
+    lugar: "Pinar del Río",
     detalles: [
       "Recogida en el hotel o lugar de hospedaje a las 8:30 am.",
       "Cruzar la provincia de La Habana para continuar hacia Soroa.",
@@ -262,7 +262,7 @@ export const itineraryData = [
     title: "City Tour Havana for Hour",
     descripcion:
       "Explora cada rincón de La Habana en un auto clásico convertible por tiempo. El precio es de $25 USD/hour.",
-    lugar: "Havana",
+    lugar: ["Havana", "La Habana"],
     detalles: [
       "Explora cada rincón de La Habana en un auto clásico convertible por tiempo. El precio es de $25 USD/hour.",
       "Capitol of Havana",

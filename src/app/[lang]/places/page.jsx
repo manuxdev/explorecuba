@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import PlaceSection from "./placeSection";
 import { placesData } from "../data/palces";
+import { itineraryData } from "../data/ininerary";
 
 export default function Home() {
   const t = useTranslations("Places");
@@ -9,25 +10,23 @@ export default function Home() {
 
   const h2 = t("h2");
   const h4 = t("h4");
-
-  const cleanDetails = () => {};
-
+  const habana = t("Habana");
+  const central = t("Central");
   //aqui traduzco los itinerarios
-  const itineraryData = [];
+
+  const detalles = itineraryList("el1.detalles");
+
+  let detallesArray = detalles.split("\n");
+
   for (let i = 1; i <= 13; i++) {
     let titleKey = `el${i}.title`;
 
-    let details = [];
+    let detailKey = `el${i}.detalles`;
+    const detalles = `${itineraryList(`el${i}.detalles`)}`;
+    let detallesArray = detalles.split("\n");
 
-    for (let j = 1; j < 23; j++) {
-      let detailKey = `el${i}.detalles.p${j}`;
-      details.push(`${itineraryList(detailKey)}`);
-    }
-    itineraryData.push({
-      title: `${itineraryList(titleKey)}`,
-      lugar: `${itineraryList(`el${i}.lugar`)}`,
-      detalles: details,
-    });
+    itineraryData[i - 1].title = itineraryList(titleKey);
+    itineraryData[i - 1].detalles = detallesArray;
   }
 
   //aqui traduzco los lugares
@@ -45,6 +44,8 @@ export default function Home() {
         h2={h2}
         h4={h4}
         places={placesData}
+        habana={habana}
+        central={central}
       />
     </main>
   );

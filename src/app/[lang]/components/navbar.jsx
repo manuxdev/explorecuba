@@ -5,10 +5,9 @@ import NavButton from "./NavButton";
 import { useTranslations } from "next-intl";
 import ChangeLocale from "./ChangeLocale";
 
-const Navbar = ({ locale }) => {
-  const hola = locale;
-
+const Navbar = () => {
   const t = useTranslations("NavBar");
+
   const links = [
     {
       title: `${t("link1.title")}`,
@@ -44,9 +43,8 @@ const Navbar = ({ locale }) => {
         <div className=" flex flex-row justify-center items-center">
           <ChangeLocale />
           <NavButton links={links} />
-          <NavbarLinks />
+          <NavbarLinks links={links} />
         </div>
-        {hola}
       </div>
     </nav>
   );

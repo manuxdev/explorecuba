@@ -1,17 +1,14 @@
 import Image from "next/image";
 import { Link } from "../../../navigation";
 import NavLink from "./navLink";
-import { useTranslations } from "next-intl";
 
-const NavbarLinks = () => {
-  const t = useTranslations("NavBar");
-  const keys = ["link1", "link2", "link3"];
+const NavbarLinks = ({ links }) => {
   return (
     <div className="menu hidden md:block md:w-auto">
       <ul className="flex p-4 md:p-0 md:flex-row items-center md:space-x-4 mt-0">
-        {keys.map((item, index) => (
+        {links.map((item, index) => (
           <li key={index}>
-            <NavLink href={t(`${item}.path`)} title={t(`${item}.title`)} />
+            <NavLink href={item.path} title={item.title} />
           </li>
         ))}
 

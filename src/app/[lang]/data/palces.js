@@ -3,9 +3,9 @@ export const placesData = [
     id: 1,
     title: "Castle in the Sky",
     description:
-      "The Castle in the Sky offers a breathtaking panoramic view of Pinar del Rio. Built in the 19th century as a lookout post, this historic site has been restored for visitors to enjoy its rich history.",
+      "The Castle in the Sky offers a breathtaking panoramic view of Pinar del Río. Built in the 19th century as a lookout post, this historic site has been restored for visitors to enjoy its rich history.",
     image: "/images/places/Castillo_Cielo.webp",
-    tag: "Pinar del Rio",
+    tag: "Pinar del Río",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
   {
@@ -34,9 +34,9 @@ export const placesData = [
     id: 5,
     title: "Orchid Garden",
     description:
-      "The Orchid Garden in Pinar del Rio is a floral paradise established in the 20th century. With an impressive collection of native and international orchids, this place offers a unique experience for botanical enthusiasts.",
+      "The Orchid Garden in Pinar del Río is a floral paradise established in the 20th century. With an impressive collection of native and international orchids, this place offers a unique experience for botanical enthusiasts.",
     image: "/images/places/Orquideario.webp",
-    tag: "Pinar del Rio",
+    tag: "Pinar del Río",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
   {
@@ -45,7 +45,7 @@ export const placesData = [
     description:
       "The Indian's Cave, discovered in the 19th century, is a fascinating cave system with unique geological formations. Over the years, it has been the scene of archaeological discoveries revealing the presence of ancient cultures in the region.",
     image: "/images/places/nuevos_places/Cueva_Indio.webp",
-    tag: "Pinar del Rio",
+    tag: "Pinar del Río",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
   {
@@ -75,7 +75,7 @@ export const placesData = [
     description:
       "Bodeguita del Medio, established in the 20th century, is a historic bar and restaurant. Renowned for its authentic mojitos, Afro-Cuban music, and vibrant atmosphere, it's a must-visit for those seeking Cuban culture.",
     image: "/images/places/Bodeguita.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour por La Habana + Tropicana",
@@ -96,7 +96,7 @@ export const placesData = [
     description:
       "Caballero de Paris is a historic statue in Havana, representing a unique character from the city's past. This landmark offers insights into the local history, nearby squares, urban art, and architectural photography.",
     image: "/images/places/Caballero_Paris.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour por La Habana + Tropicana",
@@ -117,7 +117,7 @@ export const placesData = [
     description:
       "The Christ of Havana is a religious monument offering panoramic views. Built in the mid-20th century, it serves as a symbol of spirituality, providing visitors with serene walks, spiritual events, and insights into Catholic culture.",
     image: "/images/places/Cristo.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour de un día en La Habana",
@@ -138,7 +138,7 @@ export const placesData = [
     description:
       "The Capitol, an iconic neoclassical building, stands as a political landmark in Havana. Built in the early 20th century, it offers a glimpse into political history, guided tours, cultural events, and panoramic views from its dome.",
     image: "/images/places/Capitolio.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour por La Habana + Tropicana",
@@ -159,7 +159,7 @@ export const placesData = [
     description:
       "Revolution Square, located in Havana, is an iconic plaza with revolutionary monuments. Serving as a focal point for public events, it features political art, historical speeches, and a central location for gatherings.",
     image: "/images/places/Plaza_Rev.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour de un día en La Habana",
@@ -271,7 +271,7 @@ export const placesData = [
     description:
       "Soroa, known as the 'rainbow of Cuba,' is famous for its botanical garden and waterfalls. Founded in the 19th century, the area is a natural paradise that has attracted flora and fauna enthusiasts from around the world for generations.",
     image: "/images/places/Pinar_Cascada.webp",
-    tag: "Pinar del Rio",
+    tag: "Pinar del Río",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
 
@@ -333,7 +333,7 @@ export const placesData = [
     description:
       "Experience the historical Cañonazo ceremony at Castillo Morro Cabaña, a nightly ritual that dates back centuries, offering a glimpse into Cuba's rich past.",
     image: "/images/places/nuevos_places/Cañonazo.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
     itinerary: ["Tour por La Habana + Cañonazo", "Havana Tour + Cannon Shot"],
   },
   {
@@ -354,7 +354,7 @@ export const placesData = [
     description:
       "Visit the historic Castillo de la Real Fuerza, a fortress that once protected Havana from pirate attacks. Explore its storied past and enjoy panoramic views of the city.",
     image: "/images/places/nuevos_places/Castillo_Real_Fuerza.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour por La Habana + Tropicana",
@@ -375,7 +375,7 @@ export const placesData = [
     description:
       "Marvel at the architectural beauty of the Catedral Nuestra Señora de Kazan, a cathedral that showcases a blend of different styles. Discover the religious and cultural significance.",
     image: "/images/places/nuevos_places/Catedral_Senora_Kazan.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour de un día en La Habana",
@@ -390,7 +390,7 @@ export const placesData = [
     description:
       "Explore the picturesque city of Cienfuegos, known for its French influence and stunning waterfront. Immerse yourself in the local arts, culture, and the welcoming atmosphere.",
     image: "/images/places/nuevos_places/Cienfuegos.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
     itinerary: [
       "Tour Trinidad - Cienfuegos (Opcional Nicho)",
       "Tour de Tres Ciudades: Trinidad - Cienfuegos - Santa Clara",
@@ -414,7 +414,7 @@ export const placesData = [
     description:
       "Visit the Iglesia Trinidad, a historic church in Trinidad. Admire its architecture and immerse yourself in the religious and cultural heritage of this charming Cuban town.",
     image: "/images/places/nuevos_places/Iglesia_Trinidad.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
 
     itinerary: [
       "Tour Trinidad - Cienfuegos (Opcional Nicho)",
@@ -451,7 +451,7 @@ export const placesData = [
     description:
       "Pay homage to the iconic revolutionary leader at the Monumento a Ernesto Che Guevara. Explore the memorial and gain insights into the life and legacy of Che Guevara.",
     image: "/images/places/nuevos_places/Monumento_Ernesto_Che_Guevara.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
     itinerary: [
       "Tour de Tres Ciudades: Trinidad - Cienfuegos - Santa Clara",
       "Three Cities Tour Trinidad - Cienfuegos - Santa Clara",
@@ -463,7 +463,7 @@ export const placesData = [
     description:
       "Visit the Monumento al ataque del Tren Blindado, commemorating a historic event during the Cuban Revolution. Learn about the bravery and significance of this pivotal moment.",
     image: "/images/places/nuevos_places/Monumento_Tren_Blindado.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
     itinerary: [
       "Tour de Tres Ciudades: Trinidad - Cienfuegos - Santa Clara",
       "Three Cities Tour Trinidad - Cienfuegos - Santa Clara",
@@ -475,7 +475,7 @@ export const placesData = [
     description:
       "Marvel at the Mural de la Prehistoria, a colossal outdoor mural depicting the evolutionary history of life on Earth. Explore the vibrant artwork set against a natural backdrop.",
     image: "/images/places/nuevos_places/Mural_Prehistoria.webp",
-    tag: "Pinar del Rio",
+    tag: "Pinar del Río",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
   {
@@ -496,7 +496,7 @@ export const placesData = [
     description:
       "Savor the rich history of Cuban rum at the Museo del Ron. Discover the art of rum production, learn about its cultural significance, and enjoy tastings of fine Cuban rums.",
     image: "/images/places/nuevos_places/Museo_Ron.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
     itinerary: [
       "Tour de un día en La Habana",
       "Tour al Atardecer en La Habana",
@@ -513,7 +513,7 @@ export const placesData = [
     description:
       "Step back in time at the Palacio de los Gobernadores Españoles, a historic palace showcasing colonial architecture. Explore the rooms and corridors that whisper tales of the past.",
     image: "/images/places/nuevos_places/Palacio_Gobernadores.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour por La Habana + Tropicana",
@@ -535,7 +535,7 @@ export const placesData = [
     description:
       "Experience the grandeur of Palacio del Valle, an architectural gem that blends various styles. Marvel at the intricate details and enjoy panoramic views of the surrounding landscapes.",
     image: "/images/places/nuevos_places/Palacio_Valle.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
 
     itinerary: [
       "Tour Trinidad - Cienfuegos (Opcional Nicho)",
@@ -559,7 +559,7 @@ export const placesData = [
     description:
       "Stroll through the historic Plaza de Armas, the oldest square in Havana. Immerse yourself in the colonial charm, explore book markets, and enjoy the vibrant atmosphere.",
     image: "/images/places/nuevos_places/Plaza_Armas.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
     itinerary: [
       "Tour de un día en La Habana",
       "Tour al Atardecer en La Habana",
@@ -591,7 +591,7 @@ export const placesData = [
     description:
       "Experience the charm of Plaza Trinidad, a historic square in Trinidad. Admire the colonial architecture, explore local shops, and immerse yourself in the cultural richness of the area.",
     image: "/images/places/nuevos_places/Plaza.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
 
     itinerary: [
       "Tour Trinidad - Cienfuegos (Opcional Nicho)",
@@ -606,7 +606,7 @@ export const placesData = [
     description:
       "Discover the beauty of Plaza de San Francisco, a square surrounded by historic buildings. Enjoy the lively atmosphere, visit the nearby attractions, and soak in the rich history.",
     image: "/images/places/nuevos_places/San_Francisco.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
     itinerary: [
       "Tour de un día en La Habana",
       "Tour al Atardecer en La Habana",
@@ -635,7 +635,7 @@ export const placesData = [
     description:
       "Immerse yourself in the vibrant city of Santa Clara, known for its revolutionary history. Explore landmarks, learn about Che Guevara, and experience the lively cultural scene.",
     image: "/images/places/nuevos_places/Santa_Clara.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
 
     itinerary: [
       "Tour de Tres Ciudades: Trinidad - Cienfuegos - Santa Clara",
@@ -648,7 +648,7 @@ export const placesData = [
     description:
       "Experience the grandeur of Teatro Nacional Alicia Alonso, a renowned theater in Havana. Attend performances, admire the architectural beauty, and immerse yourself in the arts and culture.",
     image: "/images/places/nuevos_places/Teatro_Nacional_Alicia_Alonso.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
 
     itinerary: [
       "Tour de un día en La Habana",
@@ -669,7 +669,7 @@ export const placesData = [
     description:
       "Discover the UNESCO World Heritage site of Trinidad, a town frozen in time. Wander through cobblestone streets, admire colonial architecture, and experience the rich history and culture.",
     image: "/images/places/nuevos_places/Trinidad.webp",
-    tag: "Central",
+    tag: ["Central Region", "Región Central"],
 
     itinerary: [
       "Tour Trinidad - Cienfuegos (Opcional Nicho)",
@@ -684,7 +684,7 @@ export const placesData = [
     description:
       "Experience the vibrant nightlife of Havana at Tropicana, a legendary cabaret. Enjoy dazzling performances, lively music, and the glamour of Cuba's most iconic entertainment venue.",
     image: "/images/places/nuevos_places/Tropicana.webp",
-    tag: "Havana",
+    tag: ["Havana", "La Habana"],
     itinerary: ["Tour por La Habana + Tropicana", "Havana Tour + Tropicana"],
   },
   {
@@ -702,7 +702,7 @@ export const placesData = [
     description:
       "Escape to the scenic beauty of Viñales, a valley surrounded by majestic limestone hills. Discover tobacco farms, explore caves, and enjoy the laid-back atmosphere of rural Cuba.",
     image: "/images/places/nuevos_places/Viñales.webp",
-    tag: "Pinar del Rio",
+    tag: "Pinar del Río",
     itinerary: ["Tour Viñales - Soroa", "Viñales - Soroa Tour"],
   },
   {

@@ -107,6 +107,8 @@
    "Places":{
     "h2":"Elige una ciudad a visitar",
     "h4":"Itinerario",
+    "Habana":"La Habana",
+    "Central":"Región Central",
     "Itinerary_list":{
 
      
@@ -114,173 +116,60 @@
   "title": "Tour de un día en La Habana",
   "description": "Hora de salida desde el hotel ~8:00 Hora de llegada al hotel ~17:00-18:00",
   "lugar": "Havana",
-  "detalles": {
-  "p1": "Hora de salida desde el hotel ~8:00 Hora de llegada al hotel ~17:00-18:00",
-  "p2": "El viaje a La Habana lleva de 1.5 a 2 horas. En el camino, haremos una parada en el puente más alto de Cuba (Bacunayagua), con vistas al Valle de Yumurí y al océano. Pueden probar el cóctel de piña más delicioso de Cuba (por un costo adicional).",
-  "p3": "Parada cerca del Castillo del Morro, que ofrece impresionantes vistas panorámicas de La Habana. (La entrada es de pago y opcional).",
-  "p4": "Luego, daremos un paseo por el Malecón desde donde comenzará un recorrido de dos horas por la Habana Vieja. Entre las atracciones se encuentran la Plaza de San Francisco de Asís, una torre campanario del antiguo monasterio franciscano (con tarifa), un museo del ron con degustación (entrada de pago), la Catedral de Nuestra Señora de Kazán, la Plaza de la Catedral, la Bodeguita del Medio, el Palacio de los Capitanes Generales, la Plaza de Armas, el Castillo de la Fuerza Real (entrada de pago), la Calle del Obispo, el Hotel Ambos Mundos, la Plaza Vieja, entre otros.",
-  "p5": "Visita a la Plaza de la Revolución, paseo por el centro de La Habana, donde encontrarán el Capitolio, el Gran Teatro de La Habana, el café Floridita (mencionado por Hemingway) y otros puntos de interés.",
-  "p6": "Salimos de La Habana a las 3:00 pm.",
-  "p7": "El almuerzo no está incluido en el precio de la excursión (el costo estimado del almuerzo es de 15-20 $€)."
-  }
+  "detalles":"Hora de salida desde el hotel ~8:00 Hora de llegada al hotel ~17:00-18:00\nEl viaje a La Habana lleva de 1.5 a 2 horas. En el camino, haremos una parada en el puente más alto de Cuba (Bacunayagua), con vistas al Valle de Yumurí y al océano. Pueden probar el cóctel de piña más delicioso de Cuba (por un costo adicional).\nParada cerca del Castillo del Morro, que ofrece impresionantes vistas panorámicas de La Habana. (La entrada es de pago y opcional).\nLuego, daremos un paseo por el Malecón desde donde comenzará un recorrido de dos horas por la Habana Vieja. Entre las atracciones se encuentran la Plaza de San Francisco de Asís, una torre campanario del antiguo monasterio franciscano (con tarifa), un museo del ron con degustación (entrada de pago), la Catedral de Nuestra Señora de Kazán, la Plaza de la Catedral, la Bodeguita del Medio, el Palacio de los Capitanes Generales, la Plaza de Armas, el Castillo de la Fuerza Real (entrada de pago), la Calle del Obispo, el Hotel Ambos Mundos, la Plaza Vieja, entre otros.\nVisita a la Plaza de la Revolución, paseo por el centro de La Habana, donde encontrarán el Capitolio, el Gran Teatro de La Habana, el café Floridita (mencionado por Hemingway) y otros puntos de interés.\nSalimos de La Habana a las 3:00 pm.\nEl almuerzo no está incluido en el precio de la excursión (el costo estimado del almuerzo es de 15-20 $€)."
+  
   },
   "el2": {
   "title": "Tour al Atardecer en La Habana",
   "description": "Recogida en su alojamiento u hotel a las 10:00 AM en Varadero.",
   "lugar": "Havana",
-  "detalles": {
-  "p1": "Recogida en su alojamiento u hotel a las 10:00 AM en Varadero.",
-  "p2": "Aproximadamente dos horas de viaje por la costa norte hacia La Habana.",
-  "p3": "Parada en el puente más alto de Cuba (Bacunayagua), de 112 metros de altura, donde podrán disfrutar del mejor cóctel de piña de Cuba.",
-  "p4": "Viaje a La Habana.",
-  "p5": "Paseo por La Habana Vieja, declarada Patrimonio de la Humanidad por la UNESCO en 1982.",
-  "p6": "Visita a la Plaza de la Catedral.",
-  "p7": "Visita a la Plaza del Brazo.",
-  "p8": "Visita a la Plaza Vieja.",
-  "p9": "Visita a la Plaza San Francisco de Asís.",
-  "p10": "Parada en el castillo más antiguo de Cuba, el Castillo del Morro.",
-  "p11": "Visita a la estatua del Cristo de La Habana.",
-  "p12": "Hotel Nacional.",
-  "p13": "Visita a los famosos bares Hemingway La Bodeguita del Medio y El Floridita.",
-  "p14": "Hora del almuerzo (los precios varían según la elección del cliente, no incluido).",
-  "p15": "Ruta por el Malecón y La Habana Nueva.",
-  "p16": "Parada en la Plaza de la Revolución.",
-  "p17": "Tiempo para caminar por el centro de la ciudad donde podrán ver el Capitolio, el Gran Teatro de La Habana y el Parque Central.",
-  "p18": "Parada opcional en el Museo del Ron.",
-  "p19": "Visita a la tienda de tabacos.",
-  "p20": "Por la tarde, visitaremos los mejores lugares para disfrutar del atardecer, ya sea desde el Malecón de La Habana o el Castillo del Morro.",
-  "p21": "La ruta termina al atardecer.",
-  "p22": "Regreso a Varadero después del atardecer.",
-  "p23": "Opciones adicionales que se pueden agregar a este tour: 25 USD/EURO por una hora en un descapotable clásico una vez en La Habana."
-  }
+  "detalles":"Recogida en su alojamiento u hotel a las 10:00 AM en Varadero.\nAproximadamente dos horas de viaje por la costa norte hacia La Habana.\nParada en el puente más alto de Cuba (Bacunayagua), de 112 metros de altura, donde podrán disfrutar del mejor cóctel de piña de Cuba.\nViaje a La Habana.\nPaseo por La Habana Vieja, declarada Patrimonio de la Humanidad por la UNESCO en 1982.\nVisita a la Plaza de la Catedral.\nVisita a la Plaza del Brazo.\nVisita a la Plaza Vieja.\nVisita a la Plaza San Francisco de Asís.\nParada en el castillo más antiguo de Cuba, el Castillo del Morro.\nVisita a la estatua del Cristo de La Habana.\nHotel Nacional.\nVisita a los famosos bares Hemingway La Bodeguita del Medio y El Floridita.\nHora del almuerzo (los precios varían según la elección del cliente, no incluido).\nRuta por el Malecón y La Habana Nueva.\nParada en la Plaza de la Revolución.\nTiempo para caminar por el centro de la ciudad donde podrán ver el Capitolio, el Gran Teatro de La Habana y el Parque Central.\nParada opcional en el Museo del Ron.\nVisita a la tienda de tabacos.\nPor la tarde, visitaremos los mejores lugares para disfrutar del atardecer, ya sea desde el Malecón de La Habana o el Castillo del Morro.\nLa ruta termina al atardecer.\nRegreso a Varadero después del atardecer.\nOpciones adicionales que se pueden agregar a este tour: 25 USD/EURO por una hora en un descapotable clásico una vez en La Habana."
+  
   },
   "el3": {
     "title": "Tour por La Habana + Cañonazo",
     "description": "Ofrecemos una excursión única por La Habana en un auto clásico con un guía privado que estará encantado de llevarte a una experiencia inolvidable.",
     "lugar": "Havana",
-    "detalles": {
-      "p1": "Recogida en su alojamiento u hotel a las 10:00 am.",
-      "p2": "Paseo por la Habana Vieja, declarada Patrimonio de la Humanidad por la UNESCO en 1982. Disfrute de tiempo libre y le recomendamos una visita al representativo mercado de artesanías que representa la identidad cultural del pueblo.",
-      "p3": "Visita a la Plaza de San Francisco de Asís, llena de adoquines ubicada a las puertas de La Habana.",
-      "p4": "Parada en la Plaza de la Catedral, uno de los lugares más hermosos de la Habana Vieja.",
-      "p5": "Escala en la Plaza Vieja, recientemente restaurada, una parada obligatoria para los amantes de la historia.",
-      "p6": "Visita a la Plaza de Armas, la plaza más antigua de La Habana.",
-      "p7": "Parada en el Palacio de los Capitanes Generales, una de las obras arquitectónicas más importantes de Cuba.",
-      "p8": "Breve estancia en el Hotel Ambos Mundos, un edificio de estilo ecléctico ubicado en la Habana Vieja.",
-      "p9": "Visita a dos de los bares más populares de La Habana, La Bodeguita del Medio y El Floridita, para disfrutar de los cócteles más deliciosos.",
-      "p10": "Almuerzo sugerido por el guía en los restaurantes más espectaculares de La Habana donde podrás disfrutar de nuestra típica comida cubana.",
-      "p11": "Viaje en un auto clásico por el Malecón disfrutando de una hermosa vista de la Bahía de La Habana.",
-      "p12": "Paseo por La Habana Moderna con visita exclusiva.",
-      "p13": "Recorrido panorámico por los barrios Vedado y Miramar.",
-      "p14": "Parada en la Plaza de la Revolución, una de las más grandes del mundo y sede de uno de los museos más interesantes de toda Cuba.",
-      "p15": "Escala panorámica en el edificio correspondiente al Capitolio, uno de los lugares más emblemáticos de La Habana.",
-      "p16": "Parada en el Parque Central José Martí, una gran atracción para viajeros de todo el mundo, donde la historia de magníficos edificios y la naturaleza se combinan.",
-      "p17": "Visita al Gran Teatro de La Habana Alicia Alonso, un magnífico edificio sede del Ballet y la Ópera Nacional de Cuba.",
-      "p18": "Visita panorámica a la Fortaleza del Morro, una importante fortificación construida en Cuba en el siglo XVI.",
-      "p19": "Visita panorámica al Cristo de La Habana, una obra escultórica monumental de unos 20 metros de altura.",
-      "p20": "Cena en los restaurantes recomendados de La Habana según tu elección. Elige entre camarones o pollo, para saborear la auténtica cocina cubana.",
-      "p21": "A las 21:00 horas podrás disfrutar de una de las tradiciones cubanas: el 'cañonazo de las nueve' en la visita guiada a la Fortaleza de San Carlos de la Cabaña.",
-      "p22": "Viaje de regreso a tu alojamiento en un auto clásico con la máxima comodidad y seguridad."
-    }
+    "detalles":"Recogida en su alojamiento u hotel a las 10:00 am.\nPaseo por la Habana Vieja, declarada Patrimonio de la Humanidad por la UNESCO en 1982. Disfrute de tiempo libre y le recomendamos una visita al representativo mercado de artesanías que representa la identidad cultural del pueblo.\nVisita a la Plaza de San Francisco de Asís, llena de adoquines ubicada a las puertas de La Habana.\nParada en la Plaza de la Catedral, uno de los lugares más hermosos de la Habana Vieja.\nEscala en la Plaza Vieja, recientemente restaurada, una parada obligatoria para los amantes de la historia.\nVisita a la Plaza de Armas, la plaza más antigua de La Habana.\nParada en el Palacio de los Capitanes Generales, una de las obras arquitectónicas más importantes de Cuba.\nBreve estancia en el Hotel Ambos Mundos, un edificio de estilo ecléctico ubicado en la Habana Vieja.\nVisita a dos de los bares más populares de La Habana, La Bodeguita del Medio y El Floridita, para disfrutar de los cócteles más deliciosos.\nAlmuerzo sugerido por el guía en los restaurantes más espectaculares de La Habana donde podrás disfrutar de nuestra típica comida cubana.\nViaje en un auto clásico por el Malecón disfrutando de una hermosa vista de la Bahía de La Habana.\nPaseo por La Habana Moderna con visita exclusiva.\nRecorrido panorámico por los barrios Vedado y Miramar.\nParada en la Plaza de la Revolución, una de las más grandes del mundo y sede de uno de los museos más interesantes de toda Cuba.\nEscala panorámica en el edificio correspondiente al Capitolio, uno de los lugares más emblemáticos de La Habana.\nParada en el Parque Central José Martí, una gran atracción para viajeros de todo el mundo, donde la historia de magníficos edificios y la naturaleza se combinan.\nVisita al Gran Teatro de La Habana Alicia Alonso, un magnífico edificio sede del Ballet y la Ópera Nacional de Cuba.\nVisita panorámica a la Fortaleza del Morro, una importante fortificación construida en Cuba en el siglo XVI.\nVisita panorámica al Cristo de La Habana, una obra escultórica monumental de unos 20 metros de altura.\nCena en los restaurantes recomendados de La Habana según tu elección. Elige entre camarones o pollo, para saborear la auténtica cocina cubana.\nA las 21:00 horas podrás disfrutar de una de las tradiciones cubanas: el 'cañonazo de las nueve' en la visita guiada a la Fortaleza de San Carlos de la Cabaña.\nViaje de regreso a tu alojamiento en un auto clásico con la máxima comodidad y seguridad."
+    
   },
   "el4": {
     "title": "Tour por La Habana + Tropicana",
     "description": "El Cabaret Tropicana abrió sus puertas en 1939 como el club nocturno más brillante del mundo. Funcionó como casino en la década de 1950 con una nueva sala de exposiciones, la Sala Arco de Cristal. Celebridades internacionales como Nat King Cole, Josephine Baker y Carmen Miranda actuaron allí. Actualmente, sigue siendo el mejor cabaret de la isla. Más de 200 artistas son rigurosamente seleccionados entre los mejores bailarines y cantantes de Cuba. No pierdas la oportunidad de descubrir el paraíso bajo las estrellas con la mayoría de los ritmos y bailes de Cuba, como el danzón, danzonete, chachachá, rumba, merengue y salsa, entre otros.",
     "lugar": "Havana",
-    "detalles": {
-      "p1": "Recogida en su alojamiento u hotel a las 10:30 am.",
-      "p2": "Aproximadamente dos horas de viaje por la costa atlántica hacia La Habana.",
-      "p3": "Parada en el puente más alto de Cuba «Bacunayagua», donde también podrás disfrutar del mejor cóctel de piña de Cuba.",
-      "p4": "Viaje a La Habana.",
-      "p5": "Paseo por la Habana Vieja, declarada Patrimonio de la Humanidad por la UNESCO en 1982.",
-      "p6": "Visita a la Plaza de la Catedral.",
-      "p7": "Visita a la Plaza de Armas.",
-      "p8": "Visita a la Plaza Vieja.",
-      "p9": "Visita a la Plaza San Francisco de Asís.",
-      "p10": "Parada en el castillo más antiguo de Cuba, el Castillo del Morro.",
-      "p11": "Visita a la estatua del Cristo de La Habana.",
-      "p12": "Visita a los famosos bares Hemingway La Bodeguita del Medio y El Floridita.",
-      "p13": "Hora del almuerzo (los precios varían según la elección del cliente, no incluido).",
-      "p14": "La ruta por el Malecón y La Habana Nueva.",
-      "p15": "Parada en la Plaza de la Revolución.",
-      "p16": "Tiempo para caminar hacia el centro donde podrás ver el Capitolio, el Gran Teatro de La Habana y el Parque Central.",
-      "p17": "Parada opcional en el Museo del Ron.",
-      "p18": "Visita a la tienda de tabacos.",
-      "p19": "Visita al Tropicana (el invitado paga la entrada allí mismo en el cabaret).",
-      "p20": "Después del espectáculo, viaje de regreso a Varadero."
-    }
+    "detalles":"Recogida en su alojamiento u hotel a las 10:30 am.\nAproximadamente dos horas de viaje por la costa atlántica hacia La Habana.\nParada en el puente más alto de Cuba «Bacunayagua», donde también podrás disfrutar del mejor cóctel de piña de Cuba.\nViaje a La Habana.\nPaseo por la Habana Vieja, declarada Patrimonio de la Humanidad por la UNESCO en 1982.\nVisita a la Plaza de la Catedral.\nVisita a la Plaza de Armas.\nVisita a la Plaza Vieja.\nVisita a la Plaza San Francisco de Asís.\nParada en el castillo más antiguo de Cuba, el Castillo del Morro.\nVisita a la estatua del Cristo de La Habana.\nVisita a los famosos bares Hemingway La Bodeguita del Medio y El Floridita.\nHora del almuerzo (los precios varían según la elección del cliente, no incluido).\nLa ruta por el Malecón y La Habana Nueva.\nParada en la Plaza de la Revolución.\nTiempo para caminar hacia el centro donde podrás ver el Capitolio, el Gran Teatro de La Habana y el Parque Central.\nParada opcional en el Museo del Ron.\nVisita a la tienda de tabacos.\nVisita al Tropicana (el invitado paga la entrada allí mismo en el cabaret).\nDespués del espectáculo, viaje de regreso a Varadero."
+    
   },
   "el5": {
     "title": "Jeep Safari",
     "description": "Aventura de un safari en jeep por el campo de la provincia de Matanzas.",
     "lugar": "Matanzas",
-    "detalles": {
-      "p1": "Recogida a las 8:30 am.",
-      "p2": "Nos dirigimos a Coral Beach para practicar snorkel (equipo incluido).",
-      "p3": "Disfruta de paseos a caballo cerca del océano o, si lo prefieres, participa en la pesca en la costa.",
-      "p4": "Luego visitaremos la Cueva Saturno (cenote) para refrescarnos y explorar este fascinante entorno subterráneo.",
-      "p5": "Paseo por el campo de Varadero, donde tendrás la oportunidad de ver cómo viven los lugareños y aprender sobre la vida cotidiana cubana.",
-      "p6": "Almuerzo incluido: elige entre langosta o pollo, para saborear la auténtica cocina cubana.",
-      "p7": "La ruta termina alrededor de las 3:00 pm, brindándote una experiencia completa del campo y la cultura local."
-    }
+    "detalles":"Recogida a las 8:30 am.\nNos dirigimos a Coral Beach para practicar snorkel (equipo incluido).\nDisfruta de paseos a caballo cerca del océano o, si lo prefieres, participa en la pesca en la costa.\nLuego visitaremos la Cueva Saturno (cenote) para refrescarnos y explorar este fascinante entorno subterráneo.\nPaseo por el campo de Varadero, donde tendrás la oportunidad de ver cómo viven los lugareños y aprender sobre la vida cotidiana cubana.\nAlmuerzo incluido: elige entre langosta o pollo, para saborear la auténtica cocina cubana.\nLa ruta termina alrededor de las 3:00 pm, brindándote una experiencia completa del campo y la cultura local."
+    
   },
   "el6": {
     "title": "Tour por la Ciénaga de Zapata",
     "descripcion":
        "Durante este recorrido agrícola, veremos el campo cubano, visitaremos una mini granja donde nos familiarizaremos con la flora y fauna cubanas, veremos una instalación de cría de cocodrilos y nadaremos y bucearemos en el Mar Caribe en la Bahía de Cochinos. También veremos cenotes donde podrás nadar. La duración del tour es de 8.00 a 16.00 horas.",
     "lugar": "Matanzas",
-    "detalles": {
-      "p1": "Salida del hotel a las 8 am.",
-      "p2": "Atravesamos la isla de norte a sur. El viaje dura aproximadamente 2 horas.",
-      "p3": "En el camino, pasaremos por las ciudades de Santa Marta y Cárdenas, el pueblo de Jovellanos, donde viven muchos descendientes de esclavos africanos, una cooperativa llamada Vladimir Ilich Lenin, el pueblo de Australia, plantaciones de caña de azúcar, plátanos, cítricos, mangos y otros cultivos tropicales.",
-      "p4": "Primera parada en una mini granja con plantas y animales típicos de Cuba. Por un costo adicional, puedes beber jugo de caña de azúcar y montar un toro cebú.",
-      "p5": "Instalación de cría de cocodrilos (5 € por persona).",
-      "p6": "Visita a 'Los Indios': Subimos a lanchas motoras y nos llevan a una isla con algunas cabañas y esculturas indias. Este pueblo indígena tiene un costo de 12 € por persona y dura aproximadamente 2 horas o más.",
-      "p7": "Almuerzo incluido con 4 tipos de carne, como cocodrilo, cangrejo, langosta, camarones, pescado, venado, caracoles o calamares, por 15-20 € por persona. También incluye arroz con verduras, ensalada y bebidas.",
-      "p8":  "Mar Caribe: Disfrutaremos del Mar Caribe en la Bahía de Cochinos, con aguas claras especialmente cerca de los corales.",
-      "p9":  "Snorkeling: Alquiler de equipos de snorkeling por 5 € por hora. Puedes llevar tu propio equipo. Se recomienda llevar migajas del hotel para alimentar a los peces y otras criaturas marinas.",
-      "p10": "Buceo: Costará 25 € por 40 minutos para buceadores experimentados. Los principiantes pagan 10 € adicionales por una lección introductoria. El área de buceo es fácil y tiene barcos hundidos a 25-30 metros de profundidad.",
-      "p11": "Cenotes: Veremos cenotes o sumideros en las selvas alrededor de la Bahía de Cochinos, donde puedes nadar. Si lo deseas, podemos ir a la Casa del Colibrí para observar aves ($1).",
-      "p12": "Parada opcional para nadar en la playa de arena en el pueblo de Playa Larga.",
-      "p13": "Historia: Visitaremos lugares históricos importantes relacionados con la Guerra Fría en la Bahía de Cochinos, donde en 1961 se llevó a cabo una invasión pro-Castro.",
-      "p14": "Regreso a Varadero a las 16.00."
-    }
+    "detalles":"Salida del hotel a las 8 am.\nAtravesamos la isla de norte a sur. El viaje dura aproximadamente 2 horas.\nEn el camino, pasaremos por las ciudades de Santa Marta y Cárdenas, el pueblo de Jovellanos, donde viven muchos descendientes de esclavos africanos, una cooperativa llamada Vladimir Ilich Lenin, el pueblo de Australia, plantaciones de caña de azúcar, plátanos, cítricos, mangos y otros cultivos tropicales.\nPrimera parada en una mini granja con plantas y animales típicos de Cuba. Por un costo adicional, puedes beber jugo de caña de azúcar y montar un toro cebú.\nInstalación de cría de cocodrilos (5 € por persona).\nVisita a 'Los Indios': Subimos a lanchas motoras y nos llevan a una isla con algunas cabañas y esculturas indias. Este pueblo indígena tiene un costo de 12 € por persona y dura aproximadamente 2 horas o más.\nAlmuerzo incluido con 4 tipos de carne, como cocodrilo, cangrejo, langosta, camarones, pescado, venado, caracoles o calamares, por 15-20 € por persona. También incluye arroz con verduras, ensalada y bebidas.\nMar Caribe: Disfrutaremos del Mar Caribe en la Bahía de Cochinos, con aguas claras especialmente cerca de los corales.\nSnorkeling: Alquiler de equipos de snorkeling por 5 € por hora. Puedes llevar tu propio equipo. Se recomienda llevar migajas del hotel para alimentar a los peces y otras criaturas marinas.\nBuceo: Costará 25 € por 40 minutos para buceadores experimentados. Los principiantes pagan 10 € adicionales por una lección introductoria. El área de buceo es fácil y tiene barcos hundidos a 25-30 metros de profundidad.\nCenotes: Veremos cenotes o sumideros en las selvas alrededor de la Bahía de Cochinos, donde puedes nadar. Si lo deseas, podemos ir a la Casa del Colibrí para observar aves ($1).\nParada opcional para nadar en la playa de arena en el pueblo de Playa Larga.\nHistoria: Visitaremos lugares históricos importantes relacionados con la Guerra Fría en la Bahía de Cochinos, donde en 1961 se llevó a cabo una invasión pro-Castro.\nRegreso a Varadero a las 16.00."
+    
   },
   
    "el7":  {
     "title": "Tour por Matanzas",
     "descripcion": "De 9:00 am a 2:00 pm aproximadamente. Incluye conductor y guía.",
     "lugar": "Matanzas",
-    "detalles": {
-      "p1": "Salida del hotel a las 9:00 am.",
-      "p2": "Visita a las Cuevas de Bellamar (entrada $5): Exploraremos las impresionantes Cuevas de Bellamar, un sistema de cuevas que ofrece formaciones rocosas únicas y espectaculares. Descubriremos la rica geología y la historia de este fascinante lugar.",
-      "p3": "Recorrido por el centro colonial: Nos sumergiremos en la historia de Matanzas explorando su centro colonial. Visitaremos la famosa Farmacia Francesa, un hito arquitectónico icónico que refleja la influencia francesa en la región.",
-      "p4": "Mirador de Monserrat: Disfrutaremos de una vista panorámica desde el Mirador de Monserrat, que ofrece una perspectiva impresionante de la ciudad y sus alrededores. Un lugar perfecto para capturar recuerdos inolvidables.",
-      "p5": "La Ermita: Visitaremos La Ermita, un lugar sagrado que ha sido testigo de eventos históricos significativos. Conoceremos más sobre la importancia cultural y religiosa de este sitio.",
-      "p6": "Castillo de San Severino: Exploraremos el Castillo de San Severino, una fortaleza histórica que desempeñó un papel crucial en la defensa de la ciudad. Descubriremos la arquitectura militar y la historia que rodea a este imponente castillo.",
-      "p7": "Cueva Saturno (entrada $5): Concluiremos nuestro recorrido explorando la Cueva Saturno, un cenote subterráneo con aguas cristalinas. Los visitantes tendrán la oportunidad de nadar y disfrutar de la belleza natural única de esta formación geológica.",
-      "p8": "Regreso al hotel alrededor de las 2:00 pm."
-    }
+    "detalles":"Salida del hotel a las 9:00 am.\nVisita a las Cuevas de Bellamar (entrada $5): Exploraremos las impresionantes Cuevas de Bellamar, un sistema de cuevas que ofrece formaciones rocosas únicas y espectaculares. Descubriremos la rica geología y la historia de este fascinante lugar.\nRecorrido por el centro colonial: Nos sumergiremos en la historia de Matanzas explorando su centro colonial. Visitaremos la famosa Farmacia Francesa, un hito arquitectónico icónico que refleja la influencia francesa en la región.\nMirador de Monserrat: Disfrutaremos de una vista panorámica desde el Mirador de Monserrat, que ofrece una perspectiva impresionante de la ciudad y sus alrededores. Un lugar perfecto para capturar recuerdos inolvidables.\nLa Ermita: Visitaremos La Ermita, un lugar sagrado que ha sido testigo de eventos históricos significativos. Conoceremos más sobre la importancia cultural y religiosa de este sitio.\nCastillo de San Severino: Exploraremos el Castillo de San Severino, una fortaleza histórica que desempeñó un papel crucial en la defensa de la ciudad. Descubriremos la arquitectura militar y la historia que rodea a este imponente castillo.\nCueva Saturno (entrada $5): Concluiremos nuestro recorrido explorando la Cueva Saturno, un cenote subterráneo con aguas cristalinas. Los visitantes tendrán la oportunidad de nadar y disfrutar de la belleza natural única de esta formación geológica.\nRegreso al hotel alrededor de las 2:00 pm."
+    
    },
   
   "el8": {
     "title": "Excursión de un día a Varadero desde La Habana",
     "descripcion": "",
     "lugar": "Matanzas",
-    "detalles": {
-      "p1": "Recogida en el hotel o B&B en un auto clásico a las 8:00 am.",
-      "p2": "Salida hacia Varadero por la costa con hermosos paisajes.",
-      "p3": "Parada opcional en el Puente Bacunayagua: Haremos una parada en el puente más alto de Cuba con 112 m de altura. Desde este mirador, los visitantes pueden disfrutar de hermosas vistas panorámicas y degustar el mejor Cóctel de Piña de Cuba.",
-      "p4": "Viaje a Playa Coral para hacer snorkel (entradas no incluidas, 10 USD por persona): Exploraremos las aguas cristalinas de Playa Coral, ideal para practicar snorkel y disfrutar de la vida marina.",
-      "p5": "Visita a la cueva abierta de Saturno (entradas no incluidas, 5 USD por persona): Descubriremos la belleza de la Cueva Saturno, un cenote subterráneo con aguas cristalinas. Los visitantes tendrán la oportunidad de nadar y disfrutar de la belleza natural única de esta formación geológica.",
-      "p6":  "Continuación del viaje a Varadero.",
-      "p7":  "Visita a la Casa Alcapone en Varadero: Exploraremos la Casa Alcapone, que ofrece una visión de la historia y el lujo de la época.",
-      "p8": "Visita al mercado de Varadero: Sumérgete en la cultura local explorando el mercado de Varadero, donde puedes encontrar artesanías y productos locales.",
-      "p9": "Visita al Parque Josone: Disfruta de la belleza natural del Parque Josone, un oasis en medio de Varadero con exuberantes jardines y lagos serenos.",
-      "p10": "Visita a la Mansión Dupon: Exploraremos la elegante Mansión Dupon, un testimonio de la arquitectura histórica de Varadero.",
-      "p11": "Tiempo libre en la playa: Los visitantes tendrán tiempo para relajarse en las hermosas playas de Varadero.",
-      "p12": "La excursión concluye alrededor de las 4:30 pm y regresa a La Habana."
-    }
+    "detalles":"Recogida en el hotel o B&B en un auto clásico a las 8:00 am.\nSalida hacia Varadero por la costa con hermosos paisajes.\nParada opcional en el Puente Bacunayagua: Haremos una parada en el puente más alto de Cuba con 112 m de altura. Desde este mirador, los visitantes pueden disfrutar de hermosas vistas panorámicas y degustar el mejor Cóctel de Piña de Cuba.\nViaje a Playa Coral para hacer snorkel (entradas no incluidas, 10 USD por persona): Exploraremos las aguas cristalinas de Playa Coral, ideal para practicar snorkel y disfrutar de la vida marina.\nVisita a la cueva abierta de Saturno (entradas no incluidas, 5 USD por persona): Descubriremos la belleza de la Cueva Saturno, un cenote subterráneo con aguas cristalinas. Los visitantes tendrán la oportunidad de nadar y disfrutar de la belleza natural única de esta formación geológica.\nContinuación del viaje a Varadero.\nVisita a la Casa Alcapone en Varadero: Exploraremos la Casa Alcapone, que ofrece una visión de la historia y el lujo de la época.\nVisita al mercado de Varadero: Sumérgete en la cultura local explorando el mercado de Varadero, donde puedes encontrar artesanías y productos locales.\nVisita al Parque Josone: Disfruta de la belleza natural del Parque Josone, un oasis en medio de Varadero con exuberantes jardines y lagos serenos.\nVisita a la Mansión Dupon: Exploraremos la elegante Mansión Dupon, un testimonio de la arquitectura histórica de Varadero.\nTiempo libre en la playa: Los visitantes tendrán tiempo para relajarse en las hermosas playas de Varadero.\nLa excursión concluye alrededor de las 4:30 pm y regresa a La Habana."
+    
    },
   
       
@@ -288,100 +177,38 @@
     "title": "Excursión a la Ciudad de Cárdenas",
     "description": "San Juan de Dios de Cárdenas se encuentra a 14 km (30 minutos) de Varadero y es conocida como la Ciudad de los Primeros debido a su rica historia de logros, como la primera refinería de azúcar de Cuba (1851), el primer monumento a Cristóbal Colón en América (1862), la primera planta eléctrica para iluminación pública (septiembre de 1889) y el primer izado de la bandera (1850). La duración de la excursión es de aproximadamente 3-4 horas.",
     "lugar": "Matanzas",
-    "detalles": {
-    "p1": "Recogida en el hotel a las 9:00 AM.",
-    "p2": "Visita al centro colonial de la ciudad de Cárdenas.",
-    "p3": "Museo Batalla de Ideas: Explora este museo que narra la historia de la Batalla de Ideas en Cuba, un evento histórico significativo.",
-    "p4": "Museo Oscar María de Rojas: Visita este museo que rinde homenaje a Oscar María de Rojas, destacado médico y científico cubano.",
-    "p5": "Museo Casa Natal de José Antonio Echeverría: Conoce la casa donde nació José Antonio Echeverría, líder estudiantil y revolucionario cubano.",
-    "p6": "Hasta de la Bandera: Visita el lugar donde tuvo lugar el primer izado de la bandera en 1850.",
-    "p7": "Casa del Ron Arrechabala: Descubre la historia del ron cubano en la Casa del Ron Arrechabala, una experiencia única para los amantes del ron.",
-    "p8": "Monumento a las Madres: Rinde homenaje a las madres en este monumento simbólico.",
-    "p9": "Monumento al Mástil: Explora el monumento al mástil, una parte importante de la historia de Cárdenas.",
-    "p10": "Plaza Malacoff: Disfruta de la Plaza Malacoff, un espacio simbólico que refleja la arquitectura y la cultura de la ciudad.",
-    "p11": "La excursión concluye alrededor de la 1:00 PM, y regreso al hotel."
-    }
+    "detalles":"Recogida en el hotel a las 9:00 AM.\nVisita al centro colonial de la ciudad de Cárdenas.\nMuseo Batalla de Ideas: Explora este museo que narra la historia de la Batalla de Ideas en Cuba, un evento histórico significativo.\nMuseo Oscar María de Rojas: Visita este museo que rinde homenaje a Oscar María de Rojas, destacado médico y científico cubano.\nMuseo Casa Natal de José Antonio Echeverría: Conoce la casa donde nació José Antonio Echeverría, líder estudiantil y revolucionario cubano.\nHasta de la Bandera: Visita el lugar donde tuvo lugar el primer izado de la bandera en 1850.\nCasa del Ron Arrechabala: Descubre la historia del ron cubano en la Casa del Ron Arrechabala, una experiencia única para los amantes del ron.\nMonumento a las Madres: Rinde homenaje a las madres en este monumento simbólico.\nMonumento al Mástil: Explora el monumento al mástil, una parte importante de la historia de Cárdenas.\nPlaza Malacoff: Disfruta de la Plaza Malacoff, un espacio simbólico que refleja la arquitectura y la cultura de la ciudad.\nLa excursión concluye alrededor de la 1:00 PM, y regreso al hotel."
+    
     },
 
 "el10": {
 "title": "Tour Trinidad - Cienfuegos (Opcional Nicho)",
 "description": "Viaja por el campo cubano para visitar las dos ciudades más interesantes de la región central de Cuba. La ciudad de Cienfuegos, también conocida como la Perla del Sur, fundada por los franceses en 1819, es una ciudad ideal para apreciar la arquitectura neoclásica. Trinidad es una ciudad que te permite retroceder en el tiempo gracias a sus construcciones bien conservadas. Fue la tercera ciudad fundada por los españoles en Cuba y fue declarada Patrimonio de la Humanidad por la UNESCO en 1988.",
 "lugar": "Central",
-"detalles": {
-"p1": "Recogida en tu alojamiento u hotel a las 6:30 am.",
-"p2": "Viaje de aproximadamente tres horas por el campo hasta Cienfuegos.",
-"p3": "Excursión en la ciudad de Cienfuegos.",
-"p4": "Visita a la zona de Punta Gorda, el Palacio del Valle y el Hotel Jagua.",
-"p5": "Parada opcional en la cascada El Nicho (esto tiene un costo adicional de 40 euros para cubrir el transporte para subir la montaña).",
-"p6": "Nota: Si visitamos El Nicho, tendremos menos tiempo para dedicar a las otras áreas.",
-"p7": "Viaje a Trinidad para disfrutar de la vista al Mar Caribe.",
-"p8": "Tiempo de descanso para el almuerzo en Trinidad (no incluido).",
-"p9": "Paseo por el centro histórico, como la Plaza Mayor, La Canchanchara, museos, etc.",
-"p10": "Tiempo libre para más paseos o una visita al mercado artesanal si el tiempo lo permite.",
-"p11": "Regreso a tu hotel alrededor de las 7 pm.",
-"p12": "Este tour incluye un auto clásico con aire acondicionado y un guía turístico."
-}
+"detalles":"Recogida en tu alojamiento u hotel a las 6:30 am.\nViaje de aproximadamente tres horas por el campo hasta Cienfuegos.\nExcursión en la ciudad de Cienfuegos.\nVisita a la zona de Punta Gorda, el Palacio del Valle y el Hotel Jagua.\nParada opcional en la cascada El Nicho (esto tiene un costo adicional de 40 euros para cubrir el transporte para subir la montaña).\nNota: Si visitamos El Nicho, tendremos menos tiempo para dedicar a las otras áreas.\nViaje a Trinidad para disfrutar de la vista al Mar Caribe.\nTiempo de descanso para el almuerzo en Trinidad (no incluido).\nPaseo por el centro histórico, como la Plaza Mayor, La Canchanchara, museos, etc.\nTiempo libre para más paseos o una visita al mercado artesanal si el tiempo lo permite.\nRegreso a tu hotel alrededor de las 7 pm.\nEste tour incluye un auto clásico con aire acondicionado y un guía turístico."
+
 },
 "el11": {
   "title": "Tour de Tres Ciudades: Trinidad - Cienfuegos - Santa Clara",
   "description": "Viaja por el campo cubano para visitar las dos ciudades más interesantes de la región central de Cuba. La ciudad de Cienfuegos, también conocida como la Perla del Sur, fue fundada por los franceses en 1819 y es ideal para apreciar la arquitectura neoclásica. Trinidad te permite retroceder en el tiempo con sus construcciones bien conservadas, declaradas Patrimonio de la Humanidad por la UNESCO en 1988.",
   "lugar": "Central",
-  "detalles": {
-    "p1": "El viaje también se puede hacer en dos días.",
-    "p2": "Recogida en tu alojamiento u hotel a las 6:00 am.",
-    "p3": "Viaje de aproximadamente tres horas por el campo hasta Santa Clara.",
-    "p4": "Parada en el mausoleo de Ernesto Che Guevara y la Plaza de la Revolución.",
-    "p5": "Parada en el Parque Vidal y un recorrido por la ciudad.",
-    "p6": "Parada en el tren.",
-    "p7": "Parada opcional en la cascada El Nicho (esto tiene un costo adicional de 40 euros para cubrir el transporte para subir la montaña).",
-    "p8": "Nota: Si visitamos El Nicho, tendremos menos tiempo para dedicar a las otras áreas. No disponible en una excursión de un día.",
-    "p9": "Viaje a Trinidad para disfrutar de la vista al Mar Caribe.",
-    "p10": "Tiempo de descanso para el almuerzo en Trinidad (no incluido).",
-    "p11": "Paseo por el centro histórico, como la Plaza Mayor, La Canchanchara, museos, etc.",
-    "p12": "Tiempo libre para más paseos o una visita al mercado artesanal si el tiempo lo permite.",
-    "p13": "Salida hacia Cienfuegos.",
-    "p14": "Excursión en la ciudad de Cienfuegos.",
-    "p15": "Visita a la zona de Punta Gorda, el Palacio del Valle y el Hotel Jagua.",
-    "p16": "Regreso a tu hotel alrededor de las 9 pm."
-  }
+  "detalles":"El viaje también se puede hacer en dos días.\nRecogida en tu alojamiento u hotel a las 6:00 am.\nViaje de aproximadamente tres horas por el campo hasta Santa Clara.\nParada en el mausoleo de Ernesto Che Guevara y la Plaza de la Revolución.\nParada en el Parque Vidal y un recorrido por la ciudad.\nParada en el tren.\nParada opcional en la cascada El Nicho (esto tiene un costo adicional de 40 euros para cubrir el transporte para subir la montaña).\nNota: Si visitamos El Nicho, tendremos menos tiempo para dedicar a las otras áreas. No disponible en una excursión de un día.\nViaje a Trinidad para disfrutar de la vista al Mar Caribe.\nTiempo de descanso para el almuerzo en Trinidad (no incluido).\nPaseo por el centro histórico, como la Plaza Mayor, La Canchanchara, museos, etc.\nTiempo libre para más paseos o una visita al mercado artesanal si el tiempo lo permite.\nSalida hacia Cienfuegos.\nExcursión en la ciudad de Cienfuegos.\nVisita a la zona de Punta Gorda, el Palacio del Valle y el Hotel Jagua.\nRegreso a tu hotel alrededor de las 9 pm."
+  
 },
 "el12": {
   "title": "Tour Viñales - Soroa",
   "description": "Ubicada en la parte más occidental de Cuba, encontramos la provincia de Pinar del Río. Visita el Valle de Viñales y experimenta la sensación de haber retrocedido en el tiempo para ver arados tirados por bueyes, formaciones rocosas de piedra caliza increíbles y cuevas para explorar. El Valle de Viñales, junto con sus paisajes más espectaculares, fue declarado Patrimonio de la Humanidad por la UNESCO. Haz una parada en Soroa, también conocida como el 'arco iris de Cuba' por su belleza natural. Una pequeña cascada es excelente para un refrescante baño. El jardín de orquídeas es su principal atracción, cubriendo tres hectáreas y se presume que es el segundo más grande del mundo.",
-  "lugar": "Pinar del Rio",
-  "detalles": {
-    "p1": "Recogida en el hotel o lugar de alojamiento a las 8:30 am.",
-    "p2": "Atraviesa la provincia de La Habana para continuar hacia Soroa.",
-    "p3": "Visita Soroa, donde puedes disfrutar de un baño en la cascada y visitar el jardín de orquídeas (debes pagar la entrada en ambos lugares, 3-5 USD por persona).",
-    "p4": "Nota: Si vienes desde Varadero y pasas demasiado tiempo en Soroa, no tendrás suficiente tiempo para disfrutar de Viñales.",
-    "p5": "Continúa el viaje al Valle de Viñales.",
-    "p6": "Parada en el mirador 'Las Jazmines' (un excelente lugar para la fotografía).",
-    "p7": "Visita a la casa del agricultor para ver y aprender sobre el tabaco cubano.",
-    "p8": "Visita al pueblo de Viñales.",
-    "p9": "Visita a la Cueva del Indio (entrada no incluida, 5 USD por persona).",
-    "p10": "Visita al Mural de la Prehistoria.",
-    "p11": "Disfruta de un paseo a caballo (opcional, no incluido, 10-15 USD por persona).",
-    "p12": "Viaje de regreso a La Habana o Varadero."
-  }
+  "lugar": "Pinar del Río",
+  "detalles":"Recogida en el hotel o lugar de alojamiento a las 8:30 am.\nAtraviesa la provincia de La Habana para continuar hacia Soroa.\nVisita Soroa, donde puedes disfrutar de un baño en la cascada y visitar el jardín de orquídeas (debes pagar la entrada en ambos lugares, 3-5 USD por persona).\nNota: Si vienes desde Varadero y pasas demasiado tiempo en Soroa, no tendrás suficiente tiempo para disfrutar de Viñales.\nContinúa el viaje al Valle de Viñales.\nParada en el mirador 'Las Jazmines' (un excelente lugar para la fotografía).\nVisita a la casa del agricultor para ver y aprender sobre el tabaco cubano.\nVisita al pueblo de Viñales.\nVisita a la Cueva del Indio (entrada no incluida, 5 USD por persona).\nVisita al Mural de la Prehistoria.\nDisfruta de un paseo a caballo (opcional, no incluido, 10-15 USD por persona).\nViaje de regreso a La Habana o Varadero."
+  
 },
     
 "el13": {
   "title": "Tour de Ciudad en La Habana por Hora",
   "description": "Explora cada rincón de La Habana en un coche clásico descapotable durante un tiempo establecido. El precio es de 25 USD por hora.",
   "lugar": "Havana",
-  "detalles": {
-    "p1": "Explora cada rincón de La Habana en un coche clásico descapotable durante un tiempo establecido. El precio es de 25 USD por hora.",
-    "p2": "Capitolio de La Habana: Descubre el icónico edificio del Capitolio de La Habana.",
-    "p3": "Plaza de la Revolución: Visita la histórica Plaza de la Revolución.",
-    "p4": "Cementerio de Colón: Explora el impresionante Cementerio de Colón.",
-    "p5": "Bosque de La Habana: Disfruta de la belleza natural del Bosque de La Habana.",
-    "p6": "Parque John Lennon: Da un paseo en el Parque John Lennon.",
-    "p7": "Malecón de La Habana: Experimenta el encanto del Malecón de La Habana.",
-    "p8": "Cabaña del Morro: Admira las vistas panorámicas desde la Cabaña del Morro.",
-    "p9": "Fusterlandia: Visita la vibrante y artística Fusterlandia.",
-    "p10": "Museo Militar Che Guevara: Aprende sobre la historia en el Museo Militar Che Guevara.",
-    "p11": "Cristo de La Habana: Maravíllate con el icónico Cristo de La Habana."
-  }
+  "detalles":"Explora cada rincón de La Habana en un coche clásico descapotable durante un tiempo establecido. El precio es de 25 USD por hora.\nCapitolio de La Habana: Descubre el icónico edificio del Capitolio de La Habana.\nPlaza de la Revolución: Visita la histórica Plaza de la Revolución.\nCementerio de Colón: Explora el impresionante Cementerio de Colón.\nBosque de La Habana: Disfruta de la belleza natural del Bosque de La Habana.\nParque John Lennon: Da un paseo en el Parque John Lennon.\nMalecón de La Habana: Experimenta el encanto del Malecón de La Habana.\nCabaña del Morro: Admira las vistas panorámicas desde la Cabaña del Morro.\nFusterlandia: Visita la vibrante y artística Fusterlandia.\nMuseo Militar Che Guevara: Aprende sobre la historia en el Museo Militar Che Guevara.\nCristo de La Habana: Maravíllate con el icónico Cristo de La Habana."
+  
 }
      },
     "places_list":{
