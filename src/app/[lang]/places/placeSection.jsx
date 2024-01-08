@@ -13,8 +13,10 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
   const placesData = places;
   const [tag, setTag] = useState();
   const [itinerary, setItinerary] = useState();
-  const [selectedDescription, setSelectedDescription] = useState([]);
+  const [selectedDescription, setSelectedDescription] = useState("");
   const [selectedId, setSelectedId] = useState(null);
+
+  const selectedArray = selectedDescription.split("\n");
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -22,7 +24,7 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
   const handleChange = (newTag) => {
     setTag(newTag);
     if (tag !== newTag) {
-      setSelectedDescription([]);
+      setSelectedDescription("");
       setItinerary();
     }
     const newMatchingItineraries = itineraryData.filter((item) =>
@@ -79,7 +81,7 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
         {h2}
       </h2>
 
-      <div className="items-center  flex flex-wrap sm:justify-center justify-start md:space-x-10 sm:sm:space-x-4 gap-4 sm:gap-0 sm:py-10 py-3">
+      <div className="items-start flex flex-wrap justify-center md:space-x-10 sm:sm:space-x-4 gap-4 sm:gap-0 sm:py-10 py-3">
         <ButtonTag
           onClick={handleChange}
           name={"Pinar del Río"}
@@ -175,14 +177,9 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
             ))}
           </div>
           <div className="sm:w-1/2 w-full flex flex-col gap-2">
-            {selectedDescription.map((e, index) =>
-              e.startsWith("Place") ? null : (
-                <p key={index}>
-                  <strong className="">- </strong>
-                  {e}
-                </p>
-              )
-            )}
+            {selectedArray.map((item) => (
+              <p key={item}>- {item}</p>
+            ))}
           </div>
         </div>
 

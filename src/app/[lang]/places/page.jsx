@@ -14,19 +14,13 @@ export default function Home() {
   const central = t("Central");
   //aqui traduzco los itinerarios
 
-  const detalles = itineraryList("el1.detalles");
-
-  let detallesArray = detalles.split("\n");
-
   for (let i = 1; i <= 13; i++) {
     let titleKey = `el${i}.title`;
 
-    let detailKey = `el${i}.detalles`;
     const detalles = `${itineraryList(`el${i}.detalles`)}`;
-    let detallesArray = detalles.split("\n");
 
     itineraryData[i - 1].title = itineraryList(titleKey);
-    itineraryData[i - 1].detalles = detallesArray;
+    itineraryData[i - 1].detalles = detalles;
   }
 
   //aqui traduzco los lugares
@@ -38,7 +32,7 @@ export default function Home() {
   }
 
   return (
-    <main className=" xl:px-16 px-0 sm:mt-32 mt-24">
+    <main className="xl:px-16 px-0 sm:mt-32 mt-24">
       <PlaceSection
         itinerario={itineraryData}
         h2={h2}
