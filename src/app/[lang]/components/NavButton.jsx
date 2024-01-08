@@ -12,13 +12,6 @@ const NavButton = ({ links }) => {
     setNavbarOpen(!valor);
   };
 
-  const changePastname = () => {
-    setLastPastname(pathname);
-    if (lastpastname != pathname) {
-      setNavbarOpen(false);
-    }
-  };
-
   const closeModal = (e) => {
     if (e.target.id === "close") {
       setNavbarOpen(false);
@@ -26,10 +19,24 @@ const NavButton = ({ links }) => {
   };
   useEffect(() => {
     if (navbarOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "auto";
+      setLastPastname(pathname);
+      if (lastpastname != pathname) {
+        setNavbarOpen(false);
+      }
     }
+  }, [navbarOpen, pathname, lastpastname]);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (navbarOpen) {
+        setNavbarOpen(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, [navbarOpen]);
 
   return (
@@ -56,7 +63,7 @@ const NavButton = ({ links }) => {
             className=" fixed transition-all duration-75 delay-75  inset-0   cursor-pointer flex items-start mt-[18%] mr-[4%] justify-center"
             onClick={closeModal}
           >
-            <MenuOverlay links={links} changePastname={changePastname} />
+            <MenuOverlay links={links} />
           </div>
         ) : null}
       </div>
