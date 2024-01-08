@@ -18,13 +18,14 @@ const NavButton = ({ links }) => {
     }
   };
   useEffect(() => {
-    if (navbarOpen) {
-      setLastPastname(pathname);
-      if (lastpastname != pathname) {
-        setNavbarOpen(false);
-      }
+    setLastPastname(pathname);
+    console.log(pathname);
+    console.log(lastpastname);
+    if (lastpastname != pathname) {
+      setNavbarOpen(false);
     }
-  }, [navbarOpen, pathname, lastpastname]);
+  }, [pathname, lastpastname]);
+
   useEffect(() => {
     const handleScroll = () => {
       if (navbarOpen) {
