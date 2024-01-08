@@ -25,7 +25,10 @@ const NavbarLinks = ({ links }) => {
               className="hover:scale-110 transition-all duration-200"
             />
           </Link>
-          <Link href="#" target="_blank">
+          <Link
+            href="https://www.threads.net/@explorecubainclassiccars"
+            target="_blank"
+          >
             <Image
               src="/icons/insta-sky.svg"
               alt="face"

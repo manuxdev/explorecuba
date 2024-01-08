@@ -208,6 +208,11 @@
     "lugar": "Havana",
     "detalles":"Explore every corner of Havana in a classic convertible car for a set amount of time. The price is $25 USD per hour.\nCapitol of Havana: Discover the iconic Capitol building of Havana.\nRevolution Square: Visit the historical Revolution Square.\nColon Cemetery: Explore the impressive Colon Cemetery.\nHavana Forest: Enjoy the natural beauty of Havana Forest.\nJohn Lennon Park: Take a stroll in John Lennon Park.\nHavana Malecon: Experience the charm of the Havana Malecon.\nMorro Cabin: Admire the scenic views from Morro Cabin.\nFusterlandia: Visit the vibrant and artistic Fusterlandia.\nChe Guevara Military Museum: Learn about the history at the Che Guevara Military Museum.\nChrist of Havana: Marvel at the iconic Christ of Havana."
     
+  },  "el14": {
+    "title": "City Tour Varadero for Hour",
+    "lugar": "Matanzas",
+    "detalles":"Explore every corner of the city of Varadero in a classic convertible car for time. The price is $40 USD/hour.\nHouse of Al\nCraft fair\nPhotographic viewpoint\nJosones Park\nVaradero Boulevard\nXanadu Mansion\nDolphinarium\nMarina Varadero"
+    
   }
        },
     "places_list":{
@@ -430,7 +435,17 @@
      "title": "Monserrate View",
      "description":
         "Ascend to Monserrate View for panoramic views of Havana. Capture breathtaking cityscapes, enjoy a serene atmosphere, and marvel at the beauty of the Cuban capital from above."
-    }
+    },
+    "id52": {
+      "title": "Varadero Dolphinarium",
+      "description":
+         "The Varadero Dolphinarium is an institution located in Cuba, with headquarters in the Punta Hicacos Natural Park. It was founded on December 5, 1887 with the purpose of increasing recreational options for national and foreign tourism. Although it began to develop as a summer resort in the 1940s, in the last 10 years its hotel network and non-hotel offering have experienced unprecedented growth. One of the main activities you can do at the Varadero dolphinarium is to attend one of the two dolphin shows that take place at 9:00 in the morning and 5 in the afternoon. Additionally, you can choose to participate in the bath and show with dolphins. The Varadero Dolphinarium has a large pool where the dolphins perform their shows. Around a dozen dolphins, literally adorable, perform four shows a day with large crowds. In addition, you can choose to take a 15-minute dive next to the dolphins. For children, there is a children's recreation park on site with other offers that will make them enjoy their visit. Finally, the environment surrounding the dolphinarium is full of natural riches that you can enjoy, such as caves, escarpments, a string of virgin and easily accessible keys, and a characteristic natural landscape."
+     },
+     "id53": {
+      "title": "Marina Varadero",
+      "description":
+         "The Marina Varadero offers a variety of activities to enjoy during your visit. One of the main activities is swimming at the beautiful Varadero beach, known for its coral reefs and crystal clear water. If you like sports, you can practice water sports such as windsurfing, kitesurfing, snorkeling and diving. Another interesting option is to visit the pre-Columbian paintings in the Cueva de Ambrosio, located in the northern part of the peninsula. These paintings are an important testimony of the pre-Columbian history of the region. If you prefer a quieter experience, you can take a classic car ride around the area. This will allow you to appreciate the natural beauty of the Hicacos peninsula."
+     }
   }
 }   
 

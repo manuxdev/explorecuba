@@ -277,4 +277,21 @@ export const itineraryData = [
       "Christ of Havana",
     ],
   },
+  {
+    title: "City Tour Varadero for Hour",
+    description:
+      "Explore every corner of Havana in a convertible classic car for time. The price is $25 USD/hour.",
+    lugar: ["Matanzas"],
+    detalles: [
+      "Explore every corner of the city of Varadero in a classic convertible car for time. The price is $40 USD/hour.",
+      "House of All",
+      "Craft fair",
+      "Photographic viewpoint",
+      "Josones Park",
+      "Varadero Boulevard",
+      "Xanadu Mansion",
+      "Dolphinarium",
+      "Marina Varadero",
+    ],
+  },
 ];

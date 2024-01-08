@@ -30,7 +30,10 @@ const Footer = () => {
                 className=" hover:scale-110 transition-all duration-200"
               />
             </Link>
-            <Link target="_blank" href="#">
+            <Link
+              target="_blank"
+              href="https://www.threads.net/@explorecubainclassiccars"
+            >
               <Image
                 src="/icons/insta-blue.svg"
                 alt="Instagram"

@@ -186,6 +186,8 @@ export const placesData = [
       "Jeep Safari",
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
     ],
   },
   {
@@ -225,6 +227,8 @@ export const placesData = [
       "Jeppe Safari",
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
     ],
   },
   {
@@ -263,6 +267,8 @@ export const placesData = [
       "Jeppe Safari",
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
     ],
   },
   {
@@ -312,6 +318,8 @@ export const placesData = [
       "Jeppe Safari",
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
     ],
   },
   {
@@ -434,6 +442,8 @@ export const placesData = [
     itinerary: [
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
     ],
   },
   {
@@ -713,5 +723,31 @@ export const placesData = [
     image: "/images/places/nuevos_places/Vistas_Monserrate.webp",
     tag: "Matanzas",
     itinerary: ["Tour por Matanzas", "Matanzas Tour"],
+  },
+  {
+    id: 55,
+    title: "Delfinario Varadero",
+    description:
+      "El Delfinario de Varadero es una institución ubicada en Cuba, con sede en el Parque Natural Punta Hicacos. Fue fundado el 5 de diciembre de 1887 con la finalidad de incrementar las opciones recreativas para el turismo nacional y extranjero. Aunque comenzó a desarrollarse como centro de veraneo en la década de 1940, en los últimos 10 años su red hotelera y la oferta extrahotelera han experimentado un crecimiento sin precedentes. Una de las actividades principales que puedes hacer en el delfinario de Varadero es asistir a uno de los dos espectáculos de delfines que se realizan a las 9:00 de la mañana y las 5 de la tarde. Además, puedes optar por participar en el baño y show con delfines. El Delfinario de Varadero cuenta con una gran piscina donde los delfines realizan sus espectáculos. Alrededor de una docena de delfines, literalmente adorables, realizan cuatro espectáculos diarios con gran afluencia de público. Además, puedes optar por darte una zambullida de 15 minutos al lado de los delfines.  Para los niños, existe un parque de recreación infantil en el lugar con otras ofertas que les harán disfrutar su visita 1.  Finalmente, el entorno que rodea al delfinario está lleno de riquezas naturales que puedes disfrutar, como cuevas, escarpes, un rosario de cayos vírgenes y de fácil acceso, y un paisaje natural característico.",
+
+    image: "/images/places/nuevos_places/Delfinario_Varadero.webp",
+    tag: "Matanzas",
+    itinerary: [
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
+    ],
+  },
+
+  {
+    id: 56,
+    title: "Marina de Varadero",
+    description:
+      "La Marina de Varadero ofrece una variedad de actividades para disfrutar durante tu visita. Una de las principales actividades es nadar en la hermosa playa de Varadero, conocida por sus arrecifes de coral y su agua cristalina. Si te gusta el deporte, puedes practicar deportes acuáticos como windsurf, kitesurf, snorkeling y buceo.  Otra opción interesante es visitar las pinturas precolombinas de la Cueva de Ambrosio, ubicada en la parte norte de la península. Estas pinturas son un testimonio importante de la historia precolombina de la región.  Si prefieres una experiencia más tranquila, puedes hacer un paseo en coche clásico por la zona. Esto te permitirá apreciar la belleza natural de la península de Hicacos.",
+    image: "/images/places/nuevos_places/Marina_Varadero.webp",
+    tag: "Matanzas",
+    itinerary: [
+      "City Tour Varadero for Hour",
+      "Recorrido por la ciudad de Varadero por hora",
+    ],
   },
 ];

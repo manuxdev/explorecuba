@@ -208,8 +208,14 @@
   "description": "Explora cada rincón de La Habana en un coche clásico descapotable durante un tiempo establecido. El precio es de 25 USD por hora.",
   "lugar": "Havana",
   "detalles":"Explora cada rincón de La Habana en un coche clásico descapotable durante un tiempo establecido. El precio es de 25 USD por hora.\nCapitolio de La Habana: Descubre el icónico edificio del Capitolio de La Habana.\nPlaza de la Revolución: Visita la histórica Plaza de la Revolución.\nCementerio de Colón: Explora el impresionante Cementerio de Colón.\nBosque de La Habana: Disfruta de la belleza natural del Bosque de La Habana.\nParque John Lennon: Da un paseo en el Parque John Lennon.\nMalecón de La Habana: Experimenta el encanto del Malecón de La Habana.\nCabaña del Morro: Admira las vistas panorámicas desde la Cabaña del Morro.\nFusterlandia: Visita la vibrante y artística Fusterlandia.\nMuseo Militar Che Guevara: Aprende sobre la historia en el Museo Militar Che Guevara.\nCristo de La Habana: Maravíllate con el icónico Cristo de La Habana."
+},
   
-}
+  "el14": {
+      "title": "Recorrido por la ciudad de Varadero por hora",
+      "lugar": "Matanzas",
+      "detalles": "Explora cada rincón de la ciudad de Varadero en un clásico automóvil convertible por tiempo. El precio es de $40 USD/hora.\nCasa de Al\nFeria de Artesanías\nPunto de vista fotográfico\nParque Josones\nBoulevard de Varadero\nMansión Xanadu\nDelfinario\nMarina de Varadero"
+  }
+
      },
     "places_list":{
       "id1": {
@@ -429,6 +435,16 @@
     "title": "Vista de Monserrate",
     "description":
        "Sube a la Vista de Monserrate para disfrutar de vistas panorámicas de La Habana. Captura impresionantes paisajes urbanos, disfruta de un ambiente sereno y maravíllate con la belleza de la capital cubana desde arriba"
+   },
+   "id52": {
+    "title": "Delfinario Varadero",
+    "description":
+       "El Delfinario de Varadero es una institución ubicada en Cuba, con sede en el Parque Natural Punta Hicacos. Fue fundado el 5 de diciembre de 1887 con la finalidad de incrementar las opciones recreativas para el turismo nacional y extranjero. Aunque comenzó a desarrollarse como centro de veraneo en la década de 1940, en los últimos 10 años su red hotelera y la oferta extrahotelera han experimentado un crecimiento sin precedentes. Una de las actividades principales que puedes hacer en el delfinario de Varadero es asistir a uno de los dos espectáculos de delfines que se realizan a las 9:00 de la mañana y las 5 de la tarde. Además, puedes optar por participar en el baño y show con delfines. El Delfinario de Varadero cuenta con una gran piscina donde los delfines realizan sus espectáculos. Alrededor de una docena de delfines, literalmente adorables, realizan cuatro espectáculos diarios con gran afluencia de público. Además, puedes optar por darte una zambullida de 15 minutos al lado de los delfines.  Para los niños, existe un parque de recreación infantil en el lugar con otras ofertas que les harán disfrutar su visita.  Finalmente, el entorno que rodea al delfinario está lleno de riquezas naturales que puedes disfrutar, como cuevas, escarpes, un rosario de cayos vírgenes y de fácil acceso, y un paisaje natural característico."
+   },
+   "id53": {
+    "title": "Marina de Varadero",
+    "description":
+       "La Marina de Varadero ofrece una variedad de actividades para disfrutar durante tu visita. Una de las principales actividades es nadar en la hermosa playa de Varadero, conocida por sus arrecifes de coral y su agua cristalina. Si te gusta el deporte, puedes practicar deportes acuáticos como windsurf, kitesurf, snorkeling y buceo.  Otra opción interesante es visitar las pinturas precolombinas de la Cueva de Ambrosio, ubicada en la parte norte de la península. Estas pinturas son un testimonio importante de la historia precolombina de la región.  Si prefieres una experiencia más tranquila, puedes hacer un paseo en coche clásico por la zona. Esto te permitirá apreciar la belleza natural de la península de Hicacos."
    }
   }
 

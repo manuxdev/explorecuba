@@ -19,8 +19,6 @@ const NavButton = ({ links }) => {
   };
   useEffect(() => {
     setLastPastname(pathname);
-    console.log(pathname);
-    console.log(lastpastname);
     if (lastpastname != pathname) {
       setNavbarOpen(false);
     }

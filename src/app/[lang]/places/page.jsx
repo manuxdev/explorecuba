@@ -14,7 +14,7 @@ export default function Home() {
   const central = t("Central");
   //aqui traduzco los itinerarios
 
-  for (let i = 1; i <= 13; i++) {
+  for (let i = 1; i <= 14; i++) {
     let titleKey = `el${i}.title`;
 
     const detalles = `${itineraryList(`el${i}.detalles`)}`;
@@ -24,7 +24,7 @@ export default function Home() {
   }
 
   //aqui traduzco los lugares
-  for (let i = 1; i <= 51; i++) {
+  for (let i = 1; i <= 53; i++) {
     let titleKey = `id${i}.title`;
     let descKey = `id${i}.description`;
     placesData[i - 1].title = placeList(titleKey);
