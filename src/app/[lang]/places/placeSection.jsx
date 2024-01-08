@@ -176,7 +176,7 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
               </div>
             ))}
           </div>
-          <div className="sm:w-1/2 w-full flex flex-col gap-2">
+          <div className="sm:w-1/2 w-full flex flex-col sm:mt-0 mt-5 gap-2">
             {selectedArray.map((item) => (
               <p key={item}>- {item}</p>
             ))}
