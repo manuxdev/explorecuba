@@ -2,12 +2,21 @@
 import React, { useEffect, useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./menuOverlay";
+import { usePathname } from "next/navigation";
 const NavButton = ({ links }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
-
+  const [lastpastname, setLastPastname] = useState();
+  const pathname = usePathname();
   const handlerChange = () => {
     const valor = navbarOpen;
     setNavbarOpen(!valor);
+  };
+
+  const changePastname = () => {
+    setLastPastname(pathname);
+    if (lastpastname != pathname) {
+      setNavbarOpen(false);
+    }
   };
 
   const closeModal = (e) => {
@@ -47,7 +56,7 @@ const NavButton = ({ links }) => {
             className=" fixed transition-all duration-75 delay-75  inset-0   cursor-pointer flex items-start mt-[18%] mr-[4%] justify-center"
             onClick={closeModal}
           >
-            <MenuOverlay links={links} />
+            <MenuOverlay links={links} changePastname={changePastname} />
           </div>
         ) : null}
       </div>
