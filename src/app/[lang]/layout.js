@@ -13,6 +13,9 @@ export const metadata = {
   title: "Explore Cuba in Classic Cars",
   description:
     "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
+  icons: {
+    icon: "/favicon.ico", // /public path
+  },
 };
 
 export default function RootLayout({ children, locale }) {
