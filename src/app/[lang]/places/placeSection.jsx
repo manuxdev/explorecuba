@@ -109,7 +109,7 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
           stroke="#ffffff"
           strokeWidth="2"
           viewBox="0 50 600 100"
-          className="w-full h-[150px] sm:h-[250px] md:h-[400px]"
+          className="w-full h-[150px] sm:h-[250px] md:h-[400px] 2xl:h-[550px]"
         >
           <PlaceTag
             onClick={handleChange}
