@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 const Places = () => {
   const t = useTranslations("Home");
   return (
-    <section className=" h-auto md:pr-28 pr-0 pb-20 px-12">
+    <section className=" h-auto md:pr-28 pr-0 pb-20 ">
       <div className="mt-20">
         <div className="flex justify-center items-center flex-col text-center">
           <h2 className="font-bold text-2xl text-paleta-blue-900">
