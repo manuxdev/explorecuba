@@ -3,6 +3,10 @@ import PlaceSection from "./placeSection";
 import { placesData } from "../data/palces";
 import { itineraryData } from "../data/ininerary";
 
+export const metadata = {
+  title: "Places",
+};
+
 export default function Home() {
   const t = useTranslations("Places");
   const itineraryList = useTranslations("Places.Itinerary_list");

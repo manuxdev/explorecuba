@@ -3,6 +3,10 @@ import Image from "next/image";
 import SwiperE from "./swiper";
 import { useTranslations } from "next-intl";
 
+export const metadata = {
+  title: "Cars",
+};
+
 export default function Home() {
   const t = useTranslations("Cars");
   return (

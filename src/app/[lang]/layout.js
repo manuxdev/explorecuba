@@ -10,22 +10,27 @@ import { NextIntlClientProvider, useMessages } from "next-intl";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  url: "https://explorecubainclassiccars.com",
-  metadataBase: new URL("https://explorecubainclassiccars.com"),
-  alternates: {
-    canonical: "/",
+  // url: "https://explorecubainclassiccars.com",
+  // metadataBase: new URL("https://explorecubainclassiccars.com"),
+  // alternates: {
+  //   canonical: "/",
+  // },
+  title: {
+    default: "Explore Cuba in Classic Cars",
+    template: "%s | Explore Cuba in Classic Cars",
   },
-  title: "Explore Cuba in Classic Cars",
   description:
     "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
-
-  openGraph: {
-    title: "Explore Cuba in Classic Cars",
-    description:
-      "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
-    images: "/ogimage.webp",
+  twitter: {
+    card: "summary_large_image",
   },
-  siteName: "Explore Cuba in Classic Cars",
+  // openGraph: {
+  //   title: "Explore Cuba in Classic Cars",
+  //   description:
+  //     "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
+  //   images: "/ogimage.webp",
+  // },
+  // siteName: "Explore Cuba in Classic Cars",
 };
 
 export default function RootLayout({ children, locale }) {
