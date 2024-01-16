@@ -22,7 +22,7 @@ export const metadata = {
   description:
     "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
   },
   // openGraph: {
   //   title: "Explore Cuba in Classic Cars",
