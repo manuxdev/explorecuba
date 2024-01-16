@@ -22,7 +22,7 @@ export const metadata = {
   description:
     "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
   },
   // openGraph: {
   //   title: "Explore Cuba in Classic Cars",
@@ -37,7 +37,7 @@ export default function RootLayout({ children, locale }) {
   const messages = useMessages();
   return (
     <html lang={locale}>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
+      {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
       {/* <Head>
         <meta property="og:image" content="/favicon.ico" key="image" />
         <meta name="twitter:card" content="summary" />

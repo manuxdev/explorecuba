@@ -4,7 +4,7 @@ import SwiperE from "./swiper";
 import { useTranslations } from "next-intl";
 
 export const metadata = {
-  title: "Cars",
+  title: "Classic Cars",
 };
 
 export default function Home() {

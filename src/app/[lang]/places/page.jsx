@@ -4,7 +4,7 @@ import { placesData } from "../data/palces";
 import { itineraryData } from "../data/ininerary";
 
 export const metadata = {
-  title: "Places",
+  title: "Places to Discover",
 };
 
 export default function Home() {
