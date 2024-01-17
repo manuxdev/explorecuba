@@ -28,7 +28,7 @@ export const metadata = {
       "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
 
     images: [
-      "https://opengraph.b-cdn.net/production/documents/52c2d502-703a-47d8-99e0-d993e653c12f.png?token=X7qtXFrWrk7PT8PWAXtojXe52W1U8fW0V5Q024MMcvQ&height=630&width=1200&expires=33241468330",
+      "https://opengraph.b-cdn.net/production/documents/fbc25111-6eaf-4ec1-bf8f-7f9095fbdbdd.png?token=BaF9XN2V2yK_NNP95Kx0xpD4ZroofTDNLUUqpdfYhVM&height=630&width=1200&expires=33241470864",
     ],
   },
   openGraph: {
@@ -36,7 +36,7 @@ export const metadata = {
     siteName: "Explore Cuba in Classic Cars",
     images: [
       {
-        url: "https://opengraph.b-cdn.net/production/documents/52c2d502-703a-47d8-99e0-d993e653c12f.png?token=X7qtXFrWrk7PT8PWAXtojXe52W1U8fW0V5Q024MMcvQ&height=630&width=1200&expires=33241468330", // Must be an absolute URL
+        url: "https://opengraph.b-cdn.net/production/documents/fbc25111-6eaf-4ec1-bf8f-7f9095fbdbdd.png?token=BaF9XN2V2yK_NNP95Kx0xpD4ZroofTDNLUUqpdfYhVM&height=630&width=1200&expires=33241470864", // Must be an absolute URL
       },
     ],
     type: "website",
