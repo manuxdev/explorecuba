@@ -23,7 +23,26 @@ export const metadata = {
     "Provides information, tours, or services related to exploring classic cars in Cuba. It can be a valuable resource for enthusiasts, travellers, or individuals interested in the history and culture of Cuban classic cars.",
   twitter: {
     card: "summary_large_image",
+
+    images: ["https://explorecuba.vercel.app/opengraph-image.png"],
   },
+  openGraph: {
+    url: "https://explorecubainclassiccars.com",
+    siteName: "Explore Cuba in Classic Cars",
+    images: [
+      {
+        url: '/opengraph-image.png"', // Must be an absolute URL
+      },
+    ],
+    type: "website",
+  },
+  // metadataBase: new URL("https://explorecuba.vercel.app"),
+  // alternates: {
+  //   canonical: "/",
+  // },
+  // openGraph: {
+  //   images: "/opengraph-image.png",
+  // },
   // openGraph: {
   //   title: "Explore Cuba in Classic Cars",
   //   description:
