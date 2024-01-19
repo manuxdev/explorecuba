@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 
 import Image from "next/image";
 import { Link } from "../../../navigation";
-import React from "react";
+
 const Hero = () => {
   const t = useTranslations("Home");
 
@@ -17,8 +17,6 @@ const Hero = () => {
         </h1>
         <p className="md:text-lg text-base mt-4 text-slate-600 md:max-w-[70%] max-w-lg">
           {t("Hero.p")}
-          {/* <wbr /> Built with Astro.build and TailwindCSS. You can quickly create
-          any website with this starter. */}
         </p>
         <div className="mt-6 flex flex-col md:flex-row gap-3">
           <Link
@@ -40,12 +38,6 @@ const Hero = () => {
         className="h-full sm:w-[100%] w-[120%] right-0 bg-paleta-blue-900 pb-52 relative z-10 sm:col-span-5 col-span-4 place-self-center mt-[-10px] md:block hidden
  "
       >
-        {/* // sm:rounded-none sm:shadow-none
-  //        rounded-full
-  //        w-[250px]
-  //        h-[250px]
-  //        shadow-lg
-         shadow-[#2c2c2c] */}
         <div
           className="bottom-0 md:-translate-x-40 lg:-translate-x-40 sm:-translate-y-0 absolute md:pb-16 sm:pb-32 lg:block hidden
                  transform -translate-x-0

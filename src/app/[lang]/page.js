@@ -8,7 +8,6 @@ export default function Home() {
     <main className="md:pl-16 md:px-0 px-4">
       <Hero />
       <Places />
-      {/* <Work /> */}
       <CarSection />
       <Comments />
     </main>

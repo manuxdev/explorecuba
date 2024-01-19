@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import PlaceSection from "./placeSection";
-import { placesData } from "../data/palces";
+import { placesData } from "../data/places";
 import { itineraryData } from "../data/ininerary";
 
 export const metadata = {

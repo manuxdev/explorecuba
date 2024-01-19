@@ -1,4 +1,3 @@
-import React from "react";
 import { images } from "../data/images";
 import { Link } from "../../../navigation";
 import { useTranslations } from "next-intl";

@@ -15,9 +15,7 @@ export default function Home() {
   return (
     <main className="xl:pl-16 xl:px-0 px-4 sm:mt-32 mt-24">
       {/*//todo ABOUT US  */}
-      {/* <h1 className="w-full text-center text-5xl font-bold text-paleta-blue-900 pr-16">
-        About US
-      </h1> */}
+
       <section className="w-full h-auto  flex xl:flex-row flex-col items-start justify-center">
         <div className="xl:w-[550px] xl:h-[400px] w-auto h-auto bg-paleta-blue-500 rounded-xl  py-10 pl-8 xl:pr-20 pr-8">
           <h2 className="text-paleta-blue-900 text-4xl  font-bold">

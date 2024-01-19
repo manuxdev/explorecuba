@@ -1,5 +1,3 @@
-import React from "react";
-
 const ItineraryTag = ({ title, onClick, isSelected, desc }) => {
   const buttonStyle = isSelected
     ? "border-paleta-blue-900 "

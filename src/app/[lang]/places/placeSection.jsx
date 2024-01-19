@@ -5,8 +5,6 @@ import PlaceTag from "./placeTag";
 import ItineraryTag from "./itineraryTag";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import ButtonTag from "./ButtonTag";
-// import { placesData } from "../data/palces";
-// import { itineraryData } from "../data/ininerary";
 
 const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
   const itineraryData = itinerario;
@@ -62,13 +60,6 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
       document.body.style.overflow = "auto";
     }
   }, [selectedId]);
-
-  // useEffect(() => {
-  //   if (matchingItineraries.length === 1) {
-  //     const singleItinerary = matchingItineraries[0];
-  //     handleItinerary(singleItinerary.title, singleItinerary.detalles);
-  //   }
-  // }, [matchingItineraries]);
 
   const closeModal = (e) => {
     if (e.target.id === "close") {
@@ -257,82 +248,3 @@ const PlaceSection = ({ itinerario, h2, h4, places, habana, central }) => {
 };
 
 export default PlaceSection;
-
-// <h2 className="text-center font-bold text-4xl text-paleta-blue-900 mb-10">
-// Popular Places
-// </h2>
-// <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12 relative">
-// <AnimatePresence>
-//   {filteredPlaces.map((t, index) => (
-//     <motion.li
-//       key={t.id}
-//       variants={cardVariants}
-//       initial="initial"
-//       animate={isInView ? "animate" : "initial"}
-//       exit={{ y: 50, opacity: 0 }}
-//       transition={{ duration: 0.2, delay: index * 0.1 }}
-//     >
-//       <motion.div layoutId={t.id} onClick={() => handleClick(t)}>
-//         <PlaceCard
-//           key={t.id}
-//           title={t.title}
-//           description={t.description}
-//           imgUrl={t.image}
-//           tags={t.tag}
-//         />
-//       </motion.div>
-//       {selectedId && (
-//         <motion.div
-//           id="close"
-//           className=" fixed transition-all duration-75 delay-75  inset-0   cursor-pointer flex items-center justify-center"
-//           onClick={closeModal}
-//         >
-//           <motion.div
-//             transition={{ duration: 0.1 }}
-//             className="  h-[500px] w-[800px] bg-paleta-blue-900  cursor-default rounded-xl overflow-y-scroll"
-//             layoutId={selectedId.id}
-//           >
-//             <div
-//               style={{
-//                 backgroundImage: `url(${selectedId.image})`,
-//                 backgroundSize: "cover",
-//                 backgroundRepeat: "no-repeat",
-//                 backgroundPosition: "top",
-//               }}
-//               className="w-full h-[300px] rounded-b-xl "
-//             >
-//               {" "}
-//               <div className="w-full text-end">
-//                 {" "}
-//                 <motion.button
-//                   className=" py-2 px-4 bg-paleta-bond-200 mt-4 mr-4 rounded-full text-paleta-blue-900 text-xl font-bold"
-//                   id="close"
-//                   onClick={closeModal}
-//                 >
-//                   x
-//                 </motion.button>
-//               </div>
-//             </div>
-//             <div className="text-paleta-bond-200 sm:px-10 px-4 py-4 space-y-5">
-//               <motion.h2 className="font-bold text-2xl">
-//                 {selectedId.title}
-//               </motion.h2>
-//               <motion.h5>{selectedId.description}</motion.h5>
-//               <h4 className="text-xl font-semibold pt-5">
-//                 Tourism Atraction
-//               </h4>
-//               <ul className="flex flex-col gap-2">
-//                 {selectedId.tourism.map((el, index) => (
-//                   <li key={index}>
-//                     {index + 1}- {el}
-//                   </li>
-//                 ))}
-//               </ul>
-//             </div>
-//           </motion.div>
-//         </motion.div>
-//       )}
-//     </motion.li>
-//   ))}
-// </AnimatePresence>
-// </ul>

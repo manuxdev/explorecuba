@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { Link } from "../../../navigation";
-import React from "react";
 
 const CarSection = () => {
   const t = useTranslations("Home");
