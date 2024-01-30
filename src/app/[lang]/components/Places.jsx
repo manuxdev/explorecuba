@@ -13,7 +13,7 @@ const Places = () => {
           </h2>
           <p>{t("Places.p")}</p>
         </div>
-        <div className="md:grid grid-cols-8 md:gap-3 gap-5 grid-rows-10 mt-8 flex flex-col md:flex-row">
+        <div className="grid md:grid-cols-8 md:gap-3 gap-5 md:grid-rows-10 mt-8 grid-cols-1 row-auto">
           {images.map((img, index) => (
             <div
               key={index}
