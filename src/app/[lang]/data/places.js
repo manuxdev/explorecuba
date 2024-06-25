@@ -243,6 +243,8 @@ export const placesData = [
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
       "Jeep Safari",
+      "Safari en Playa Coral y Cueva de Saturno",
+      "Coral Beach and Saturn Cave Safari"
     ],
   },
   {
@@ -333,6 +335,8 @@ export const placesData = [
       "Jeep Safari",
       "Excursión de un día a Varadero desde La Habana",
       "One-day excursion to Varadero from Havana",
+      "Coral Beach and Saturn Cave Safari",
+      "Safari en Playa Coral y Cueva de Saturno"
     ],
   },
   {
@@ -748,6 +752,18 @@ export const placesData = [
     itinerary: [
       "City Tour Varadero for Hour",
       "Recorrido por la ciudad de Varadero por hora",
+    ],
+  },
+  {
+    id: 57,
+    title: "Rancho Charpito",
+    description:
+      "Rancho Charpito, un tesoro escondido en el hermoso Valle de Yumurí, en la provincia de Matanzas. Este encantador rancho ofrece una escapada perfecta para quienes buscan conectar con la naturaleza y disfrutar de actividades al aire libre en un entorno sereno y natural.",
+    image: "/images/places/Rancho_Charpito.webp",
+    tag: "Matanzas",
+    itinerary: [
+      "Rancho Charpito in the Yumurí Valley",
+      "Rancho Charpito en el Valle de Yumurí",
     ],
   },
 ];

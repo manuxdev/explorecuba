@@ -18,11 +18,9 @@ export default function Home() {
   const central = t("Central");
   //aqui traduzco los itinerarios
 
-  for (let i = 1; i <= 14; i++) {
+  for (let i = 1; i <= 16; i++) {
     let titleKey = `el${i}.title`;
-
     const detalles = `${itineraryList(`el${i}.detalles`)}`;
-
     itineraryData[i - 1].title = itineraryList(titleKey);
     itineraryData[i - 1].detalles = detalles;
   }

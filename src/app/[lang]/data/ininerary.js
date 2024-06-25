@@ -283,6 +283,41 @@ export const itineraryData = [
       "Explore every corner of Havana in a convertible classic car for time. The price is $25 USD/hour.",
     lugar: ["Matanzas"],
     detalles: [
+      "⌚Comienza tu día de aventura con una recogida puntual en tu hotel a las 9:00 am. Este tour te ofrece una variedad de actividades y experiencias únicas hasta el regreso previsto a las 3:00 pm.",
+      "⭕Actividades Incluidas:",
+      "✅Snorkel: Explora el vibrante mundo submarino con una sesión de snorkel en aguas cristalinas, observando corales y vida marina.",
+      "✅Pesca en la Orilla: Disfruta de la serenidad y emoción de pescar desde la orilla, ideal tanto para principiantes como para pescadores experimentados.",
+      "✅Paseo a Caballo: Embárcate en un relajante paseo a caballo a través de impresionantes paisajes naturales.",
+      "✅Almuerzo: Degusta un delicioso almuerzo con una selección de platos locales preparados con ingredientes frescos.",
+      "✅Visita a la Cueva de Saturno (Cenote): Sumérgete en las refrescantes aguas de este mágico cenote, una experiencia imperdible.",
+      "✅Paseo por Áreas Locales: Explora las zonas donde viven los locales, ofreciendo una auténtica perspectiva de la vida diaria y la cultura de la comunidad.",
+      "",
+      "🚫Opciones Adicionales No Incluidas:",
+      "✅Fotos Subacuáticas: Captura recuerdos de tu aventura submarina con fotos bajo el agua, disponibles por un costo adicional.",
+      "✅Masaje: Relájate con un masaje en un entorno natural para una experiencia de bienestar completa.",
+      "✅Bebidas: Las bebidas no están incluidas, por lo que puedes llevar las tuyas o comprarlas en el lugar.",
+    ],
+  },
+  {
+    title: "Coral Beach and Saturn Cave Safari",
+    description:
+      "Explore every corner of Havana in a convertible classic car for time. The price is $25 USD/hour.",
+    lugar: ["Matanzas"],
+    detalles: [
+      "✅ Rancho Charpito es un lugar único donde podrás disfrutar de la naturaleza y sus hermosos paisajes. ",
+      "⭕ Actividades Incluidas:",
+      "✅ Cóctel de Bienvenida: Disfruta de un refrescante cóctel de cortesía al llegar, para empezar tu día con el pie derecho.",
+      "✅ Frutas de Temporada: Saborea una selección de frutas frescas y deliciosas de la temporada, perfectas para refrescarte.",
+      "✅ Paseo a Caballo: Embárcate en un maravilloso paseo a caballo a través de los impresionantes paisajes del Valle de Yumurí, una experiencia que te conectará con la naturaleza.  ",
+      "✅ Merienda: Disfruta de una deliciosa merienda que complementará perfectamente tu jornada de aventuras.",
+    ],
+  },
+  {
+    title: "Rancho Charpito in the Yumurí Valley",
+    description:
+      "Explore every corner of Havana in a convertible classic car for time. The price is $25 USD/hour.",
+    lugar: ["Matanzas"],
+    detalles: [
       "Explore every corner of the city of Varadero in a classic convertible car for time. The price is $40 USD/hour.",
       "House of All",
       "Craft fair",

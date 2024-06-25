@@ -44,6 +44,7 @@ export default function RootLayout({ children, locale }) {
         <NextIntlClientProvider locale={locale} messages={{ messages }}>
           <Navbar locale={locale} />
           {children}
+
           <Footer />
         </NextIntlClientProvider>
         <Analytics />

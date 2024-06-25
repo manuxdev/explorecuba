@@ -110,9 +110,7 @@
     "Habana":"La Habana",
     "Central":"Región Central",
     "Itinerary_list":{
-
-     
-"el1": {
+      "el1": {
   "title": "Tour de un día en La Habana",
   "description": "Hora de salida desde el hotel ~8:00 Hora de llegada al hotel ~17:00-18:00",
   "lugar": "Havana",
@@ -214,7 +212,15 @@
       "title": "Recorrido por la ciudad de Varadero por hora",
       "lugar": "Matanzas",
       "detalles": "Explora cada rincón de la ciudad de Varadero en un clásico automóvil convertible por tiempo. El precio es de $40 USD/hora.\nCasa de Al\nFeria de Artesanías\nPunto de vista fotográfico\nParque Josones\nBoulevard de Varadero\nMansión Xanadu\nDelfinario\nMarina de Varadero"
-  }
+  }, "el15": {
+    "title": "Safari en Playa Coral y Cueva de Saturno",
+    "lugar": "Matanzas",
+    "detalles":"⌚ Comienza tu día de aventura con una recogida puntual en tu hotel a las 9:00 am. Este tour te ofrece una variedad de actividades y experiencias únicas hasta el regreso previsto a las 3:00 pm.\n⭕ Actividades Incluidas:\n✅ Snorkel: Explora el vibrante mundo submarino con una sesión de snorkel en aguas cristalinas, observando corales y vida marina.\n✅ Pesca en la Orilla: Disfruta de la serenidad y emoción de pescar desde la orilla, ideal tanto para principiantes como para pescadores experimentados.\n✅ Paseo a Caballo: Embárcate en un relajante paseo a caballo a través de impresionantes paisajes naturales.\n✅ Almuerzo: Degusta un delicioso almuerzo con una selección de platos locales preparados con ingredientes frescos.\n✅ Visita a la Cueva de Saturno (Cenote): Sumérgete en las refrescantes aguas de este mágico cenote, una experiencia imperdible.\n✅ Paseo por Áreas Locales: Explora las zonas donde viven los locales, ofreciendo una auténtica perspectiva de la vida diaria y la cultura de la comunidad.\n\n🚫 Opciones Adicionales No Incluidas:\n✅ Fotos Subacuáticas: Captura recuerdos de tu aventura submarina con fotos bajo el agua, disponibles por un costo adicional.\n✅ Masaje: Relájate con un masaje en un entorno natural para una experiencia de bienestar completa.\n✅ Bebidas: Las bebidas no están incluidas, por lo que puedes llevar las tuyas o comprarlas en el lugar."
+}, "el16": {
+  "title": "Rancho Charpito en el Valle de Yumurí",
+  "lugar": "Matanzas",
+  "detalles":"✅ Rancho Charpito es un lugar único donde podrás disfrutar de la naturaleza y sus hermosos paisajes.\n⭕ Actividades Incluidas:\n✅ Cóctel de Bienvenida: Disfruta de un refrescante cóctel de cortesía al llegar, para empezar tu día con el pie derecho.\n✅ Frutas de Temporada: Saborea una selección de frutas frescas y deliciosas de la temporada, perfectas para refrescarte.\n✅ Paseo a Caballo: Embárcate en un maravilloso paseo a caballo a través de los impresionantes paisajes del Valle de Yumurí, una experiencia que te conectará con la naturaleza. \n✅ Merienda: Disfruta de una deliciosa merienda que complementará perfectamente tu jornada de aventuras."
+}
 
      },
     "places_list":{
