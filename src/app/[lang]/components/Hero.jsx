@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
         <div className="mt-6 flex flex-col md:flex-row gap-3">
           <Link
-            href="https://api.whatsapp.com/send?phone=5358118657"
+            href="https://api.whatsapp.com/send?phone=5353762922"
             target="_blank"
             className="font-medium flex md:py-3 py-2 px-10 gap-1 items-center justify-center bg-paleta-blue-900 text-paleta-blue-500 hover:bg-paleta-blue-500 hover:text-paleta-blue-900 rounded-lg transition-colors"
           >
